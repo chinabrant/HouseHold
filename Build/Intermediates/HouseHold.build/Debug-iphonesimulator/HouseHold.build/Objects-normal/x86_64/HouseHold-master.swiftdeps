@@ -1,0 +1,10 @@
+version: "Apple Swift version 4.0 (swiftlang-900.0.65 clang-900.0.37)"
+options: "4de302d33cfcc0c4b1f360e76b3ed185"
+build_time: [1508566212, 187073000]
+inputs:
+  "/Users/sjwu/video/HouseHold/HouseHold/ViewController.swift": [1508513326, 0]
+  "/Users/sjwu/video/HouseHold/HouseHold/AppDelegate.swift": [1508514008, 0]
+  "/Users/sjwu/video/HouseHold/HouseHold/Classes/Base/Controller/BaseViewController.swift": [1508513680, 0]
+  "/Users/sjwu/video/HouseHold/HouseHold/Classes/My/Controller/MyViewController.swift": [1508565727, 0]
+  "/Users/sjwu/video/HouseHold/HouseHold/Classes/Base/Controller/HHTabBarViewController.swift": [1508513845, 0]
+  "/Users/sjwu/video/HouseHold/HouseHold/Classes/Home/Controller/HomeViewController.swift": [1508566154, 0]
