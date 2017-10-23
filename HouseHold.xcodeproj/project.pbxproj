@@ -16,6 +16,8 @@
 		615C7C151F9A4F4400B3D7FA /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615C7C141F9A4F4400B3D7FA /* HomeViewController.swift */; };
 		615C7C171F9A4F8100B3D7FA /* MyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615C7C161F9A4F8100B3D7FA /* MyViewController.swift */; };
 		615C7C191F9A4FB600B3D7FA /* HHTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615C7C181F9A4FB600B3D7FA /* HHTabBarViewController.swift */; };
+		618F874A1F9E280900201826 /* HomeStrategyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 618F87481F9E280900201826 /* HomeStrategyCell.swift */; };
+		618F874B1F9E280A00201826 /* HomeStrategyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 618F87491F9E280900201826 /* HomeStrategyCell.xib */; };
 		CDBB98FAE61B743D1AD12785 /* Pods_HouseHold.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A96D11C2D0C18A40183F5675 /* Pods_HouseHold.framework */; };
 /* End PBXBuildFile section */
 
@@ -32,6 +34,8 @@
 		615C7C141F9A4F4400B3D7FA /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		615C7C161F9A4F8100B3D7FA /* MyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewController.swift; sourceTree = "<group>"; };
 		615C7C181F9A4FB600B3D7FA /* HHTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HHTabBarViewController.swift; sourceTree = "<group>"; };
+		618F87481F9E280900201826 /* HomeStrategyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeStrategyCell.swift; sourceTree = "<group>"; };
+		618F87491F9E280900201826 /* HomeStrategyCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeStrategyCell.xib; sourceTree = "<group>"; };
 		A96D11C2D0C18A40183F5675 /* Pods_HouseHold.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HouseHold.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9CAEF116284A113599D6EC2 /* Pods-HouseHold.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HouseHold.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HouseHold/Pods-HouseHold.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -184,6 +188,8 @@
 		615C7C051F9A4ED100B3D7FA /* View */ = {
 			isa = PBXGroup;
 			children = (
+				618F87481F9E280900201826 /* HomeStrategyCell.swift */,
+				618F87491F9E280900201826 /* HomeStrategyCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -363,6 +369,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				615C7BF11F9A4DAF00B3D7FA /* LaunchScreen.storyboard in Resources */,
+				618F874B1F9E280A00201826 /* HomeStrategyCell.xib in Resources */,
 				615C7BEE1F9A4DAF00B3D7FA /* Assets.xcassets in Resources */,
 				615C7BEC1F9A4DAF00B3D7FA /* Main.storyboard in Resources */,
 			);
@@ -424,6 +431,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				615C7BE91F9A4DAE00B3D7FA /* ViewController.swift in Sources */,
+				618F874A1F9E280900201826 /* HomeStrategyCell.swift in Sources */,
 				615C7BE71F9A4DAE00B3D7FA /* AppDelegate.swift in Sources */,
 				615C7C131F9A4F1100B3D7FA /* BaseViewController.swift in Sources */,
 				615C7C171F9A4F8100B3D7FA /* MyViewController.swift in Sources */,
