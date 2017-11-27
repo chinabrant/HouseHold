@@ -1,0 +1,99 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "RxTarget"
+provides-nominal:
+- "7RxCocoa0A6TargetC"
+provides-member:
+- ["7RxCocoa0A6TargetC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "AssignmentPrecedence"
+- "Disposable"
+- "NSObject"
+- "RxTarget"
+depends-member:
+- ["s7CVarArgP", "dispose"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "retainSelf"]
+- ["s7CVarArgP", ""]
+- ["s28CustomDebugStringConvertibleP", "dispose"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "retainSelf"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- ["s23CustomStringConvertibleP", "dispose"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "retainSelf"]
+- ["s23CustomStringConvertibleP", ""]
+- ["7RxSwift10DisposableP", "dispose"]
+- !private ["7RxSwift10DisposableP", "retainSelf"]
+- ["7RxSwift10DisposableP", ""]
+- ["s9EquatableP", "dispose"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "retainSelf"]
+- ["s9EquatableP", ""]
+- ["s8HashableP", "dispose"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "retainSelf"]
+- ["s8HashableP", ""]
+- ["So8NSObjectC", "RxTarget"]
+- ["So8NSObjectC", "dispose"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "retainSelf"]
+- ["So8NSObjectC", ""]
+- ["So16NSObjectProtocolP", "dispose"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "retainSelf"]
+- ["So16NSObjectProtocolP", ""]
+- ["7RxSwift18ReactiveCompatibleP", "dispose"]
+- !private ["7RxSwift18ReactiveCompatibleP", "init"]
+- !private ["7RxSwift18ReactiveCompatibleP", "retainSelf"]
+- ["7RxSwift18ReactiveCompatibleP", ""]
+- ["7RxCocoa0A6TargetC", "RxTarget"]
+- ["7RxCocoa0A6TargetC", "deinit"]
+- ["7RxCocoa0A6TargetC", "dispose"]
+- ["7RxCocoa0A6TargetC", "init"]
+- !private ["7RxCocoa0A6TargetC", "retainSelf"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "dispose"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "retainSelf"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+depends-nominal:
+- "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- "7RxSwift10DisposableP"
+- "s9EquatableP"
+- "s8HashableP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- "7RxSwift18ReactiveCompatibleP"
+- "7RxCocoa0A6TargetC"
+- "10Foundation27_KeyValueCodingAndObservingP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Metal.swiftmodule"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/RxSwift/RxSwift.framework/Modules/RxSwift.swiftmodule/arm.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/SwiftOnoneSupport.swiftmodule"
+- "/Users/sjwu/video/HouseHold/Pods/RxCocoa/RxCocoa/Runtime/include/_RX.h"
+- "/Users/sjwu/video/HouseHold/Pods/Target Support Files/RxCocoa/RxCocoa-umbrella.h"
+- "/Users/sjwu/video/HouseHold/Pods/Target Support Files/RxSwift/RxSwift-umbrella.h"
+- "/Users/sjwu/video/HouseHold/Pods/RxCocoa/RxCocoa/RxCocoa.h"
+- "/Users/sjwu/video/HouseHold/Pods/RxCocoa/RxCocoa/Runtime/include/_RXObjCRuntime.h"
+- "/Users/sjwu/video/HouseHold/Pods/RxCocoa/RxCocoa/Runtime/include/RxCocoaRuntime.h"
+- "/Users/sjwu/video/HouseHold/Pods/RxCocoa/RxCocoa/Runtime/include/_RXKVOObserver.h"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/RxSwift/RxSwift.framework/Headers/RxSwift-Swift.h"
+- "/Users/sjwu/video/HouseHold/Pods/RxCocoa/RxCocoa/Runtime/include/_RXDelegateProxy.h"
+- "/Users/sjwu/video/HouseHold/Build/Intermediates/Pods.build/Debug-iphoneos/RxCocoa.build/unextended-module.modulemap"
+- "/Users/sjwu/video/HouseHold/Build/Intermediates/Pods.build/Debug-iphoneos/RxSwift.build/module.modulemap"
+interface-hash: "ddec2c4954b16dfe616e1728e506054e"

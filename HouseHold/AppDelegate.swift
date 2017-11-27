@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import AVOSCloud
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,14 +17,31 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         
+        TopicModel.registerSubclass()
+        StrategyModel.registerSubclass()
+        AVOSCloud.setApplicationId("SPM9bUpyxtGUdbrLMbl9IMMM-gzGzoHsz", clientKey: "HMK6nVDGaKU2m7sJAgHq65hN")
+        
         
         let tabController = HHTabBarViewController()
+        // FF4258
+        tabController.tabBar.tintColor = UIColor.init(red: 0xff/255.0, green: 0x42/255.0, blue: 0x58/255.0, alpha: 1)
+        tabController.tabBar.shadowImage = UIImage.image(color: UIColor.init(red: 0xf0/255.0, green: 0xe6/255.0, blue: 0xe6/255.0, alpha: 1), height: 0.5)
         
         let home = HomeViewController()
         let navHome = UINavigationController.init(rootViewController: home)
+        let homeItem = UITabBarItem()
+        homeItem.title = "Home"
+        homeItem.image = UIImage.init(named: "tabbar_home")
+        homeItem.selectedImage = UIImage.init(named: "tabbar_home_s")
+        navHome.tabBarItem = homeItem
         
         let my = MyViewController()
         let navMy = UINavigationController.init(rootViewController: my)
+        let myItem = UITabBarItem()
+        myItem.title = "Mine"
+        myItem.image = UIImage.init(named: "tabbar_my")
+        myItem.selectedImage = UIImage.init(named: "tabbar_my_s")
+        navMy.tabBarItem = myItem
         
         tabController.viewControllers = [navHome, navMy]
         

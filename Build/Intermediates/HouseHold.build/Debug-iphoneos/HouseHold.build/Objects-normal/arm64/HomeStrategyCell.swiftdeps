@@ -1,0 +1,1029 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "HomeStrategyCell"
+provides-nominal:
+- "9HouseHold16HomeStrategyCellC"
+provides-member:
+- ["9HouseHold16HomeStrategyCellC", ""]
+provides-dynamic-lookup:
+- "avatarImageView"
+- "awakeFromNib"
+- "coverImageView"
+- "nickLabel"
+- "setSelected"
+- "signLabel"
+- "subtitleLabel"
+- "titleLabel"
+- "topicLabel"
+depends-top-level:
+- !private "AVFile"
+- "AssignmentPrecedence"
+- "Bool"
+- "CastingPrecedence"
+- "HomeStrategyCell"
+- "StrategyModel"
+- "String"
+- !private "StringLiteralType"
+- !private "UIImage"
+- "UIImageView"
+- "UILabel"
+- !private "UINib"
+- "UITableView"
+- "UITableViewCell"
+- !private "UITableViewCellSelectionStyle"
+- !private "URL"
+depends-member:
+- !private ["So6AVFileC", "url"]
+- !private ["So8AVObjectC", "cover"]
+- !private ["So8AVObjectC", "object"]
+- !private ["So8AVObjectC", "subtitle"]
+- !private ["So8AVObjectC", "title"]
+- !private ["So8AVObjectC", "topic"]
+- !private ["So8AVObjectC", "user"]
+- !private ["So13AVSubclassingP", "cover"]
+- !private ["So13AVSubclassingP", "object"]
+- !private ["So13AVSubclassingP", "subtitle"]
+- !private ["So13AVSubclassingP", "title"]
+- !private ["So13AVSubclassingP", "topic"]
+- !private ["So13AVSubclassingP", "user"]
+- !private ["So6AVUserC", "object"]
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["So15CALayerDelegateP", "HomeStrategyCell"]
+- !private ["So15CALayerDelegateP", "UIImage"]
+- !private ["So15CALayerDelegateP", "UINib"]
+- !private ["So15CALayerDelegateP", "UITableViewCellSelectionStyle"]
+- !private ["So15CALayerDelegateP", "URL"]
+- !private ["So15CALayerDelegateP", "avatarImageView"]
+- !private ["So15CALayerDelegateP", "awakeFromNib"]
+- !private ["So15CALayerDelegateP", "coverImageView"]
+- !private ["So15CALayerDelegateP", "identifier"]
+- !private ["So15CALayerDelegateP", "init"]
+- !private ["So15CALayerDelegateP", "kf"]
+- !private ["So15CALayerDelegateP", "nickLabel"]
+- !private ["So15CALayerDelegateP", "register"]
+- !private ["So15CALayerDelegateP", "selectionStyle"]
+- !private ["So15CALayerDelegateP", "setSelected"]
+- !private ["So15CALayerDelegateP", "signLabel"]
+- !private ["So15CALayerDelegateP", "strategy"]
+- !private ["So15CALayerDelegateP", "subtitleLabel"]
+- !private ["So15CALayerDelegateP", "text"]
+- !private ["So15CALayerDelegateP", "titleLabel"]
+- !private ["So15CALayerDelegateP", "topicLabel"]
+- ["So15CALayerDelegateP", ""]
+- !private ["s7CVarArgP", "HomeStrategyCell"]
+- !private ["s7CVarArgP", "UIImage"]
+- !private ["s7CVarArgP", "UINib"]
+- !private ["s7CVarArgP", "UITableViewCellSelectionStyle"]
+- !private ["s7CVarArgP", "URL"]
+- !private ["s7CVarArgP", "avatarImageView"]
+- !private ["s7CVarArgP", "awakeFromNib"]
+- !private ["s7CVarArgP", "cover"]
+- !private ["s7CVarArgP", "coverImageView"]
+- !private ["s7CVarArgP", "identifier"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "kf"]
+- !private ["s7CVarArgP", "nickLabel"]
+- !private ["s7CVarArgP", "object"]
+- !private ["s7CVarArgP", "register"]
+- !private ["s7CVarArgP", "selectionStyle"]
+- !private ["s7CVarArgP", "setSelected"]
+- !private ["s7CVarArgP", "signLabel"]
+- !private ["s7CVarArgP", "strategy"]
+- !private ["s7CVarArgP", "subtitle"]
+- !private ["s7CVarArgP", "subtitleLabel"]
+- !private ["s7CVarArgP", "text"]
+- !private ["s7CVarArgP", "title"]
+- !private ["s7CVarArgP", "titleLabel"]
+- !private ["s7CVarArgP", "topic"]
+- !private ["s7CVarArgP", "topicLabel"]
+- !private ["s7CVarArgP", "url"]
+- !private ["s7CVarArgP", "user"]
+- ["s7CVarArgP", ""]
+- !private ["s10CollectionP", "init"]
+- !private ["s10ComparableP", "init"]
+- !private ["7SnapKit25ConstraintRelatableTargetP", "HomeStrategyCell"]
+- !private ["7SnapKit25ConstraintRelatableTargetP", "UIImage"]
+- !private ["7SnapKit25ConstraintRelatableTargetP", "UINib"]
+- !private ["7SnapKit25ConstraintRelatableTargetP", "UITableViewCellSelectionStyle"]
+- !private ["7SnapKit25ConstraintRelatableTargetP", "URL"]
+- !private ["7SnapKit25ConstraintRelatableTargetP", "avatarImageView"]
+- !private ["7SnapKit25ConstraintRelatableTargetP", "awakeFromNib"]
+- !private ["7SnapKit25ConstraintRelatableTargetP", "coverImageView"]
+- !private ["7SnapKit25ConstraintRelatableTargetP", "identifier"]
+- !private ["7SnapKit25ConstraintRelatableTargetP", "init"]
+- !private ["7SnapKit25ConstraintRelatableTargetP", "kf"]
+- !private ["7SnapKit25ConstraintRelatableTargetP", "nickLabel"]
+- !private ["7SnapKit25ConstraintRelatableTargetP", "register"]
+- !private ["7SnapKit25ConstraintRelatableTargetP", "selectionStyle"]
+- !private ["7SnapKit25ConstraintRelatableTargetP", "setSelected"]
+- !private ["7SnapKit25ConstraintRelatableTargetP", "signLabel"]
+- !private ["7SnapKit25ConstraintRelatableTargetP", "strategy"]
+- !private ["7SnapKit25ConstraintRelatableTargetP", "subtitleLabel"]
+- !private ["7SnapKit25ConstraintRelatableTargetP", "text"]
+- !private ["7SnapKit25ConstraintRelatableTargetP", "titleLabel"]
+- !private ["7SnapKit25ConstraintRelatableTargetP", "topicLabel"]
+- ["7SnapKit25ConstraintRelatableTargetP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "HomeStrategyCell"]
+- !private ["s28CustomDebugStringConvertibleP", "UIImage"]
+- !private ["s28CustomDebugStringConvertibleP", "UINib"]
+- !private ["s28CustomDebugStringConvertibleP", "UITableViewCellSelectionStyle"]
+- !private ["s28CustomDebugStringConvertibleP", "URL"]
+- !private ["s28CustomDebugStringConvertibleP", "avatarImageView"]
+- !private ["s28CustomDebugStringConvertibleP", "awakeFromNib"]
+- !private ["s28CustomDebugStringConvertibleP", "cover"]
+- !private ["s28CustomDebugStringConvertibleP", "coverImageView"]
+- !private ["s28CustomDebugStringConvertibleP", "identifier"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "kf"]
+- !private ["s28CustomDebugStringConvertibleP", "nickLabel"]
+- !private ["s28CustomDebugStringConvertibleP", "object"]
+- !private ["s28CustomDebugStringConvertibleP", "register"]
+- !private ["s28CustomDebugStringConvertibleP", "selectionStyle"]
+- !private ["s28CustomDebugStringConvertibleP", "setSelected"]
+- !private ["s28CustomDebugStringConvertibleP", "signLabel"]
+- !private ["s28CustomDebugStringConvertibleP", "strategy"]
+- !private ["s28CustomDebugStringConvertibleP", "subtitle"]
+- !private ["s28CustomDebugStringConvertibleP", "subtitleLabel"]
+- !private ["s28CustomDebugStringConvertibleP", "text"]
+- !private ["s28CustomDebugStringConvertibleP", "title"]
+- !private ["s28CustomDebugStringConvertibleP", "titleLabel"]
+- !private ["s28CustomDebugStringConvertibleP", "topic"]
+- !private ["s28CustomDebugStringConvertibleP", "topicLabel"]
+- !private ["s28CustomDebugStringConvertibleP", "url"]
+- !private ["s28CustomDebugStringConvertibleP", "user"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "HomeStrategyCell"]
+- !private ["s23CustomStringConvertibleP", "UIImage"]
+- !private ["s23CustomStringConvertibleP", "UINib"]
+- !private ["s23CustomStringConvertibleP", "UITableViewCellSelectionStyle"]
+- !private ["s23CustomStringConvertibleP", "URL"]
+- !private ["s23CustomStringConvertibleP", "avatarImageView"]
+- !private ["s23CustomStringConvertibleP", "awakeFromNib"]
+- !private ["s23CustomStringConvertibleP", "cover"]
+- !private ["s23CustomStringConvertibleP", "coverImageView"]
+- !private ["s23CustomStringConvertibleP", "identifier"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "kf"]
+- !private ["s23CustomStringConvertibleP", "nickLabel"]
+- !private ["s23CustomStringConvertibleP", "object"]
+- !private ["s23CustomStringConvertibleP", "register"]
+- !private ["s23CustomStringConvertibleP", "selectionStyle"]
+- !private ["s23CustomStringConvertibleP", "setSelected"]
+- !private ["s23CustomStringConvertibleP", "signLabel"]
+- !private ["s23CustomStringConvertibleP", "strategy"]
+- !private ["s23CustomStringConvertibleP", "subtitle"]
+- !private ["s23CustomStringConvertibleP", "subtitleLabel"]
+- !private ["s23CustomStringConvertibleP", "text"]
+- !private ["s23CustomStringConvertibleP", "title"]
+- !private ["s23CustomStringConvertibleP", "titleLabel"]
+- !private ["s23CustomStringConvertibleP", "topic"]
+- !private ["s23CustomStringConvertibleP", "topicLabel"]
+- !private ["s23CustomStringConvertibleP", "url"]
+- !private ["s23CustomStringConvertibleP", "user"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s9DecodableP", "init"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EquatableP", "HomeStrategyCell"]
+- !private ["s9EquatableP", "UIImage"]
+- !private ["s9EquatableP", "UINib"]
+- !private ["s9EquatableP", "UITableViewCellSelectionStyle"]
+- !private ["s9EquatableP", "URL"]
+- !private ["s9EquatableP", "avatarImageView"]
+- !private ["s9EquatableP", "awakeFromNib"]
+- !private ["s9EquatableP", "cover"]
+- !private ["s9EquatableP", "coverImageView"]
+- !private ["s9EquatableP", "identifier"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "kf"]
+- !private ["s9EquatableP", "nickLabel"]
+- !private ["s9EquatableP", "none"]
+- !private ["s9EquatableP", "object"]
+- !private ["s9EquatableP", "register"]
+- !private ["s9EquatableP", "selectionStyle"]
+- !private ["s9EquatableP", "setSelected"]
+- !private ["s9EquatableP", "signLabel"]
+- !private ["s9EquatableP", "strategy"]
+- !private ["s9EquatableP", "subtitle"]
+- !private ["s9EquatableP", "subtitleLabel"]
+- !private ["s9EquatableP", "text"]
+- !private ["s9EquatableP", "title"]
+- !private ["s9EquatableP", "titleLabel"]
+- !private ["s9EquatableP", "topic"]
+- !private ["s9EquatableP", "topicLabel"]
+- !private ["s9EquatableP", "url"]
+- !private ["s9EquatableP", "user"]
+- ["s9EquatableP", ""]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["7RxCocoa13HasDataSourceP", "register"]
+- !private ["7RxCocoa11HasDelegateP", "register"]
+- !private ["s8HashableP", "HomeStrategyCell"]
+- !private ["s8HashableP", "UIImage"]
+- !private ["s8HashableP", "UINib"]
+- !private ["s8HashableP", "UITableViewCellSelectionStyle"]
+- !private ["s8HashableP", "URL"]
+- !private ["s8HashableP", "avatarImageView"]
+- !private ["s8HashableP", "awakeFromNib"]
+- !private ["s8HashableP", "cover"]
+- !private ["s8HashableP", "coverImageView"]
+- !private ["s8HashableP", "identifier"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "kf"]
+- !private ["s8HashableP", "nickLabel"]
+- !private ["s8HashableP", "none"]
+- !private ["s8HashableP", "object"]
+- !private ["s8HashableP", "register"]
+- !private ["s8HashableP", "selectionStyle"]
+- !private ["s8HashableP", "setSelected"]
+- !private ["s8HashableP", "signLabel"]
+- !private ["s8HashableP", "strategy"]
+- !private ["s8HashableP", "subtitle"]
+- !private ["s8HashableP", "subtitleLabel"]
+- !private ["s8HashableP", "text"]
+- !private ["s8HashableP", "title"]
+- !private ["s8HashableP", "titleLabel"]
+- !private ["s8HashableP", "topic"]
+- !private ["s8HashableP", "topicLabel"]
+- !private ["s8HashableP", "url"]
+- !private ["s8HashableP", "user"]
+- ["s8HashableP", ""]
+- !private ["9HouseHold16HomeStrategyCellC", "AVFile"]
+- ["9HouseHold16HomeStrategyCellC", "Bool"]
+- !private ["9HouseHold16HomeStrategyCellC", "HomeStrategyCell"]
+- ["9HouseHold16HomeStrategyCellC", "StrategyModel"]
+- ["9HouseHold16HomeStrategyCellC", "String"]
+- !private ["9HouseHold16HomeStrategyCellC", "UIImage"]
+- ["9HouseHold16HomeStrategyCellC", "UIImageView"]
+- ["9HouseHold16HomeStrategyCellC", "UILabel"]
+- !private ["9HouseHold16HomeStrategyCellC", "UINib"]
+- ["9HouseHold16HomeStrategyCellC", "UITableView"]
+- !private ["9HouseHold16HomeStrategyCellC", "UITableViewCellSelectionStyle"]
+- !private ["9HouseHold16HomeStrategyCellC", "URL"]
+- ["9HouseHold16HomeStrategyCellC", "avatarImageView"]
+- ["9HouseHold16HomeStrategyCellC", "awakeFromNib"]
+- ["9HouseHold16HomeStrategyCellC", "coverImageView"]
+- ["9HouseHold16HomeStrategyCellC", "deinit"]
+- ["9HouseHold16HomeStrategyCellC", "identifier"]
+- ["9HouseHold16HomeStrategyCellC", "init"]
+- ["9HouseHold16HomeStrategyCellC", "nickLabel"]
+- ["9HouseHold16HomeStrategyCellC", "register"]
+- !private ["9HouseHold16HomeStrategyCellC", "selectionStyle"]
+- ["9HouseHold16HomeStrategyCellC", "setSelected"]
+- ["9HouseHold16HomeStrategyCellC", "signLabel"]
+- ["9HouseHold16HomeStrategyCellC", "strategy"]
+- ["9HouseHold16HomeStrategyCellC", "subtitleLabel"]
+- ["9HouseHold16HomeStrategyCellC", "titleLabel"]
+- ["9HouseHold16HomeStrategyCellC", "topicLabel"]
+- !private ["10KingfisherAAC", "setImage"]
+- !private ["10Kingfisher0A10CompatibleP", "init"]
+- !private ["10Kingfisher0A10CompatibleP", "kf"]
+- !private ["7SnapKit20LayoutConstraintItemP", "HomeStrategyCell"]
+- !private ["7SnapKit20LayoutConstraintItemP", "UIImage"]
+- !private ["7SnapKit20LayoutConstraintItemP", "UINib"]
+- !private ["7SnapKit20LayoutConstraintItemP", "UITableViewCellSelectionStyle"]
+- !private ["7SnapKit20LayoutConstraintItemP", "URL"]
+- !private ["7SnapKit20LayoutConstraintItemP", "avatarImageView"]
+- !private ["7SnapKit20LayoutConstraintItemP", "awakeFromNib"]
+- !private ["7SnapKit20LayoutConstraintItemP", "coverImageView"]
+- !private ["7SnapKit20LayoutConstraintItemP", "identifier"]
+- !private ["7SnapKit20LayoutConstraintItemP", "init"]
+- !private ["7SnapKit20LayoutConstraintItemP", "kf"]
+- !private ["7SnapKit20LayoutConstraintItemP", "nickLabel"]
+- !private ["7SnapKit20LayoutConstraintItemP", "register"]
+- !private ["7SnapKit20LayoutConstraintItemP", "selectionStyle"]
+- !private ["7SnapKit20LayoutConstraintItemP", "setSelected"]
+- !private ["7SnapKit20LayoutConstraintItemP", "signLabel"]
+- !private ["7SnapKit20LayoutConstraintItemP", "strategy"]
+- !private ["7SnapKit20LayoutConstraintItemP", "subtitleLabel"]
+- !private ["7SnapKit20LayoutConstraintItemP", "text"]
+- !private ["7SnapKit20LayoutConstraintItemP", "titleLabel"]
+- !private ["7SnapKit20LayoutConstraintItemP", "topicLabel"]
+- ["7SnapKit20LayoutConstraintItemP", ""]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["So8NSCodingP", "HomeStrategyCell"]
+- !private ["So8NSCodingP", "UIImage"]
+- !private ["So8NSCodingP", "UINib"]
+- !private ["So8NSCodingP", "UITableViewCellSelectionStyle"]
+- !private ["So8NSCodingP", "URL"]
+- !private ["So8NSCodingP", "avatarImageView"]
+- !private ["So8NSCodingP", "awakeFromNib"]
+- !private ["So8NSCodingP", "cover"]
+- !private ["So8NSCodingP", "coverImageView"]
+- !private ["So8NSCodingP", "identifier"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "kf"]
+- !private ["So8NSCodingP", "nickLabel"]
+- !private ["So8NSCodingP", "object"]
+- !private ["So8NSCodingP", "register"]
+- !private ["So8NSCodingP", "selectionStyle"]
+- !private ["So8NSCodingP", "setSelected"]
+- !private ["So8NSCodingP", "signLabel"]
+- !private ["So8NSCodingP", "strategy"]
+- !private ["So8NSCodingP", "subtitle"]
+- !private ["So8NSCodingP", "subtitleLabel"]
+- !private ["So8NSCodingP", "text"]
+- !private ["So8NSCodingP", "title"]
+- !private ["So8NSCodingP", "titleLabel"]
+- !private ["So8NSCodingP", "topic"]
+- !private ["So8NSCodingP", "topicLabel"]
+- !private ["So8NSCodingP", "url"]
+- !private ["So8NSCodingP", "user"]
+- ["So8NSCodingP", ""]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderWritingP", "init"]
+- !private ["So16NSMutableCopyingP", "init"]
+- !private ["So8NSObjectC", "AVFile"]
+- ["So8NSObjectC", "Bool"]
+- !private ["So8NSObjectC", "HomeStrategyCell"]
+- ["So8NSObjectC", "StrategyModel"]
+- ["So8NSObjectC", "String"]
+- !private ["So8NSObjectC", "UIImage"]
+- ["So8NSObjectC", "UIImageView"]
+- ["So8NSObjectC", "UILabel"]
+- !private ["So8NSObjectC", "UINib"]
+- ["So8NSObjectC", "UITableView"]
+- !private ["So8NSObjectC", "UITableViewCellSelectionStyle"]
+- !private ["So8NSObjectC", "URL"]
+- ["So8NSObjectC", "avatarImageView"]
+- ["So8NSObjectC", "awakeFromNib"]
+- !private ["So8NSObjectC", "cover"]
+- ["So8NSObjectC", "coverImageView"]
+- ["So8NSObjectC", "identifier"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "kf"]
+- ["So8NSObjectC", "nickLabel"]
+- !private ["So8NSObjectC", "object"]
+- ["So8NSObjectC", "register"]
+- !private ["So8NSObjectC", "selectionStyle"]
+- ["So8NSObjectC", "setSelected"]
+- ["So8NSObjectC", "signLabel"]
+- ["So8NSObjectC", "strategy"]
+- !private ["So8NSObjectC", "subtitle"]
+- ["So8NSObjectC", "subtitleLabel"]
+- !private ["So8NSObjectC", "text"]
+- !private ["So8NSObjectC", "title"]
+- ["So8NSObjectC", "titleLabel"]
+- !private ["So8NSObjectC", "topic"]
+- ["So8NSObjectC", "topicLabel"]
+- !private ["So8NSObjectC", "url"]
+- !private ["So8NSObjectC", "user"]
+- !private ["So16NSObjectProtocolP", "HomeStrategyCell"]
+- !private ["So16NSObjectProtocolP", "UIImage"]
+- !private ["So16NSObjectProtocolP", "UINib"]
+- !private ["So16NSObjectProtocolP", "UITableViewCellSelectionStyle"]
+- !private ["So16NSObjectProtocolP", "URL"]
+- !private ["So16NSObjectProtocolP", "avatarImageView"]
+- !private ["So16NSObjectProtocolP", "awakeFromNib"]
+- !private ["So16NSObjectProtocolP", "cover"]
+- !private ["So16NSObjectProtocolP", "coverImageView"]
+- !private ["So16NSObjectProtocolP", "identifier"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "kf"]
+- !private ["So16NSObjectProtocolP", "nickLabel"]
+- !private ["So16NSObjectProtocolP", "object"]
+- !private ["So16NSObjectProtocolP", "register"]
+- !private ["So16NSObjectProtocolP", "selectionStyle"]
+- !private ["So16NSObjectProtocolP", "setSelected"]
+- !private ["So16NSObjectProtocolP", "signLabel"]
+- !private ["So16NSObjectProtocolP", "strategy"]
+- !private ["So16NSObjectProtocolP", "subtitle"]
+- !private ["So16NSObjectProtocolP", "subtitleLabel"]
+- !private ["So16NSObjectProtocolP", "text"]
+- !private ["So16NSObjectProtocolP", "title"]
+- !private ["So16NSObjectProtocolP", "titleLabel"]
+- !private ["So16NSObjectProtocolP", "topic"]
+- !private ["So16NSObjectProtocolP", "topicLabel"]
+- !private ["So16NSObjectProtocolP", "url"]
+- !private ["So16NSObjectProtocolP", "user"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So8NSStringC", "init"]
+- !private ["10Kingfisher11PlaceholderP", "init"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s16RawRepresentableP", "none"]
+- !private ["7RxSwift18ReactiveCompatibleP", "HomeStrategyCell"]
+- !private ["7RxSwift18ReactiveCompatibleP", "UIImage"]
+- !private ["7RxSwift18ReactiveCompatibleP", "UINib"]
+- !private ["7RxSwift18ReactiveCompatibleP", "UITableViewCellSelectionStyle"]
+- !private ["7RxSwift18ReactiveCompatibleP", "URL"]
+- !private ["7RxSwift18ReactiveCompatibleP", "avatarImageView"]
+- !private ["7RxSwift18ReactiveCompatibleP", "awakeFromNib"]
+- !private ["7RxSwift18ReactiveCompatibleP", "cover"]
+- !private ["7RxSwift18ReactiveCompatibleP", "coverImageView"]
+- !private ["7RxSwift18ReactiveCompatibleP", "identifier"]
+- !private ["7RxSwift18ReactiveCompatibleP", "init"]
+- !private ["7RxSwift18ReactiveCompatibleP", "kf"]
+- !private ["7RxSwift18ReactiveCompatibleP", "nickLabel"]
+- !private ["7RxSwift18ReactiveCompatibleP", "object"]
+- !private ["7RxSwift18ReactiveCompatibleP", "register"]
+- !private ["7RxSwift18ReactiveCompatibleP", "selectionStyle"]
+- !private ["7RxSwift18ReactiveCompatibleP", "setSelected"]
+- !private ["7RxSwift18ReactiveCompatibleP", "signLabel"]
+- !private ["7RxSwift18ReactiveCompatibleP", "strategy"]
+- !private ["7RxSwift18ReactiveCompatibleP", "subtitle"]
+- !private ["7RxSwift18ReactiveCompatibleP", "subtitleLabel"]
+- !private ["7RxSwift18ReactiveCompatibleP", "text"]
+- !private ["7RxSwift18ReactiveCompatibleP", "title"]
+- !private ["7RxSwift18ReactiveCompatibleP", "titleLabel"]
+- !private ["7RxSwift18ReactiveCompatibleP", "topic"]
+- !private ["7RxSwift18ReactiveCompatibleP", "topicLabel"]
+- !private ["7RxSwift18ReactiveCompatibleP", "url"]
+- !private ["7RxSwift18ReactiveCompatibleP", "user"]
+- ["7RxSwift18ReactiveCompatibleP", ""]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["10Kingfisher8ResourceP", "init"]
+- !private ["s8SequenceP", "init"]
+- !private ["So13StrategyModelC", "cover"]
+- !private ["So13StrategyModelC", "subtitle"]
+- !private ["So13StrategyModelC", "title"]
+- !private ["So13StrategyModelC", "topic"]
+- !private ["So13StrategyModelC", "user"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["So10TopicModelC", "title"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "kf"]
+- !private ["So29UIAccessibilityIdentificationP", "HomeStrategyCell"]
+- !private ["So29UIAccessibilityIdentificationP", "UIImage"]
+- !private ["So29UIAccessibilityIdentificationP", "UINib"]
+- !private ["So29UIAccessibilityIdentificationP", "UITableViewCellSelectionStyle"]
+- !private ["So29UIAccessibilityIdentificationP", "URL"]
+- !private ["So29UIAccessibilityIdentificationP", "avatarImageView"]
+- !private ["So29UIAccessibilityIdentificationP", "awakeFromNib"]
+- !private ["So29UIAccessibilityIdentificationP", "coverImageView"]
+- !private ["So29UIAccessibilityIdentificationP", "identifier"]
+- !private ["So29UIAccessibilityIdentificationP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "kf"]
+- !private ["So29UIAccessibilityIdentificationP", "nickLabel"]
+- !private ["So29UIAccessibilityIdentificationP", "register"]
+- !private ["So29UIAccessibilityIdentificationP", "selectionStyle"]
+- !private ["So29UIAccessibilityIdentificationP", "setSelected"]
+- !private ["So29UIAccessibilityIdentificationP", "signLabel"]
+- !private ["So29UIAccessibilityIdentificationP", "strategy"]
+- !private ["So29UIAccessibilityIdentificationP", "subtitleLabel"]
+- !private ["So29UIAccessibilityIdentificationP", "text"]
+- !private ["So29UIAccessibilityIdentificationP", "titleLabel"]
+- !private ["So29UIAccessibilityIdentificationP", "topicLabel"]
+- ["So29UIAccessibilityIdentificationP", ""]
+- !private ["So12UIAppearanceP", "HomeStrategyCell"]
+- !private ["So12UIAppearanceP", "UIImage"]
+- !private ["So12UIAppearanceP", "UINib"]
+- !private ["So12UIAppearanceP", "UITableViewCellSelectionStyle"]
+- !private ["So12UIAppearanceP", "URL"]
+- !private ["So12UIAppearanceP", "avatarImageView"]
+- !private ["So12UIAppearanceP", "awakeFromNib"]
+- !private ["So12UIAppearanceP", "coverImageView"]
+- !private ["So12UIAppearanceP", "identifier"]
+- !private ["So12UIAppearanceP", "init"]
+- !private ["So12UIAppearanceP", "kf"]
+- !private ["So12UIAppearanceP", "nickLabel"]
+- !private ["So12UIAppearanceP", "register"]
+- !private ["So12UIAppearanceP", "selectionStyle"]
+- !private ["So12UIAppearanceP", "setSelected"]
+- !private ["So12UIAppearanceP", "signLabel"]
+- !private ["So12UIAppearanceP", "strategy"]
+- !private ["So12UIAppearanceP", "subtitleLabel"]
+- !private ["So12UIAppearanceP", "text"]
+- !private ["So12UIAppearanceP", "titleLabel"]
+- !private ["So12UIAppearanceP", "topicLabel"]
+- ["So12UIAppearanceP", ""]
+- !private ["So21UIAppearanceContainerP", "HomeStrategyCell"]
+- !private ["So21UIAppearanceContainerP", "UIImage"]
+- !private ["So21UIAppearanceContainerP", "UINib"]
+- !private ["So21UIAppearanceContainerP", "UITableViewCellSelectionStyle"]
+- !private ["So21UIAppearanceContainerP", "URL"]
+- !private ["So21UIAppearanceContainerP", "avatarImageView"]
+- !private ["So21UIAppearanceContainerP", "awakeFromNib"]
+- !private ["So21UIAppearanceContainerP", "coverImageView"]
+- !private ["So21UIAppearanceContainerP", "identifier"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "kf"]
+- !private ["So21UIAppearanceContainerP", "nickLabel"]
+- !private ["So21UIAppearanceContainerP", "register"]
+- !private ["So21UIAppearanceContainerP", "selectionStyle"]
+- !private ["So21UIAppearanceContainerP", "setSelected"]
+- !private ["So21UIAppearanceContainerP", "signLabel"]
+- !private ["So21UIAppearanceContainerP", "strategy"]
+- !private ["So21UIAppearanceContainerP", "subtitleLabel"]
+- !private ["So21UIAppearanceContainerP", "text"]
+- !private ["So21UIAppearanceContainerP", "titleLabel"]
+- !private ["So21UIAppearanceContainerP", "topicLabel"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So30UIContentSizeCategoryAdjustingP", "text"]
+- !private ["So17UICoordinateSpaceP", "HomeStrategyCell"]
+- !private ["So17UICoordinateSpaceP", "UIImage"]
+- !private ["So17UICoordinateSpaceP", "UINib"]
+- !private ["So17UICoordinateSpaceP", "UITableViewCellSelectionStyle"]
+- !private ["So17UICoordinateSpaceP", "URL"]
+- !private ["So17UICoordinateSpaceP", "avatarImageView"]
+- !private ["So17UICoordinateSpaceP", "awakeFromNib"]
+- !private ["So17UICoordinateSpaceP", "coverImageView"]
+- !private ["So17UICoordinateSpaceP", "identifier"]
+- !private ["So17UICoordinateSpaceP", "init"]
+- !private ["So17UICoordinateSpaceP", "kf"]
+- !private ["So17UICoordinateSpaceP", "nickLabel"]
+- !private ["So17UICoordinateSpaceP", "register"]
+- !private ["So17UICoordinateSpaceP", "selectionStyle"]
+- !private ["So17UICoordinateSpaceP", "setSelected"]
+- !private ["So17UICoordinateSpaceP", "signLabel"]
+- !private ["So17UICoordinateSpaceP", "strategy"]
+- !private ["So17UICoordinateSpaceP", "subtitleLabel"]
+- !private ["So17UICoordinateSpaceP", "text"]
+- !private ["So17UICoordinateSpaceP", "titleLabel"]
+- !private ["So17UICoordinateSpaceP", "topicLabel"]
+- ["So17UICoordinateSpaceP", ""]
+- !private ["So23UIDataSourceTranslatingP", "register"]
+- !private ["So13UIDynamicItemP", "HomeStrategyCell"]
+- !private ["So13UIDynamicItemP", "UIImage"]
+- !private ["So13UIDynamicItemP", "UINib"]
+- !private ["So13UIDynamicItemP", "UITableViewCellSelectionStyle"]
+- !private ["So13UIDynamicItemP", "URL"]
+- !private ["So13UIDynamicItemP", "avatarImageView"]
+- !private ["So13UIDynamicItemP", "awakeFromNib"]
+- !private ["So13UIDynamicItemP", "coverImageView"]
+- !private ["So13UIDynamicItemP", "identifier"]
+- !private ["So13UIDynamicItemP", "init"]
+- !private ["So13UIDynamicItemP", "kf"]
+- !private ["So13UIDynamicItemP", "nickLabel"]
+- !private ["So13UIDynamicItemP", "register"]
+- !private ["So13UIDynamicItemP", "selectionStyle"]
+- !private ["So13UIDynamicItemP", "setSelected"]
+- !private ["So13UIDynamicItemP", "signLabel"]
+- !private ["So13UIDynamicItemP", "strategy"]
+- !private ["So13UIDynamicItemP", "subtitleLabel"]
+- !private ["So13UIDynamicItemP", "text"]
+- !private ["So13UIDynamicItemP", "titleLabel"]
+- !private ["So13UIDynamicItemP", "topicLabel"]
+- ["So13UIDynamicItemP", ""]
+- !private ["So18UIFocusEnvironmentP", "HomeStrategyCell"]
+- !private ["So18UIFocusEnvironmentP", "UIImage"]
+- !private ["So18UIFocusEnvironmentP", "UINib"]
+- !private ["So18UIFocusEnvironmentP", "UITableViewCellSelectionStyle"]
+- !private ["So18UIFocusEnvironmentP", "URL"]
+- !private ["So18UIFocusEnvironmentP", "avatarImageView"]
+- !private ["So18UIFocusEnvironmentP", "awakeFromNib"]
+- !private ["So18UIFocusEnvironmentP", "coverImageView"]
+- !private ["So18UIFocusEnvironmentP", "identifier"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "kf"]
+- !private ["So18UIFocusEnvironmentP", "nickLabel"]
+- !private ["So18UIFocusEnvironmentP", "register"]
+- !private ["So18UIFocusEnvironmentP", "selectionStyle"]
+- !private ["So18UIFocusEnvironmentP", "setSelected"]
+- !private ["So18UIFocusEnvironmentP", "signLabel"]
+- !private ["So18UIFocusEnvironmentP", "strategy"]
+- !private ["So18UIFocusEnvironmentP", "subtitleLabel"]
+- !private ["So18UIFocusEnvironmentP", "text"]
+- !private ["So18UIFocusEnvironmentP", "titleLabel"]
+- !private ["So18UIFocusEnvironmentP", "topicLabel"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So11UIFocusItemP", "HomeStrategyCell"]
+- !private ["So11UIFocusItemP", "UIImage"]
+- !private ["So11UIFocusItemP", "UINib"]
+- !private ["So11UIFocusItemP", "UITableViewCellSelectionStyle"]
+- !private ["So11UIFocusItemP", "URL"]
+- !private ["So11UIFocusItemP", "avatarImageView"]
+- !private ["So11UIFocusItemP", "awakeFromNib"]
+- !private ["So11UIFocusItemP", "coverImageView"]
+- !private ["So11UIFocusItemP", "identifier"]
+- !private ["So11UIFocusItemP", "init"]
+- !private ["So11UIFocusItemP", "kf"]
+- !private ["So11UIFocusItemP", "nickLabel"]
+- !private ["So11UIFocusItemP", "register"]
+- !private ["So11UIFocusItemP", "selectionStyle"]
+- !private ["So11UIFocusItemP", "setSelected"]
+- !private ["So11UIFocusItemP", "signLabel"]
+- !private ["So11UIFocusItemP", "strategy"]
+- !private ["So11UIFocusItemP", "subtitleLabel"]
+- !private ["So11UIFocusItemP", "text"]
+- !private ["So11UIFocusItemP", "titleLabel"]
+- !private ["So11UIFocusItemP", "topicLabel"]
+- ["So11UIFocusItemP", ""]
+- !private ["So27UIGestureRecognizerDelegateP", "HomeStrategyCell"]
+- !private ["So27UIGestureRecognizerDelegateP", "UIImage"]
+- !private ["So27UIGestureRecognizerDelegateP", "UINib"]
+- !private ["So27UIGestureRecognizerDelegateP", "UITableViewCellSelectionStyle"]
+- !private ["So27UIGestureRecognizerDelegateP", "URL"]
+- !private ["So27UIGestureRecognizerDelegateP", "avatarImageView"]
+- !private ["So27UIGestureRecognizerDelegateP", "awakeFromNib"]
+- !private ["So27UIGestureRecognizerDelegateP", "coverImageView"]
+- !private ["So27UIGestureRecognizerDelegateP", "identifier"]
+- !private ["So27UIGestureRecognizerDelegateP", "init"]
+- !private ["So27UIGestureRecognizerDelegateP", "nickLabel"]
+- !private ["So27UIGestureRecognizerDelegateP", "selectionStyle"]
+- !private ["So27UIGestureRecognizerDelegateP", "setSelected"]
+- !private ["So27UIGestureRecognizerDelegateP", "signLabel"]
+- !private ["So27UIGestureRecognizerDelegateP", "strategy"]
+- !private ["So27UIGestureRecognizerDelegateP", "subtitleLabel"]
+- !private ["So27UIGestureRecognizerDelegateP", "titleLabel"]
+- !private ["So27UIGestureRecognizerDelegateP", "topicLabel"]
+- ["So27UIGestureRecognizerDelegateP", ""]
+- !private ["So7UIImageC", "init"]
+- !private ["So11UIImageViewC", "kf"]
+- !private ["So39UIItemProviderPresentationSizeProvidingP", "init"]
+- !private ["So7UILabelC", "text"]
+- !private ["So5UINibC", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "HomeStrategyCell"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIImage"]
+- !private ["So30UIPasteConfigurationSupportingP", "UINib"]
+- !private ["So30UIPasteConfigurationSupportingP", "UITableViewCellSelectionStyle"]
+- !private ["So30UIPasteConfigurationSupportingP", "URL"]
+- !private ["So30UIPasteConfigurationSupportingP", "avatarImageView"]
+- !private ["So30UIPasteConfigurationSupportingP", "awakeFromNib"]
+- !private ["So30UIPasteConfigurationSupportingP", "coverImageView"]
+- !private ["So30UIPasteConfigurationSupportingP", "identifier"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "kf"]
+- !private ["So30UIPasteConfigurationSupportingP", "nickLabel"]
+- !private ["So30UIPasteConfigurationSupportingP", "register"]
+- !private ["So30UIPasteConfigurationSupportingP", "selectionStyle"]
+- !private ["So30UIPasteConfigurationSupportingP", "setSelected"]
+- !private ["So30UIPasteConfigurationSupportingP", "signLabel"]
+- !private ["So30UIPasteConfigurationSupportingP", "strategy"]
+- !private ["So30UIPasteConfigurationSupportingP", "subtitleLabel"]
+- !private ["So30UIPasteConfigurationSupportingP", "text"]
+- !private ["So30UIPasteConfigurationSupportingP", "titleLabel"]
+- !private ["So30UIPasteConfigurationSupportingP", "topicLabel"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So11UIResponderC", "AVFile"]
+- ["So11UIResponderC", "Bool"]
+- !private ["So11UIResponderC", "HomeStrategyCell"]
+- ["So11UIResponderC", "StrategyModel"]
+- ["So11UIResponderC", "String"]
+- !private ["So11UIResponderC", "UIImage"]
+- ["So11UIResponderC", "UIImageView"]
+- ["So11UIResponderC", "UILabel"]
+- !private ["So11UIResponderC", "UINib"]
+- ["So11UIResponderC", "UITableView"]
+- !private ["So11UIResponderC", "UITableViewCellSelectionStyle"]
+- !private ["So11UIResponderC", "URL"]
+- ["So11UIResponderC", "avatarImageView"]
+- ["So11UIResponderC", "awakeFromNib"]
+- ["So11UIResponderC", "coverImageView"]
+- ["So11UIResponderC", "identifier"]
+- ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "kf"]
+- ["So11UIResponderC", "nickLabel"]
+- ["So11UIResponderC", "register"]
+- !private ["So11UIResponderC", "selectionStyle"]
+- ["So11UIResponderC", "setSelected"]
+- ["So11UIResponderC", "signLabel"]
+- ["So11UIResponderC", "strategy"]
+- ["So11UIResponderC", "subtitleLabel"]
+- !private ["So11UIResponderC", "text"]
+- ["So11UIResponderC", "titleLabel"]
+- ["So11UIResponderC", "topicLabel"]
+- !private ["So30UIResponderStandardEditActionsP", "HomeStrategyCell"]
+- !private ["So30UIResponderStandardEditActionsP", "UIImage"]
+- !private ["So30UIResponderStandardEditActionsP", "UINib"]
+- !private ["So30UIResponderStandardEditActionsP", "UITableViewCellSelectionStyle"]
+- !private ["So30UIResponderStandardEditActionsP", "URL"]
+- !private ["So30UIResponderStandardEditActionsP", "avatarImageView"]
+- !private ["So30UIResponderStandardEditActionsP", "awakeFromNib"]
+- !private ["So30UIResponderStandardEditActionsP", "coverImageView"]
+- !private ["So30UIResponderStandardEditActionsP", "identifier"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "kf"]
+- !private ["So30UIResponderStandardEditActionsP", "nickLabel"]
+- !private ["So30UIResponderStandardEditActionsP", "register"]
+- !private ["So30UIResponderStandardEditActionsP", "selectionStyle"]
+- !private ["So30UIResponderStandardEditActionsP", "setSelected"]
+- !private ["So30UIResponderStandardEditActionsP", "signLabel"]
+- !private ["So30UIResponderStandardEditActionsP", "strategy"]
+- !private ["So30UIResponderStandardEditActionsP", "subtitleLabel"]
+- !private ["So30UIResponderStandardEditActionsP", "text"]
+- !private ["So30UIResponderStandardEditActionsP", "titleLabel"]
+- !private ["So30UIResponderStandardEditActionsP", "topicLabel"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So12UIScrollViewC", "register"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "register"]
+- !private ["So11UITableViewC", "register"]
+- !private ["So15UITableViewCellC", "AVFile"]
+- ["So15UITableViewCellC", "Bool"]
+- !private ["So15UITableViewCellC", "HomeStrategyCell"]
+- ["So15UITableViewCellC", "StrategyModel"]
+- ["So15UITableViewCellC", "String"]
+- !private ["So15UITableViewCellC", "UIImage"]
+- ["So15UITableViewCellC", "UIImageView"]
+- ["So15UITableViewCellC", "UILabel"]
+- !private ["So15UITableViewCellC", "UINib"]
+- ["So15UITableViewCellC", "UITableView"]
+- !private ["So15UITableViewCellC", "UITableViewCellSelectionStyle"]
+- !private ["So15UITableViewCellC", "URL"]
+- ["So15UITableViewCellC", "avatarImageView"]
+- ["So15UITableViewCellC", "awakeFromNib"]
+- ["So15UITableViewCellC", "coverImageView"]
+- ["So15UITableViewCellC", "identifier"]
+- ["So15UITableViewCellC", "init"]
+- ["So15UITableViewCellC", "nickLabel"]
+- ["So15UITableViewCellC", "register"]
+- !private ["So15UITableViewCellC", "selectionStyle"]
+- ["So15UITableViewCellC", "setSelected"]
+- ["So15UITableViewCellC", "signLabel"]
+- ["So15UITableViewCellC", "strategy"]
+- ["So15UITableViewCellC", "subtitleLabel"]
+- ["So15UITableViewCellC", "titleLabel"]
+- ["So15UITableViewCellC", "topicLabel"]
+- ["So15UITableViewCellC", ""]
+- !private ["SC29UITableViewCellSelectionStyleO", "none"]
+- !private ["So18UITraitEnvironmentP", "HomeStrategyCell"]
+- !private ["So18UITraitEnvironmentP", "UIImage"]
+- !private ["So18UITraitEnvironmentP", "UINib"]
+- !private ["So18UITraitEnvironmentP", "UITableViewCellSelectionStyle"]
+- !private ["So18UITraitEnvironmentP", "URL"]
+- !private ["So18UITraitEnvironmentP", "avatarImageView"]
+- !private ["So18UITraitEnvironmentP", "awakeFromNib"]
+- !private ["So18UITraitEnvironmentP", "coverImageView"]
+- !private ["So18UITraitEnvironmentP", "identifier"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "kf"]
+- !private ["So18UITraitEnvironmentP", "nickLabel"]
+- !private ["So18UITraitEnvironmentP", "register"]
+- !private ["So18UITraitEnvironmentP", "selectionStyle"]
+- !private ["So18UITraitEnvironmentP", "setSelected"]
+- !private ["So18UITraitEnvironmentP", "signLabel"]
+- !private ["So18UITraitEnvironmentP", "strategy"]
+- !private ["So18UITraitEnvironmentP", "subtitleLabel"]
+- !private ["So18UITraitEnvironmentP", "text"]
+- !private ["So18UITraitEnvironmentP", "titleLabel"]
+- !private ["So18UITraitEnvironmentP", "topicLabel"]
+- ["So18UITraitEnvironmentP", ""]
+- !private ["So6UIViewC", "AVFile"]
+- ["So6UIViewC", "Bool"]
+- !private ["So6UIViewC", "HomeStrategyCell"]
+- ["So6UIViewC", "StrategyModel"]
+- ["So6UIViewC", "String"]
+- !private ["So6UIViewC", "UIImage"]
+- ["So6UIViewC", "UIImageView"]
+- ["So6UIViewC", "UILabel"]
+- !private ["So6UIViewC", "UINib"]
+- ["So6UIViewC", "UITableView"]
+- !private ["So6UIViewC", "UITableViewCellSelectionStyle"]
+- !private ["So6UIViewC", "URL"]
+- ["So6UIViewC", "avatarImageView"]
+- ["So6UIViewC", "awakeFromNib"]
+- ["So6UIViewC", "coverImageView"]
+- ["So6UIViewC", "identifier"]
+- ["So6UIViewC", "init"]
+- !private ["So6UIViewC", "kf"]
+- ["So6UIViewC", "nickLabel"]
+- ["So6UIViewC", "register"]
+- !private ["So6UIViewC", "selectionStyle"]
+- ["So6UIViewC", "setSelected"]
+- ["So6UIViewC", "signLabel"]
+- ["So6UIViewC", "strategy"]
+- ["So6UIViewC", "subtitleLabel"]
+- !private ["So6UIViewC", "text"]
+- ["So6UIViewC", "titleLabel"]
+- ["So6UIViewC", "topicLabel"]
+- !private ["10Foundation3URLV", "init"]
+- !private ["s23_BidirectionalIndexableP", "init"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "HomeStrategyCell"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "UIImage"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "UINib"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "UITableViewCellSelectionStyle"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "URL"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "avatarImageView"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "awakeFromNib"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "coverImageView"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "identifier"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "init"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "kf"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "nickLabel"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "register"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "selectionStyle"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "setSelected"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "signLabel"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "strategy"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "subtitleLabel"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "text"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "titleLabel"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "topicLabel"]
+- ["s37_DefaultCustomPlaygroundQuickLookableP", ""]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "init"]
+- !private ["s26_ExpressibleByImageLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s10_IndexableP", "init"]
+- !private ["s14_IndexableBaseP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "HomeStrategyCell"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIImage"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UINib"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UITableViewCellSelectionStyle"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "URL"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "avatarImageView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "awakeFromNib"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "cover"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "coverImageView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "identifier"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "kf"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "nickLabel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "object"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "register"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "selectionStyle"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setSelected"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "signLabel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "strategy"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "subtitle"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "subtitleLabel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "text"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "title"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "titleLabel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "topic"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "topicLabel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "url"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "user"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s26_RangeReplaceableIndexableP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "So6AVFileC"
+- !private "So8AVObjectC"
+- !private "So13AVSubclassingP"
+- !private "So6AVUserC"
+- !private "s23BidirectionalCollectionP"
+- "So15CALayerDelegateP"
+- "s7CVarArgP"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- "7SnapKit25ConstraintRelatableTargetP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "7RxCocoa13HasDataSourceP"
+- !private "7RxCocoa11HasDelegateP"
+- "s8HashableP"
+- "9HouseHold16HomeStrategyCellC"
+- !private "10KingfisherAAC"
+- !private "10Kingfisher0A10CompatibleP"
+- "7SnapKit20LayoutConstraintItemP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "10Kingfisher11PlaceholderP"
+- !private "s26RangeReplaceableCollectionP"
+- !private "s16RawRepresentableP"
+- "7RxSwift18ReactiveCompatibleP"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "10Kingfisher8ResourceP"
+- !private "s8SequenceP"
+- !private "So13StrategyModelC"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "So10TopicModelC"
+- !private "So48UIAccessibilityContentSizeCategoryImageAdjustingP"
+- "So29UIAccessibilityIdentificationP"
+- "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- !private "So30UIContentSizeCategoryAdjustingP"
+- "So17UICoordinateSpaceP"
+- !private "So23UIDataSourceTranslatingP"
+- "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- "So11UIFocusItemP"
+- "So27UIGestureRecognizerDelegateP"
+- !private "So7UIImageC"
+- !private "So11UIImageViewC"
+- !private "So39UIItemProviderPresentationSizeProvidingP"
+- !private "So7UILabelC"
+- !private "So5UINibC"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- !private "So12UIScrollViewC"
+- !private "So35UISpringLoadedInteractionSupportingP"
+- !private "So11UITableViewC"
+- "So15UITableViewCellC"
+- !private "SC29UITableViewCellSelectionStyleO"
+- "So18UITraitEnvironmentP"
+- "So6UIViewC"
+- !private "10Foundation3URLV"
+- !private "s23_BidirectionalIndexableP"
+- "s37_DefaultCustomPlaygroundQuickLookableP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s34_ExpressibleByFileReferenceLiteralP"
+- !private "s26_ExpressibleByImageLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s10_IndexableP"
+- !private "s14_IndexableBaseP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s26_RangeReplaceableIndexableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Accelerate.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/RxCocoa/RxCocoa.framework/Modules/RxCocoa.swiftmodule/arm64.swiftmodule"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/RxGesture/RxGesture.framework/Modules/RxGesture.swiftmodule/arm64.swiftmodule"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/Kingfisher/Kingfisher.framework/Modules/Kingfisher.swiftmodule/arm64.swiftmodule"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/RxSwift/RxSwift.framework/Modules/RxSwift.swiftmodule/arm64.swiftmodule"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/SnapKit/SnapKit.framework/Modules/SnapKit.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Accelerate.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreLocation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Photos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/AVOSCloud/AVOSCloud.framework/Headers/AVACL.h"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/AVOSCloud/AVOSCloud.framework/Headers/AVSMS.h"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/RxCocoa/RxCocoa.framework/Headers/_RX.h"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/AVOSCloud/AVOSCloud.framework/Headers/AVCaptcha.h"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/RxCocoa/RxCocoa.framework/Headers/RxCocoa-umbrella.h"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/AVOSCloud/AVOSCloud.framework/Headers/AVOSCloud-umbrella.h"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/RxGesture/RxGesture.framework/Headers/RxGesture-umbrella.h"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/Kingfisher/Kingfisher.framework/Headers/Kingfisher-umbrella.h"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/RxSwift/RxSwift.framework/Headers/RxSwift-umbrella.h"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/SnapKit/SnapKit.framework/Headers/SnapKit-umbrella.h"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/RxCocoa/RxCocoa.framework/Headers/RxCocoa.h"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/AVOSCloud/AVOSCloud.framework/Headers/AVOSCloud.h"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/AVOSCloud/AVOSCloud.framework/Headers/AVCloud.h"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/AVOSCloud/AVOSCloud.framework/Headers/AVFile.h"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/AVOSCloud/AVOSCloud.framework/Headers/AVRole.h"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/RxCocoa/RxCocoa.framework/Headers/_RXObjCRuntime.h"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/RxCocoa/RxCocoa.framework/Headers/RxCocoaRuntime.h"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/AVOSCloud/AVOSCloud.framework/Headers/AVSubclassing.h"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/AVOSCloud/AVOSCloud.framework/Headers/AVPush.h"
+- "/Users/sjwu/video/HouseHold/HouseHold/Classes/Strategy/Model/TopicModel.h"
+- "/Users/sjwu/video/HouseHold/HouseHold/Classes/Strategy/Model/StrategyModel.h"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/AVOSCloud/AVOSCloud.framework/Headers/AVRelation.h"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/AVOSCloud/AVOSCloud.framework/Headers/AVInstallation.h"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/AVOSCloud/AVOSCloud.framework/Headers/AVSaveOption.h"
+- "/Users/sjwu/video/HouseHold/HouseHold/HouseHold-Bridging-Header.h"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/AVOSCloud/AVOSCloud.framework/Headers/AVSearchSortBuilder.h"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/AVOSCloud/AVOSCloud.framework/Headers/AVLogger.h"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/Kingfisher/Kingfisher.framework/Headers/Kingfisher.h"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/AVOSCloud/AVOSCloud.framework/Headers/AVUser.h"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/RxCocoa/RxCocoa.framework/Headers/_RXKVOObserver.h"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/AVOSCloud/AVOSCloud.framework/Headers/AVAnalytics.h"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/AVOSCloud/AVOSCloud.framework/Headers/AVAnonymousUtils.h"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/AVOSCloud/AVOSCloud.framework/Headers/AVObject+Subclass.h"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/AVOSCloud/AVOSCloud.framework/Headers/AVConstants.h"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/AVOSCloud/AVOSCloud.framework/Headers/AVStatus.h"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/AVOSCloud/AVOSCloud.framework/Headers/AVObject.h"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/AVOSCloud/AVOSCloud.framework/Headers/AVDynamicObject.h"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/RxCocoa/RxCocoa.framework/Headers/RxCocoa-Swift.h"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/RxGesture/RxGesture.framework/Headers/RxGesture-Swift.h"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/Kingfisher/Kingfisher.framework/Headers/Kingfisher-Swift.h"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/RxSwift/RxSwift.framework/Headers/RxSwift-Swift.h"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/SnapKit/SnapKit.framework/Headers/SnapKit-Swift.h"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/AVOSCloud/AVOSCloud.framework/Headers/AVCloudQueryResult.h"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/AVOSCloud/AVOSCloud.framework/Headers/AVGeoPoint.h"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/AVOSCloud/AVOSCloud.framework/Headers/AVQuery.h"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/AVOSCloud/AVOSCloud.framework/Headers/AVFileQuery.h"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/AVOSCloud/AVOSCloud.framework/Headers/AVSearchQuery.h"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/AVOSCloud/AVOSCloud.framework/Headers/AVAvailability.h"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/RxCocoa/RxCocoa.framework/Headers/_RXDelegateProxy.h"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/RxCocoa/RxCocoa.framework/Modules/module.modulemap"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/AVOSCloud/AVOSCloud.framework/Modules/module.modulemap"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/RxGesture/RxGesture.framework/Modules/module.modulemap"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/Kingfisher/Kingfisher.framework/Modules/module.modulemap"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/RxSwift/RxSwift.framework/Modules/module.modulemap"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/SnapKit/SnapKit.framework/Modules/module.modulemap"
+interface-hash: "92ac849cb408870570aca641a133c1d1"

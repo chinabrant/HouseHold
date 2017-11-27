@@ -13,13 +13,36 @@ import SnapKit
 /// 
 class HomeViewController: BaseViewController, UITableViewDataSource, UITableViewDelegate {
     
-    let disposeBag = DisposeBag()
+//    let disposeBag = DisposeBag()
 
     override func viewDidLoad() {
         super.viewDidLoad()
         self.title = "Home"
 
         layout()
+        
+        let item = UIBarButtonItem(barButtonSystemItem: UIBarButtonSystemItem.add, target: self, action: #selector(create))
+        self.navigationItem.rightBarButtonItem = item
+        
+        self.queryStrategy()
+    }
+    
+    @objc func create() {
+        let vc = CreateStrategyViewController()
+        vc.hidesBottomBarWhenPushed = true
+        self.navigationController?.pushViewController(vc, animated: true)
+    }
+    
+    func queryStrategy() {
+        self.viewModel.queryStrategyList().subscribe(onNext: { (list) in
+            
+            self.tableView.reloadData()
+            
+        }).disposed(by: self.disposeBag)
+    }
+    
+    func bindViewModel() {
+        
     }
     
     func layout() {
@@ -36,14 +59,16 @@ class HomeViewController: BaseViewController, UITableViewDataSource, UITableView
     }
     
     public func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: HomeStrategyCell.identifier)
+        let cell = tableView.dequeueReusableCell(withIdentifier: HomeStrategyCell.identifier) as! HomeStrategyCell
         
-        return cell!
+        cell.strategy = self.viewModel.strategyList[indexPath.section]
+        
+        return cell
     }
     
     
     public func numberOfSections(in tableView: UITableView) -> Int {
-        return 10
+        return self.viewModel.strategyList.count
     }
     
     func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
@@ -61,10 +86,15 @@ class HomeViewController: BaseViewController, UITableViewDataSource, UITableView
         
         table.dataSource = self
         table.delegate = self
-        table.backgroundColor = UIColor.gray
+        table.backgroundColor = UIColor.clear
         
         
         return table
     }()
 
+    private lazy var viewModel: HomeViewModel = {
+        let vm = HomeViewModel()
+        
+        return vm
+    }()
 }

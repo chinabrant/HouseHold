@@ -66,7 +66,7 @@
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5bY-Ac-4wq">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="0.5"/>
-                                <color key="backgroundColor" red="0.60784313729999995" green="0.62352941179999999" blue="0.64705882349999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.94117647058823528" green="0.90196078431372551" blue="0.90196078431372551" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="0.5" id="N0P-26-ew3"/>
                                 </constraints>
@@ -98,14 +98,14 @@
                         </constraints>
                     </view>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalCompressionResistancePriority="749" text="这是一个两行的标题这是一个两行的标题这是一个两行的标题这是一个两行的标题这是一个两行的标题" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZyU-5f-cfF">
-                        <rect key="frame" x="15" y="245" width="290" height="38.5"/>
+                        <rect key="frame" x="15" y="245" width="290" height="28"/>
                         <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                         <color key="textColor" red="0.31372549019607843" green="0.23529411764705882" blue="0.23529411764705882" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <nil key="highlightedColor"/>
                     </label>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="这是一个两行的标题这是一个两行的标题这是一个两行的标题这是一个两行的标题这是一个两行的标题这是一个两行的标题这是一个两行的标题这是一个两行的标题这是一个两行的标题这是一个两行的标题这是一个两行的标题" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K1h-3J-vD5">
-                        <rect key="frame" x="15" y="298.5" width="290" height="21"/>
-                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <rect key="frame" x="15" y="288" width="290" height="31.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
                         <color key="textColor" red="0.66666666666666663" green="0.63137254901960782" blue="0.63137254901960782" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <nil key="highlightedColor"/>
                     </label>
@@ -130,7 +130,16 @@
                 </constraints>
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
-            <point key="canvasLocation" x="-229" y="-87"/>
+            <connections>
+                <outlet property="avatarImageView" destination="eoM-3V-yfb" id="ISR-1f-9qU"/>
+                <outlet property="coverImageView" destination="q5q-Xy-dUQ" id="gVC-p9-gL9"/>
+                <outlet property="nickLabel" destination="xev-hB-ufV" id="p8j-2L-YIx"/>
+                <outlet property="signLabel" destination="TGZ-Ec-nyH" id="SiV-cj-NUT"/>
+                <outlet property="subtitleLabel" destination="K1h-3J-vD5" id="1fe-bu-QSu"/>
+                <outlet property="titleLabel" destination="ZyU-5f-cfF" id="5CA-yJ-k0S"/>
+                <outlet property="topicLabel" destination="54z-Ic-6Tn" id="V2l-Hc-JO5"/>
+            </connections>
+            <point key="canvasLocation" x="-261" y="-80"/>
         </tableViewCell>
     </objects>
     <resources>

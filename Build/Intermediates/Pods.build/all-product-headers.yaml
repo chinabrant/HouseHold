@@ -4,7 +4,206 @@
   'roots': [
     {
       'type': 'directory',
-      'name': "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphonesimulator/Pods_HouseHold.framework/Headers",
+      'name': "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/AVOSCloud/AVOSCloud.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "AVACL.h",
+          'external-contents': "/Users/sjwu/video/HouseHold/Pods/AVOSCloud/AVOS/AVOSCloud/ACL/AVACL.h"
+        },
+        {
+          'type': 'file',
+          'name': "AVAnalytics.h",
+          'external-contents': "/Users/sjwu/video/HouseHold/Pods/AVOSCloud/AVOS/AVOSCloud/Analytics/AVAnalytics.h"
+        },
+        {
+          'type': 'file',
+          'name': "AVAnonymousUtils.h",
+          'external-contents': "/Users/sjwu/video/HouseHold/Pods/AVOSCloud/AVOS/AVOSCloud/User/AVAnonymousUtils.h"
+        },
+        {
+          'type': 'file',
+          'name': "AVAvailability.h",
+          'external-contents': "/Users/sjwu/video/HouseHold/Pods/AVOSCloud/AVOS/AVOSCloud/AVAvailability.h"
+        },
+        {
+          'type': 'file',
+          'name': "AVCaptcha.h",
+          'external-contents': "/Users/sjwu/video/HouseHold/Pods/AVOSCloud/AVOS/AVOSCloud/Captcha/AVCaptcha.h"
+        },
+        {
+          'type': 'file',
+          'name': "AVCloud.h",
+          'external-contents': "/Users/sjwu/video/HouseHold/Pods/AVOSCloud/AVOS/AVOSCloud/CloudCode/AVCloud.h"
+        },
+        {
+          'type': 'file',
+          'name': "AVCloudQueryResult.h",
+          'external-contents': "/Users/sjwu/video/HouseHold/Pods/AVOSCloud/AVOS/AVOSCloud/Query/AVCloudQueryResult.h"
+        },
+        {
+          'type': 'file',
+          'name': "AVConstants.h",
+          'external-contents': "/Users/sjwu/video/HouseHold/Pods/AVOSCloud/AVOS/AVOSCloud/AVConstants.h"
+        },
+        {
+          'type': 'file',
+          'name': "AVDynamicObject.h",
+          'external-contents': "/Users/sjwu/video/HouseHold/Pods/AVOSCloud/AVOS/AVOSCloud/Utils/AVDynamicObject.h"
+        },
+        {
+          'type': 'file',
+          'name': "AVFile.h",
+          'external-contents': "/Users/sjwu/video/HouseHold/Pods/AVOSCloud/AVOS/AVOSCloud/File/AVFile.h"
+        },
+        {
+          'type': 'file',
+          'name': "AVFileQuery.h",
+          'external-contents': "/Users/sjwu/video/HouseHold/Pods/AVOSCloud/AVOS/AVOSCloud/File/AVFileQuery.h"
+        },
+        {
+          'type': 'file',
+          'name': "AVGeoPoint.h",
+          'external-contents': "/Users/sjwu/video/HouseHold/Pods/AVOSCloud/AVOS/AVOSCloud/Geo/AVGeoPoint.h"
+        },
+        {
+          'type': 'file',
+          'name': "AVInstallation.h",
+          'external-contents': "/Users/sjwu/video/HouseHold/Pods/AVOSCloud/AVOS/AVOSCloud/Push/AVInstallation.h"
+        },
+        {
+          'type': 'file',
+          'name': "AVLogger.h",
+          'external-contents': "/Users/sjwu/video/HouseHold/Pods/AVOSCloud/AVOS/AVOSCloud/Utils/AVLogger.h"
+        },
+        {
+          'type': 'file',
+          'name': "AVOSCloud-Swift.h",
+          'external-contents': "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/AVOSCloud/AVOSCloud.framework/Headers/AVOSCloud-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "AVOSCloud-umbrella.h",
+          'external-contents': "/Users/sjwu/video/HouseHold/Pods/Target Support Files/AVOSCloud/AVOSCloud-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "AVOSCloud.h",
+          'external-contents': "/Users/sjwu/video/HouseHold/Pods/AVOSCloud/AVOS/AVOSCloud/AVOSCloud.h"
+        },
+        {
+          'type': 'file',
+          'name': "AVObject+Subclass.h",
+          'external-contents': "/Users/sjwu/video/HouseHold/Pods/AVOSCloud/AVOS/AVOSCloud/Object/AVObject+Subclass.h"
+        },
+        {
+          'type': 'file',
+          'name': "AVObject.h",
+          'external-contents': "/Users/sjwu/video/HouseHold/Pods/AVOSCloud/AVOS/AVOSCloud/Object/AVObject.h"
+        },
+        {
+          'type': 'file',
+          'name': "AVPush.h",
+          'external-contents': "/Users/sjwu/video/HouseHold/Pods/AVOSCloud/AVOS/AVOSCloud/Push/AVPush.h"
+        },
+        {
+          'type': 'file',
+          'name': "AVQuery.h",
+          'external-contents': "/Users/sjwu/video/HouseHold/Pods/AVOSCloud/AVOS/AVOSCloud/Query/AVQuery.h"
+        },
+        {
+          'type': 'file',
+          'name': "AVRelation.h",
+          'external-contents': "/Users/sjwu/video/HouseHold/Pods/AVOSCloud/AVOS/AVOSCloud/Object/AVRelation.h"
+        },
+        {
+          'type': 'file',
+          'name': "AVRole.h",
+          'external-contents': "/Users/sjwu/video/HouseHold/Pods/AVOSCloud/AVOS/AVOSCloud/ACL/AVRole.h"
+        },
+        {
+          'type': 'file',
+          'name': "AVSMS.h",
+          'external-contents': "/Users/sjwu/video/HouseHold/Pods/AVOSCloud/AVOS/AVOSCloud/SMS/AVSMS.h"
+        },
+        {
+          'type': 'file',
+          'name': "AVSaveOption.h",
+          'external-contents': "/Users/sjwu/video/HouseHold/Pods/AVOSCloud/AVOS/AVOSCloud/Object/AVSaveOption.h"
+        },
+        {
+          'type': 'file',
+          'name': "AVSearchQuery.h",
+          'external-contents': "/Users/sjwu/video/HouseHold/Pods/AVOSCloud/AVOS/AVOSCloud/Search/AVSearchQuery.h"
+        },
+        {
+          'type': 'file',
+          'name': "AVSearchSortBuilder.h",
+          'external-contents': "/Users/sjwu/video/HouseHold/Pods/AVOSCloud/AVOS/AVOSCloud/Search/AVSearchSortBuilder.h"
+        },
+        {
+          'type': 'file',
+          'name': "AVStatus.h",
+          'external-contents': "/Users/sjwu/video/HouseHold/Pods/AVOSCloud/AVOS/AVOSCloud/Status/AVStatus.h"
+        },
+        {
+          'type': 'file',
+          'name': "AVSubclassing.h",
+          'external-contents': "/Users/sjwu/video/HouseHold/Pods/AVOSCloud/AVOS/AVOSCloud/Object/AVSubclassing.h"
+        },
+        {
+          'type': 'file',
+          'name': "AVUser.h",
+          'external-contents': "/Users/sjwu/video/HouseHold/Pods/AVOSCloud/AVOS/AVOSCloud/User/AVUser.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/AVOSCloud/AVOSCloud.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/sjwu/video/HouseHold/Build/Intermediates/Pods.build/Debug-iphoneos/AVOSCloud.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/Kingfisher/Kingfisher.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Kingfisher-Swift.h",
+          'external-contents': "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/Kingfisher/Kingfisher.framework/Headers/Kingfisher-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "Kingfisher-umbrella.h",
+          'external-contents': "/Users/sjwu/video/HouseHold/Pods/Target Support Files/Kingfisher/Kingfisher-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "Kingfisher.h",
+          'external-contents': "/Users/sjwu/video/HouseHold/Pods/Kingfisher/Sources/Kingfisher.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/Kingfisher/Kingfisher.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/sjwu/video/HouseHold/Build/Intermediates/Pods.build/Debug-iphoneos/Kingfisher.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/Pods_HouseHold.framework/Headers",
       'contents': [
         {
           'type': 'file',
@@ -14,29 +213,29 @@
         {
           'type': 'file',
           'name': "Pods_HouseHold-Swift.h",
-          'external-contents': "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphonesimulator/Pods_HouseHold.framework/Headers/Pods_HouseHold-Swift.h"
+          'external-contents': "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/Pods_HouseHold.framework/Headers/Pods_HouseHold-Swift.h"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphonesimulator/Pods_HouseHold.framework/Modules",
+      'name': "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/Pods_HouseHold.framework/Modules",
       'contents': [
         {
           'type': 'file',
           'name': "module.modulemap",
-          'external-contents': "/Users/sjwu/video/HouseHold/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-HouseHold.build/module.modulemap"
+          'external-contents': "/Users/sjwu/video/HouseHold/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-HouseHold.build/module.modulemap"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers",
+      'name': "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/RxCocoa/RxCocoa.framework/Headers",
       'contents': [
         {
           'type': 'file',
           'name': "RxCocoa-Swift.h",
-          'external-contents': "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/RxCocoa-Swift.h"
+          'external-contents': "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/RxCocoa/RxCocoa.framework/Headers/RxCocoa-Swift.h"
         },
         {
           'type': 'file',
@@ -77,23 +276,77 @@
     },
     {
       'type': 'directory',
-      'name': "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Modules",
+      'name': "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/RxCocoa/RxCocoa.framework/Modules",
       'contents': [
         {
           'type': 'file',
           'name': "module.modulemap",
-          'external-contents': "/Users/sjwu/video/HouseHold/Build/Intermediates/Pods.build/Debug-iphonesimulator/RxCocoa.build/module.modulemap"
+          'external-contents': "/Users/sjwu/video/HouseHold/Build/Intermediates/Pods.build/Debug-iphoneos/RxCocoa.build/module.modulemap"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Headers",
+      'name': "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/RxGesture/RxGesture.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "RxGesture-Swift.h",
+          'external-contents': "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/RxGesture/RxGesture.framework/Headers/RxGesture-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "RxGesture-umbrella.h",
+          'external-contents': "/Users/sjwu/video/HouseHold/Pods/Target Support Files/RxGesture/RxGesture-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/RxGesture/RxGesture.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/sjwu/video/HouseHold/Build/Intermediates/Pods.build/Debug-iphoneos/RxGesture.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/RxKeyboard/RxKeyboard.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "RxKeyboard-Swift.h",
+          'external-contents': "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/RxKeyboard/RxKeyboard.framework/Headers/RxKeyboard-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "RxKeyboard-umbrella.h",
+          'external-contents': "/Users/sjwu/video/HouseHold/Pods/Target Support Files/RxKeyboard/RxKeyboard-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/RxKeyboard/RxKeyboard.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/sjwu/video/HouseHold/Build/Intermediates/Pods.build/Debug-iphoneos/RxKeyboard.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/RxSwift/RxSwift.framework/Headers",
       'contents': [
         {
           'type': 'file',
           'name': "RxSwift-Swift.h",
-          'external-contents': "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Headers/RxSwift-Swift.h"
+          'external-contents': "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/RxSwift/RxSwift.framework/Headers/RxSwift-Swift.h"
         },
         {
           'type': 'file',
@@ -104,23 +357,23 @@
     },
     {
       'type': 'directory',
-      'name': "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Modules",
+      'name': "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/RxSwift/RxSwift.framework/Modules",
       'contents': [
         {
           'type': 'file',
           'name': "module.modulemap",
-          'external-contents': "/Users/sjwu/video/HouseHold/Build/Intermediates/Pods.build/Debug-iphonesimulator/RxSwift.build/module.modulemap"
+          'external-contents': "/Users/sjwu/video/HouseHold/Build/Intermediates/Pods.build/Debug-iphoneos/RxSwift.build/module.modulemap"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphonesimulator/SnapKit/SnapKit.framework/Headers",
+      'name': "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/SnapKit/SnapKit.framework/Headers",
       'contents': [
         {
           'type': 'file',
           'name': "SnapKit-Swift.h",
-          'external-contents': "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphonesimulator/SnapKit/SnapKit.framework/Headers/SnapKit-Swift.h"
+          'external-contents': "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/SnapKit/SnapKit.framework/Headers/SnapKit-Swift.h"
         },
         {
           'type': 'file',
@@ -131,12 +384,12 @@
     },
     {
       'type': 'directory',
-      'name': "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphonesimulator/SnapKit/SnapKit.framework/Modules",
+      'name': "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/SnapKit/SnapKit.framework/Modules",
       'contents': [
         {
           'type': 'file',
           'name': "module.modulemap",
-          'external-contents': "/Users/sjwu/video/HouseHold/Build/Intermediates/Pods.build/Debug-iphonesimulator/SnapKit.build/module.modulemap"
+          'external-contents': "/Users/sjwu/video/HouseHold/Build/Intermediates/Pods.build/Debug-iphoneos/SnapKit.build/module.modulemap"
         }
       ]
     }

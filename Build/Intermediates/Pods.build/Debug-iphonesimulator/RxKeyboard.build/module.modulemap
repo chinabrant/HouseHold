@@ -1,0 +1,11 @@
+framework module RxKeyboard {
+  umbrella header "RxKeyboard-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module RxKeyboard.Swift {
+    header "RxKeyboard-Swift.h"
+    requires objc
+}

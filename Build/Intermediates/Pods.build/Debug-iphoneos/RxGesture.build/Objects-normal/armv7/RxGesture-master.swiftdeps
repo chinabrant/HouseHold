@@ -1,0 +1,17 @@
+version: "Apple Swift version 4.0 (swiftlang-900.0.65 clang-900.0.37)"
+options: "210d0c4a8550edd45f4898daa3f97dd2"
+build_time: [1511674670, 242449000]
+inputs:
+  "/Users/sjwu/video/HouseHold/Pods/RxGesture/Pod/Classes/GestureFactory.swift": [1510149907, 0]
+  "/Users/sjwu/video/HouseHold/Pods/RxGesture/Pod/Classes/RxGestureRecognizerDelegate.swift": [1510149907, 0]
+  "/Users/sjwu/video/HouseHold/Pods/RxGesture/Pod/Classes/SharedTypes.swift": [1510149907, 0]
+  "/Users/sjwu/video/HouseHold/Pods/RxGesture/Pod/Classes/iOS/TransformGestureRecognizers.swift": [1510149907, 0]
+  "/Users/sjwu/video/HouseHold/Pods/RxGesture/Pod/Classes/iOS/UIGestureRecognizer+RxGesture.swift": [1510149907, 0]
+  "/Users/sjwu/video/HouseHold/Pods/RxGesture/Pod/Classes/iOS/UILongPressGestureRecognizer+RxGesture.swift": [1510149907, 0]
+  "/Users/sjwu/video/HouseHold/Pods/RxGesture/Pod/Classes/iOS/UIPanGestureRecognizer+RxGesture.swift": [1510149907, 0]
+  "/Users/sjwu/video/HouseHold/Pods/RxGesture/Pod/Classes/iOS/UIPinchGestureRecognizer+RxGesture.swift": [1510149907, 0]
+  "/Users/sjwu/video/HouseHold/Pods/RxGesture/Pod/Classes/iOS/UIRotationGestureRecognizer+RxGesture.swift": [1510149907, 0]
+  "/Users/sjwu/video/HouseHold/Pods/RxGesture/Pod/Classes/iOS/UIScreenEdgePanGestureRecognizer+RxGesture.swift": [1510149907, 0]
+  "/Users/sjwu/video/HouseHold/Pods/RxGesture/Pod/Classes/iOS/UISwipeGestureRecognizer+RxGesture.swift": [1510149907, 0]
+  "/Users/sjwu/video/HouseHold/Pods/RxGesture/Pod/Classes/iOS/UITapGestureRecognizer+RxGesture.swift": [1510149907, 0]
+  "/Users/sjwu/video/HouseHold/Pods/RxGesture/Pod/Classes/View+RxGesture.swift": [1510149907, 0]

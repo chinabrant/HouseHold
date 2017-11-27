@@ -1,0 +1,235 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "PanGestureRecognizerDefaults"
+- "PanGestureRecognizerFactory"
+provides-nominal:
+- "9RxGesture03PanB18RecognizerDefaultsO"
+- "9RxGesture03PanB17RecognizerFactoryV"
+provides-member:
+- ["9RxGesture03PanB18RecognizerDefaultsO", ""]
+- ["9RxGesture03PanB17RecognizerFactoryV", ""]
+- ["9RxGesture03AnyB17RecognizerFactoryV", ""]
+- ["7RxSwift8ReactiveV", ""]
+- ["7RxSwift14ObservableTypeP", ""]
+- ["9RxGesture03AnyB17RecognizerFactoryV", "pan"]
+- ["7RxSwift8ReactiveV", "panGesture"]
+- ["7RxSwift14ObservableTypeP", "asTranslation"]
+provides-dynamic-lookup:
+depends-top-level:
+- "AnyGestureRecognizerFactory"
+- "AssignmentPrecedence"
+- "CGPoint"
+- "ControlEvent"
+- !private "Defaults"
+- "GestureRecognizerFactory"
+- "Int"
+- "Observable"
+- "ObservableType"
+- "PanGestureRecognizerDefaults"
+- "PanGestureRecognizerFactory"
+- "Reactive"
+- "RxGestureRecognizerDelegate"
+- "TargetView"
+- "UIPanGestureRecognizer"
+- "UIView"
+- "Void"
+depends-member:
+- ["9RxGesture03AnyB17RecognizerFactoryV", "AnyGestureRecognizerFactory"]
+- !private ["9RxGesture03AnyB17RecognizerFactoryV", "Defaults"]
+- ["9RxGesture03AnyB17RecognizerFactoryV", "Int"]
+- !private ["9RxGesture03AnyB17RecognizerFactoryV", "PanGestureRecognizerFactory"]
+- ["9RxGesture03AnyB17RecognizerFactoryV", "RxGestureRecognizerDelegate"]
+- ["9RxGesture03AnyB17RecognizerFactoryV", "UIPanGestureRecognizer"]
+- ["9RxGesture03AnyB17RecognizerFactoryV", "Void"]
+- !private ["9RxGesture03AnyB17RecognizerFactoryV", "init"]
+- ["9RxGesture03AnyB17RecognizerFactoryV", "pan"]
+- ["s13BinaryIntegerP", "max"]
+- ["s7CVarArgP", "max"]
+- !private ["s7CVarArgP", "maximumNumberOfTouches"]
+- !private ["s7CVarArgP", "minimumNumberOfTouches"]
+- !private ["s7CVarArgP", "translation"]
+- !private ["s7CVarArgP", "velocity"]
+- ["s10ComparableP", "max"]
+- !private ["s28CustomDebugStringConvertibleP", "maximumNumberOfTouches"]
+- !private ["s28CustomDebugStringConvertibleP", "minimumNumberOfTouches"]
+- !private ["s28CustomDebugStringConvertibleP", "translation"]
+- !private ["s28CustomDebugStringConvertibleP", "velocity"]
+- ["s29CustomPlaygroundQuickLookableP", "max"]
+- ["s17CustomReflectableP", "max"]
+- ["s23CustomStringConvertibleP", "max"]
+- !private ["s23CustomStringConvertibleP", "maximumNumberOfTouches"]
+- !private ["s23CustomStringConvertibleP", "minimumNumberOfTouches"]
+- !private ["s23CustomStringConvertibleP", "translation"]
+- !private ["s23CustomStringConvertibleP", "velocity"]
+- ["s9DecodableP", "max"]
+- ["s9EncodableP", "max"]
+- ["s9EquatableP", "max"]
+- !private ["s9EquatableP", "maximumNumberOfTouches"]
+- !private ["s9EquatableP", "minimumNumberOfTouches"]
+- !private ["s9EquatableP", "translation"]
+- !private ["s9EquatableP", "velocity"]
+- ["s27ExpressibleByIntegerLiteralP", "max"]
+- ["s17FixedWidthIntegerP", "max"]
+- !private ["9RxGesture0B17RecognizerFactoryP", "AnyGestureRecognizerFactory"]
+- !private ["9RxGesture0B17RecognizerFactoryP", "Defaults"]
+- ["9RxGesture0B17RecognizerFactoryP", "Gesture"]
+- !private ["9RxGesture0B17RecognizerFactoryP", "PanGestureRecognizerFactory"]
+- ["9RxGesture0B17RecognizerFactoryP", "configuration"]
+- !private ["9RxGesture0B17RecognizerFactoryP", "init"]
+- ["9RxGesture0B17RecognizerFactoryP", "make"]
+- ["9RxGesture0B17RecognizerFactoryP", ""]
+- ["s8HashableP", "max"]
+- !private ["s8HashableP", "maximumNumberOfTouches"]
+- !private ["s8HashableP", "minimumNumberOfTouches"]
+- !private ["s8HashableP", "translation"]
+- !private ["s8HashableP", "velocity"]
+- ["Si", "max"]
+- ["7RxCocoa16KVORepresentableP", "max"]
+- ["s25LosslessStringConvertibleP", "max"]
+- ["s10MirrorPathP", "max"]
+- !private ["So8NSObjectC", "maximumNumberOfTouches"]
+- !private ["So8NSObjectC", "minimumNumberOfTouches"]
+- !private ["So8NSObjectC", "translation"]
+- !private ["So8NSObjectC", "velocity"]
+- !private ["So16NSObjectProtocolP", "maximumNumberOfTouches"]
+- !private ["So16NSObjectProtocolP", "minimumNumberOfTouches"]
+- !private ["So16NSObjectProtocolP", "translation"]
+- !private ["So16NSObjectProtocolP", "velocity"]
+- ["s7NumericP", "max"]
+- ["7RxSwift25ObservableConvertibleTypeP", "CGPoint"]
+- ["7RxSwift25ObservableConvertibleTypeP", "E"]
+- ["7RxSwift25ObservableConvertibleTypeP", "Observable"]
+- ["7RxSwift25ObservableConvertibleTypeP", "TargetView"]
+- ["7RxSwift25ObservableConvertibleTypeP", "UIPanGestureRecognizer"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "map"]
+- ["7RxSwift14ObservableTypeP", "CGPoint"]
+- ["7RxSwift14ObservableTypeP", "E"]
+- ["7RxSwift14ObservableTypeP", "Observable"]
+- ["7RxSwift14ObservableTypeP", "TargetView"]
+- ["7RxSwift14ObservableTypeP", "UIPanGestureRecognizer"]
+- ["7RxSwift14ObservableTypeP", "asTranslation"]
+- !private ["7RxSwift14ObservableTypeP", "map"]
+- ["9RxGesture03PanB18RecognizerDefaultsO", "Int"]
+- ["9RxGesture03PanB18RecognizerDefaultsO", "RxGestureRecognizerDelegate"]
+- ["9RxGesture03PanB18RecognizerDefaultsO", "UIPanGestureRecognizer"]
+- ["9RxGesture03PanB18RecognizerDefaultsO", "Void"]
+- ["9RxGesture03PanB18RecognizerDefaultsO", "configuration"]
+- ["9RxGesture03PanB18RecognizerDefaultsO", "maximumNumberOfTouches"]
+- ["9RxGesture03PanB18RecognizerDefaultsO", "minimumNumberOfTouches"]
+- !private ["9RxGesture03PanB17RecognizerFactoryV", "Defaults"]
+- ["9RxGesture03PanB17RecognizerFactoryV", "Gesture"]
+- ["9RxGesture03PanB17RecognizerFactoryV", "Int"]
+- ["9RxGesture03PanB17RecognizerFactoryV", "RxGestureRecognizerDelegate"]
+- ["9RxGesture03PanB17RecognizerFactoryV", "UIPanGestureRecognizer"]
+- ["9RxGesture03PanB17RecognizerFactoryV", "Void"]
+- ["9RxGesture03PanB17RecognizerFactoryV", "configuration"]
+- ["9RxGesture03PanB17RecognizerFactoryV", "deinit"]
+- ["9RxGesture03PanB17RecognizerFactoryV", "init"]
+- ["9RxGesture03PanB17RecognizerFactoryV", "make"]
+- ["7RxSwift8ReactiveV", "ControlEvent"]
+- !private ["7RxSwift8ReactiveV", "Defaults"]
+- ["7RxSwift8ReactiveV", "Int"]
+- !private ["7RxSwift8ReactiveV", "PanGestureRecognizerFactory"]
+- ["7RxSwift8ReactiveV", "RxGestureRecognizerDelegate"]
+- ["7RxSwift8ReactiveV", "UIPanGestureRecognizer"]
+- ["7RxSwift8ReactiveV", "UIView"]
+- ["7RxSwift8ReactiveV", "Void"]
+- !private ["7RxSwift8ReactiveV", "gesture"]
+- ["7RxSwift8ReactiveV", "panGesture"]
+- !private ["7RxSwift18ReactiveCompatibleP", "maximumNumberOfTouches"]
+- !private ["7RxSwift18ReactiveCompatibleP", "minimumNumberOfTouches"]
+- !private ["7RxSwift18ReactiveCompatibleP", "translation"]
+- !private ["7RxSwift18ReactiveCompatibleP", "velocity"]
+- ["s13SignedIntegerP", "max"]
+- ["s13SignedNumericP", "max"]
+- ["s10StrideableP", "max"]
+- !private ["9RxGesture10TargetViewO", "targetView"]
+- !private ["9RxGesture10TargetViewO", "view"]
+- !private ["So19UIGestureRecognizerC", "maximumNumberOfTouches"]
+- !private ["So19UIGestureRecognizerC", "minimumNumberOfTouches"]
+- !private ["So19UIGestureRecognizerC", "translation"]
+- !private ["So19UIGestureRecognizerC", "velocity"]
+- !private ["So22UIPanGestureRecognizerC", "maximumNumberOfTouches"]
+- !private ["So22UIPanGestureRecognizerC", "minimumNumberOfTouches"]
+- !private ["So22UIPanGestureRecognizerC", "translation"]
+- !private ["So22UIPanGestureRecognizerC", "velocity"]
+- ["s18_BitwiseOperationsP", "max"]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "max"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "maximumNumberOfTouches"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "minimumNumberOfTouches"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "translation"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "velocity"]
+- ["s21_ObjectiveCBridgeableP", "max"]
+- ["s11_StrideableP", "max"]
+depends-nominal:
+- "9RxGesture03AnyB17RecognizerFactoryV"
+- "s13BinaryIntegerP"
+- "s7CVarArgP"
+- "s10ComparableP"
+- !private "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "s9DecodableP"
+- "s9EncodableP"
+- "s9EquatableP"
+- "s27ExpressibleByIntegerLiteralP"
+- "s17FixedWidthIntegerP"
+- "9RxGesture0B17RecognizerFactoryP"
+- "s8HashableP"
+- "Si"
+- "7RxCocoa16KVORepresentableP"
+- "s25LosslessStringConvertibleP"
+- "s10MirrorPathP"
+- !private "So8NSObjectC"
+- !private "So16NSObjectProtocolP"
+- "s7NumericP"
+- "7RxSwift25ObservableConvertibleTypeP"
+- "7RxSwift14ObservableTypeP"
+- "9RxGesture03PanB18RecognizerDefaultsO"
+- "9RxGesture03PanB17RecognizerFactoryV"
+- "7RxSwift8ReactiveV"
+- !private "7RxSwift18ReactiveCompatibleP"
+- "s13SignedIntegerP"
+- "s13SignedNumericP"
+- "s10StrideableP"
+- !private "9RxGesture10TargetViewO"
+- !private "So19UIGestureRecognizerC"
+- !private "So22UIPanGestureRecognizerC"
+- "s18_BitwiseOperationsP"
+- "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+- "s11_StrideableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Metal.swiftmodule"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/RxCocoa/RxCocoa.framework/Modules/RxCocoa.swiftmodule/arm.swiftmodule"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/RxSwift/RxSwift.framework/Modules/RxSwift.swiftmodule/arm.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/SwiftOnoneSupport.swiftmodule"
+- "/Users/sjwu/video/HouseHold/Pods/RxCocoa/RxCocoa/Runtime/include/_RX.h"
+- "/Users/sjwu/video/HouseHold/Pods/Target Support Files/RxCocoa/RxCocoa-umbrella.h"
+- "/Users/sjwu/video/HouseHold/Pods/Target Support Files/RxGesture/RxGesture-umbrella.h"
+- "/Users/sjwu/video/HouseHold/Pods/Target Support Files/RxSwift/RxSwift-umbrella.h"
+- "/Users/sjwu/video/HouseHold/Pods/RxCocoa/RxCocoa/RxCocoa.h"
+- "/Users/sjwu/video/HouseHold/Pods/RxCocoa/RxCocoa/Runtime/include/_RXObjCRuntime.h"
+- "/Users/sjwu/video/HouseHold/Pods/RxCocoa/RxCocoa/Runtime/include/RxCocoaRuntime.h"
+- "/Users/sjwu/video/HouseHold/Pods/RxCocoa/RxCocoa/Runtime/include/_RXKVOObserver.h"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/RxCocoa/RxCocoa.framework/Headers/RxCocoa-Swift.h"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/RxSwift/RxSwift.framework/Headers/RxSwift-Swift.h"
+- "/Users/sjwu/video/HouseHold/Pods/RxCocoa/RxCocoa/Runtime/include/_RXDelegateProxy.h"
+- "/Users/sjwu/video/HouseHold/Build/Intermediates/Pods.build/Debug-iphoneos/RxGesture.build/unextended-module.modulemap"
+- "/Users/sjwu/video/HouseHold/Build/Intermediates/Pods.build/Debug-iphoneos/RxCocoa.build/module.modulemap"
+- "/Users/sjwu/video/HouseHold/Build/Intermediates/Pods.build/Debug-iphoneos/RxSwift.build/module.modulemap"
+interface-hash: "b18a2bf0cba0191946644200ae299441"

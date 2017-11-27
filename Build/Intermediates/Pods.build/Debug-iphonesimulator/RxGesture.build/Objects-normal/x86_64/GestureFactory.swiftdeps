@@ -1,0 +1,121 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "GestureRecognizerFactory"
+- "AnyGestureRecognizerFactory"
+provides-nominal:
+- "9RxGesture0B17RecognizerFactoryP"
+- "9RxGesture03AnyB17RecognizerFactoryV"
+provides-member:
+- ["9RxGesture0B17RecognizerFactoryP", ""]
+- ["9RxGesture03AnyB17RecognizerFactoryV", ""]
+- ["9RxGesture0B17RecognizerFactoryP", "configuration"]
+- ["9RxGesture0B17RecognizerFactoryP", "make"]
+provides-dynamic-lookup:
+depends-top-level:
+- "AnyGestureRecognizerFactory"
+- "AssignmentPrecedence"
+- !private "CastingPrecedence"
+- "FloatLiteralType"
+- "GestureRecognizer"
+- "GestureRecognizerFactory"
+- "IntegerLiteralType"
+- "RxGestureRecognizerDelegate"
+- "UInt8"
+- "Void"
+- !private "gestureRecognizerStrongDelegateKey"
+- !private "objc_setAssociatedObject"
+depends-member:
+- ["9RxGesture03AnyB17RecognizerFactoryV", "Gesture"]
+- ["9RxGesture03AnyB17RecognizerFactoryV", "GestureRecognizer"]
+- ["9RxGesture03AnyB17RecognizerFactoryV", "GestureRecognizerFactory"]
+- !private ["9RxGesture03AnyB17RecognizerFactoryV", "_make"]
+- ["9RxGesture03AnyB17RecognizerFactoryV", "configuration"]
+- ["9RxGesture03AnyB17RecognizerFactoryV", "deinit"]
+- ["9RxGesture03AnyB17RecognizerFactoryV", "init"]
+- ["9RxGesture03AnyB17RecognizerFactoryV", "make"]
+- !private ["s7CVarArgP", "delegate"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "delegate"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "delegate"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s9EquatableP", "OBJC_ASSOCIATION_RETAIN_NONATOMIC"]
+- !private ["s9EquatableP", "delegate"]
+- !private ["s9EquatableP", "init"]
+- ["9RxGesture0B17RecognizerFactoryP", "Gesture"]
+- ["9RxGesture0B17RecognizerFactoryP", "GestureRecognizer"]
+- ["9RxGesture0B17RecognizerFactoryP", "RxGestureRecognizerDelegate"]
+- ["9RxGesture0B17RecognizerFactoryP", "Void"]
+- !private ["9RxGesture0B17RecognizerFactoryP", "_make"]
+- ["9RxGesture0B17RecognizerFactoryP", "configuration"]
+- !private ["9RxGesture0B17RecognizerFactoryP", "gestureRecognizerStrongDelegateKey"]
+- ["9RxGesture0B17RecognizerFactoryP", "make"]
+- !private ["9RxGesture0B17RecognizerFactoryP", "objc_setAssociatedObject"]
+- ["9RxGesture0B17RecognizerFactoryP", ""]
+- !private ["s8HashableP", "OBJC_ASSOCIATION_RETAIN_NONATOMIC"]
+- !private ["s8HashableP", "delegate"]
+- !private ["s8HashableP", "init"]
+- !private ["So8NSObjectC", "delegate"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So16NSObjectProtocolP", "delegate"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["s16RawRepresentableP", "OBJC_ASSOCIATION_RETAIN_NONATOMIC"]
+- !private ["7RxSwift18ReactiveCompatibleP", "delegate"]
+- !private ["7RxSwift18ReactiveCompatibleP", "init"]
+- !private ["9RxGesture0aB18RecognizerDelegateC", "deinit"]
+- !private ["9RxGesture0aB18RecognizerDelegateC", "init"]
+- !private ["So19UIGestureRecognizerC", "delegate"]
+- !private ["So19UIGestureRecognizerC", "init"]
+- !private ["So27UIGestureRecognizerDelegateP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "delegate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["SC22objc_AssociationPolicyO", "OBJC_ASSOCIATION_RETAIN_NONATOMIC"]
+depends-nominal:
+- "9RxGesture03AnyB17RecognizerFactoryV"
+- !private "s7CVarArgP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s23CustomStringConvertibleP"
+- !private "s9EquatableP"
+- "9RxGesture0B17RecognizerFactoryP"
+- !private "s8HashableP"
+- !private "So8NSObjectC"
+- !private "So16NSObjectProtocolP"
+- !private "s16RawRepresentableP"
+- !private "7RxSwift18ReactiveCompatibleP"
+- !private "9RxGesture0aB18RecognizerDelegateC"
+- !private "So19UIGestureRecognizerC"
+- !private "So27UIGestureRecognizerDelegateP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "SC22objc_AssociationPolicyO"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Modules/RxCocoa.swiftmodule/x86_64.swiftmodule"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Modules/RxSwift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/sjwu/video/HouseHold/Pods/RxCocoa/RxCocoa/Runtime/include/_RX.h"
+- "/Users/sjwu/video/HouseHold/Pods/Target Support Files/RxCocoa/RxCocoa-umbrella.h"
+- "/Users/sjwu/video/HouseHold/Pods/Target Support Files/RxGesture/RxGesture-umbrella.h"
+- "/Users/sjwu/video/HouseHold/Pods/Target Support Files/RxSwift/RxSwift-umbrella.h"
+- "/Users/sjwu/video/HouseHold/Pods/RxCocoa/RxCocoa/RxCocoa.h"
+- "/Users/sjwu/video/HouseHold/Pods/RxCocoa/RxCocoa/Runtime/include/_RXObjCRuntime.h"
+- "/Users/sjwu/video/HouseHold/Pods/RxCocoa/RxCocoa/Runtime/include/RxCocoaRuntime.h"
+- "/Users/sjwu/video/HouseHold/Pods/RxCocoa/RxCocoa/Runtime/include/_RXKVOObserver.h"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/RxCocoa-Swift.h"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Headers/RxSwift-Swift.h"
+- "/Users/sjwu/video/HouseHold/Pods/RxCocoa/RxCocoa/Runtime/include/_RXDelegateProxy.h"
+- "/Users/sjwu/video/HouseHold/Build/Intermediates/Pods.build/Debug-iphonesimulator/RxGesture.build/unextended-module.modulemap"
+- "/Users/sjwu/video/HouseHold/Build/Intermediates/Pods.build/Debug-iphonesimulator/RxCocoa.build/module.modulemap"
+- "/Users/sjwu/video/HouseHold/Build/Intermediates/Pods.build/Debug-iphonesimulator/RxSwift.build/module.modulemap"
+interface-hash: "c470e38e24891c7c7e06d3da1369d832"

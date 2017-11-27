@@ -1,0 +1,608 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["So7UIImageC", ""]
+- ["So7UIImageC", "clip"]
+- ["So7UIImageC", "fixOrientation"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!="
+- !private "-"
+- !private "/"
+- "AssignmentPrecedence"
+- !private "CGAffineTransform"
+- !private "CGBitmapInfo"
+- !private "CGColorSpaceCreateDeviceRGB"
+- !private "CGContext"
+- !private "CGFloat"
+- !private "CGImageAlphaInfo"
+- "CGRect"
+- !private "Int"
+- "UIImage"
+depends-member:
+- !private ["s19BinaryFloatingPointP", "pi"]
+- !private ["s13BinaryIntegerP", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["SC17CGAffineTransformV", "identity"]
+- !private ["SC17CGAffineTransformV", "rotated"]
+- !private ["SC17CGAffineTransformV", "scaledBy"]
+- !private ["SC17CGAffineTransformV", "translatedBy"]
+- !private ["SC12CGBitmapInfoV", "init"]
+- !private ["SC12CGBitmapInfoV", "rawValue"]
+- !private ["So9CGContextC", "concatenate"]
+- !private ["So9CGContextC", "draw"]
+- !private ["So9CGContextC", "init"]
+- !private ["So9CGContextC", "makeImage"]
+- !private ["12CoreGraphics7CGFloatV", "pi"]
+- !private ["So7CGImageC", "bitsPerComponent"]
+- !private ["So7CGImageC", "cropping"]
+- !private ["SC16CGImageAlphaInfoO", "premultipliedLast"]
+- !private ["SC16CGImageAlphaInfoO", "rawValue"]
+- !private ["SC6CGRectV", "init"]
+- !private ["SC6CGSizeV", "height"]
+- !private ["SC6CGSizeV", "width"]
+- !private ["s7CVarArgP", "CGAffineTransform"]
+- !private ["s7CVarArgP", "CGBitmapInfo"]
+- !private ["s7CVarArgP", "CGColorSpaceCreateDeviceRGB"]
+- !private ["s7CVarArgP", "CGContext"]
+- !private ["s7CVarArgP", "CGFloat"]
+- !private ["s7CVarArgP", "CGImageAlphaInfo"]
+- !private ["s7CVarArgP", "CGRect"]
+- !private ["s7CVarArgP", "Int"]
+- !private ["s7CVarArgP", "UIImage"]
+- !private ["s7CVarArgP", "cgImage"]
+- !private ["s7CVarArgP", "imageOrientation"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "pi"]
+- !private ["s7CVarArgP", "size"]
+- !private ["s10ComparableP", "init"]
+- !private ["s10ComparableP", "pi"]
+- !private ["7SnapKit24ConstraintConstantTargetP", "height"]
+- !private ["7SnapKit24ConstraintConstantTargetP", "init"]
+- !private ["7SnapKit24ConstraintConstantTargetP", "pi"]
+- !private ["7SnapKit24ConstraintConstantTargetP", "width"]
+- !private ["7SnapKit21ConstraintInsetTargetP", "init"]
+- !private ["7SnapKit21ConstraintInsetTargetP", "pi"]
+- !private ["7SnapKit26ConstraintMultiplierTargetP", "init"]
+- !private ["7SnapKit26ConstraintMultiplierTargetP", "pi"]
+- !private ["7SnapKit22ConstraintOffsetTargetP", "init"]
+- !private ["7SnapKit22ConstraintOffsetTargetP", "pi"]
+- !private ["7SnapKit24ConstraintPriorityTargetP", "init"]
+- !private ["7SnapKit24ConstraintPriorityTargetP", "pi"]
+- !private ["7SnapKit25ConstraintRelatableTargetP", "height"]
+- !private ["7SnapKit25ConstraintRelatableTargetP", "init"]
+- !private ["7SnapKit25ConstraintRelatableTargetP", "pi"]
+- !private ["7SnapKit25ConstraintRelatableTargetP", "width"]
+- !private ["s28CustomDebugStringConvertibleP", "CGAffineTransform"]
+- !private ["s28CustomDebugStringConvertibleP", "CGBitmapInfo"]
+- !private ["s28CustomDebugStringConvertibleP", "CGColorSpaceCreateDeviceRGB"]
+- !private ["s28CustomDebugStringConvertibleP", "CGContext"]
+- !private ["s28CustomDebugStringConvertibleP", "CGFloat"]
+- !private ["s28CustomDebugStringConvertibleP", "CGImageAlphaInfo"]
+- !private ["s28CustomDebugStringConvertibleP", "CGRect"]
+- !private ["s28CustomDebugStringConvertibleP", "Int"]
+- !private ["s28CustomDebugStringConvertibleP", "UIImage"]
+- !private ["s28CustomDebugStringConvertibleP", "cgImage"]
+- !private ["s28CustomDebugStringConvertibleP", "height"]
+- !private ["s28CustomDebugStringConvertibleP", "imageOrientation"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "size"]
+- !private ["s28CustomDebugStringConvertibleP", "width"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "height"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "width"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "height"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "pi"]
+- !private ["s17CustomReflectableP", "width"]
+- !private ["s23CustomStringConvertibleP", "CGAffineTransform"]
+- !private ["s23CustomStringConvertibleP", "CGBitmapInfo"]
+- !private ["s23CustomStringConvertibleP", "CGColorSpaceCreateDeviceRGB"]
+- !private ["s23CustomStringConvertibleP", "CGContext"]
+- !private ["s23CustomStringConvertibleP", "CGFloat"]
+- !private ["s23CustomStringConvertibleP", "CGImageAlphaInfo"]
+- !private ["s23CustomStringConvertibleP", "CGRect"]
+- !private ["s23CustomStringConvertibleP", "Int"]
+- !private ["s23CustomStringConvertibleP", "UIImage"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "cgImage"]
+- !private ["s23CustomStringConvertibleP", "imageOrientation"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "pi"]
+- !private ["s23CustomStringConvertibleP", "size"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "height"]
+- !private ["s9DecodableP", "identity"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "pi"]
+- !private ["s9DecodableP", "rotated"]
+- !private ["s9DecodableP", "scaledBy"]
+- !private ["s9DecodableP", "translatedBy"]
+- !private ["s9DecodableP", "width"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "height"]
+- !private ["s9EncodableP", "identity"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "pi"]
+- !private ["s9EncodableP", "rotated"]
+- !private ["s9EncodableP", "scaledBy"]
+- !private ["s9EncodableP", "translatedBy"]
+- !private ["s9EncodableP", "width"]
+- !private ["s9EquatableP", "CGAffineTransform"]
+- !private ["s9EquatableP", "CGBitmapInfo"]
+- !private ["s9EquatableP", "CGColorSpaceCreateDeviceRGB"]
+- !private ["s9EquatableP", "CGContext"]
+- !private ["s9EquatableP", "CGFloat"]
+- !private ["s9EquatableP", "CGImageAlphaInfo"]
+- !private ["s9EquatableP", "CGRect"]
+- !private ["s9EquatableP", "Int"]
+- !private ["s9EquatableP", "UIImage"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "bitsPerComponent"]
+- !private ["s9EquatableP", "cgImage"]
+- !private ["s9EquatableP", "concatenate"]
+- !private ["s9EquatableP", "cropping"]
+- ["s9EquatableP", "down"]
+- ["s9EquatableP", "downMirrored"]
+- !private ["s9EquatableP", "draw"]
+- !private ["s9EquatableP", "height"]
+- !private ["s9EquatableP", "identity"]
+- !private ["s9EquatableP", "imageOrientation"]
+- !private ["s9EquatableP", "init"]
+- ["s9EquatableP", "left"]
+- ["s9EquatableP", "leftMirrored"]
+- !private ["s9EquatableP", "makeImage"]
+- !private ["s9EquatableP", "pi"]
+- !private ["s9EquatableP", "premultipliedLast"]
+- !private ["s9EquatableP", "rawValue"]
+- ["s9EquatableP", "right"]
+- ["s9EquatableP", "rightMirrored"]
+- !private ["s9EquatableP", "rotated"]
+- !private ["s9EquatableP", "scaledBy"]
+- !private ["s9EquatableP", "size"]
+- !private ["s9EquatableP", "translatedBy"]
+- !private ["s9EquatableP", "up"]
+- ["s9EquatableP", "upMirrored"]
+- !private ["s9EquatableP", "width"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "rawValue"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s25ExpressibleByFloatLiteralP", "pi"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "pi"]
+- !private ["s17FixedWidthIntegerP", "init"]
+- !private ["s13FloatingPointP", "pi"]
+- !private ["s8HashableP", "CGAffineTransform"]
+- !private ["s8HashableP", "CGBitmapInfo"]
+- !private ["s8HashableP", "CGColorSpaceCreateDeviceRGB"]
+- !private ["s8HashableP", "CGContext"]
+- !private ["s8HashableP", "CGFloat"]
+- !private ["s8HashableP", "CGImageAlphaInfo"]
+- !private ["s8HashableP", "CGRect"]
+- !private ["s8HashableP", "Int"]
+- !private ["s8HashableP", "UIImage"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "bitsPerComponent"]
+- !private ["s8HashableP", "cgImage"]
+- !private ["s8HashableP", "concatenate"]
+- !private ["s8HashableP", "cropping"]
+- ["s8HashableP", "down"]
+- ["s8HashableP", "downMirrored"]
+- !private ["s8HashableP", "draw"]
+- !private ["s8HashableP", "imageOrientation"]
+- !private ["s8HashableP", "init"]
+- ["s8HashableP", "left"]
+- ["s8HashableP", "leftMirrored"]
+- !private ["s8HashableP", "makeImage"]
+- !private ["s8HashableP", "pi"]
+- !private ["s8HashableP", "premultipliedLast"]
+- !private ["s8HashableP", "rawValue"]
+- ["s8HashableP", "right"]
+- ["s8HashableP", "rightMirrored"]
+- !private ["s8HashableP", "size"]
+- !private ["s8HashableP", "up"]
+- ["s8HashableP", "upMirrored"]
+- !private ["Si", "init"]
+- !private ["7RxCocoa16KVORepresentableP", "_getBuiltinLogicValue"]
+- !private ["7RxCocoa16KVORepresentableP", "height"]
+- !private ["7RxCocoa16KVORepresentableP", "init"]
+- !private ["7RxCocoa16KVORepresentableP", "width"]
+- !private ["10Kingfisher0A10CompatibleP", "CGAffineTransform"]
+- !private ["10Kingfisher0A10CompatibleP", "CGBitmapInfo"]
+- !private ["10Kingfisher0A10CompatibleP", "CGColorSpaceCreateDeviceRGB"]
+- !private ["10Kingfisher0A10CompatibleP", "CGContext"]
+- !private ["10Kingfisher0A10CompatibleP", "CGFloat"]
+- !private ["10Kingfisher0A10CompatibleP", "CGImageAlphaInfo"]
+- !private ["10Kingfisher0A10CompatibleP", "CGRect"]
+- !private ["10Kingfisher0A10CompatibleP", "Int"]
+- !private ["10Kingfisher0A10CompatibleP", "UIImage"]
+- !private ["10Kingfisher0A10CompatibleP", "cgImage"]
+- !private ["10Kingfisher0A10CompatibleP", "height"]
+- !private ["10Kingfisher0A10CompatibleP", "imageOrientation"]
+- !private ["10Kingfisher0A10CompatibleP", "init"]
+- !private ["10Kingfisher0A10CompatibleP", "size"]
+- !private ["10Kingfisher0A10CompatibleP", "width"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["So8NSCodingP", "CGAffineTransform"]
+- !private ["So8NSCodingP", "CGBitmapInfo"]
+- !private ["So8NSCodingP", "CGColorSpaceCreateDeviceRGB"]
+- !private ["So8NSCodingP", "CGContext"]
+- !private ["So8NSCodingP", "CGFloat"]
+- !private ["So8NSCodingP", "CGImageAlphaInfo"]
+- !private ["So8NSCodingP", "CGRect"]
+- !private ["So8NSCodingP", "Int"]
+- !private ["So8NSCodingP", "UIImage"]
+- !private ["So8NSCodingP", "cgImage"]
+- !private ["So8NSCodingP", "imageOrientation"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "size"]
+- !private ["So21NSItemProviderReadingP", "CGAffineTransform"]
+- !private ["So21NSItemProviderReadingP", "CGBitmapInfo"]
+- !private ["So21NSItemProviderReadingP", "CGColorSpaceCreateDeviceRGB"]
+- !private ["So21NSItemProviderReadingP", "CGContext"]
+- !private ["So21NSItemProviderReadingP", "CGFloat"]
+- !private ["So21NSItemProviderReadingP", "CGImageAlphaInfo"]
+- !private ["So21NSItemProviderReadingP", "CGRect"]
+- !private ["So21NSItemProviderReadingP", "Int"]
+- !private ["So21NSItemProviderReadingP", "UIImage"]
+- !private ["So21NSItemProviderReadingP", "cgImage"]
+- !private ["So21NSItemProviderReadingP", "imageOrientation"]
+- !private ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderReadingP", "size"]
+- !private ["So21NSItemProviderWritingP", "CGAffineTransform"]
+- !private ["So21NSItemProviderWritingP", "CGBitmapInfo"]
+- !private ["So21NSItemProviderWritingP", "CGColorSpaceCreateDeviceRGB"]
+- !private ["So21NSItemProviderWritingP", "CGContext"]
+- !private ["So21NSItemProviderWritingP", "CGFloat"]
+- !private ["So21NSItemProviderWritingP", "CGImageAlphaInfo"]
+- !private ["So21NSItemProviderWritingP", "CGRect"]
+- !private ["So21NSItemProviderWritingP", "Int"]
+- !private ["So21NSItemProviderWritingP", "UIImage"]
+- !private ["So21NSItemProviderWritingP", "cgImage"]
+- !private ["So21NSItemProviderWritingP", "imageOrientation"]
+- !private ["So21NSItemProviderWritingP", "init"]
+- !private ["So21NSItemProviderWritingP", "size"]
+- !private ["So8NSObjectC", "CGAffineTransform"]
+- !private ["So8NSObjectC", "CGBitmapInfo"]
+- !private ["So8NSObjectC", "CGColorSpaceCreateDeviceRGB"]
+- !private ["So8NSObjectC", "CGContext"]
+- !private ["So8NSObjectC", "CGFloat"]
+- !private ["So8NSObjectC", "CGImageAlphaInfo"]
+- ["So8NSObjectC", "CGRect"]
+- !private ["So8NSObjectC", "Int"]
+- ["So8NSObjectC", "UIImage"]
+- !private ["So8NSObjectC", "cgImage"]
+- ["So8NSObjectC", "clip"]
+- ["So8NSObjectC", "fixOrientation"]
+- !private ["So8NSObjectC", "imageOrientation"]
+- !private ["So8NSObjectC", "size"]
+- !private ["So16NSObjectProtocolP", "CGAffineTransform"]
+- !private ["So16NSObjectProtocolP", "CGBitmapInfo"]
+- !private ["So16NSObjectProtocolP", "CGColorSpaceCreateDeviceRGB"]
+- !private ["So16NSObjectProtocolP", "CGContext"]
+- !private ["So16NSObjectProtocolP", "CGFloat"]
+- !private ["So16NSObjectProtocolP", "CGImageAlphaInfo"]
+- !private ["So16NSObjectProtocolP", "CGRect"]
+- !private ["So16NSObjectProtocolP", "Int"]
+- !private ["So16NSObjectProtocolP", "UIImage"]
+- !private ["So16NSObjectProtocolP", "cgImage"]
+- !private ["So16NSObjectProtocolP", "imageOrientation"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "size"]
+- !private ["So14NSSecureCodingP", "CGAffineTransform"]
+- !private ["So14NSSecureCodingP", "CGBitmapInfo"]
+- !private ["So14NSSecureCodingP", "CGColorSpaceCreateDeviceRGB"]
+- !private ["So14NSSecureCodingP", "CGContext"]
+- !private ["So14NSSecureCodingP", "CGFloat"]
+- !private ["So14NSSecureCodingP", "CGImageAlphaInfo"]
+- !private ["So14NSSecureCodingP", "CGRect"]
+- !private ["So14NSSecureCodingP", "Int"]
+- !private ["So14NSSecureCodingP", "UIImage"]
+- !private ["So14NSSecureCodingP", "cgImage"]
+- !private ["So14NSSecureCodingP", "imageOrientation"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So14NSSecureCodingP", "size"]
+- !private ["s7NumericP", "init"]
+- !private ["s7NumericP", "pi"]
+- !private ["s9OptionSetP", "init"]
+- !private ["s9OptionSetP", "rawValue"]
+- !private ["10Kingfisher11PlaceholderP", "CGAffineTransform"]
+- !private ["10Kingfisher11PlaceholderP", "CGBitmapInfo"]
+- !private ["10Kingfisher11PlaceholderP", "CGColorSpaceCreateDeviceRGB"]
+- !private ["10Kingfisher11PlaceholderP", "CGContext"]
+- !private ["10Kingfisher11PlaceholderP", "CGFloat"]
+- !private ["10Kingfisher11PlaceholderP", "CGImageAlphaInfo"]
+- !private ["10Kingfisher11PlaceholderP", "CGRect"]
+- !private ["10Kingfisher11PlaceholderP", "Int"]
+- !private ["10Kingfisher11PlaceholderP", "UIImage"]
+- !private ["10Kingfisher11PlaceholderP", "cgImage"]
+- !private ["10Kingfisher11PlaceholderP", "imageOrientation"]
+- !private ["10Kingfisher11PlaceholderP", "init"]
+- !private ["10Kingfisher11PlaceholderP", "size"]
+- ["s16RawRepresentableP", "down"]
+- ["s16RawRepresentableP", "downMirrored"]
+- !private ["s16RawRepresentableP", "init"]
+- ["s16RawRepresentableP", "left"]
+- ["s16RawRepresentableP", "leftMirrored"]
+- !private ["s16RawRepresentableP", "premultipliedLast"]
+- !private ["s16RawRepresentableP", "rawValue"]
+- ["s16RawRepresentableP", "right"]
+- ["s16RawRepresentableP", "rightMirrored"]
+- !private ["s16RawRepresentableP", "up"]
+- ["s16RawRepresentableP", "upMirrored"]
+- !private ["7RxSwift18ReactiveCompatibleP", "CGAffineTransform"]
+- !private ["7RxSwift18ReactiveCompatibleP", "CGBitmapInfo"]
+- !private ["7RxSwift18ReactiveCompatibleP", "CGColorSpaceCreateDeviceRGB"]
+- !private ["7RxSwift18ReactiveCompatibleP", "CGContext"]
+- !private ["7RxSwift18ReactiveCompatibleP", "CGFloat"]
+- !private ["7RxSwift18ReactiveCompatibleP", "CGImageAlphaInfo"]
+- !private ["7RxSwift18ReactiveCompatibleP", "CGRect"]
+- !private ["7RxSwift18ReactiveCompatibleP", "Int"]
+- !private ["7RxSwift18ReactiveCompatibleP", "UIImage"]
+- !private ["7RxSwift18ReactiveCompatibleP", "cgImage"]
+- !private ["7RxSwift18ReactiveCompatibleP", "imageOrientation"]
+- !private ["7RxSwift18ReactiveCompatibleP", "init"]
+- !private ["7RxSwift18ReactiveCompatibleP", "size"]
+- !private ["s10SetAlgebraP", "init"]
+- !private ["s10SetAlgebraP", "rawValue"]
+- !private ["s13SignedIntegerP", "init"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["s13SignedNumericP", "pi"]
+- !private ["s10StrideableP", "init"]
+- !private ["s10StrideableP", "pi"]
+- !private ["So29UIAccessibilityIdentificationP", "CGAffineTransform"]
+- !private ["So29UIAccessibilityIdentificationP", "CGBitmapInfo"]
+- !private ["So29UIAccessibilityIdentificationP", "CGColorSpaceCreateDeviceRGB"]
+- !private ["So29UIAccessibilityIdentificationP", "CGContext"]
+- !private ["So29UIAccessibilityIdentificationP", "CGFloat"]
+- !private ["So29UIAccessibilityIdentificationP", "CGImageAlphaInfo"]
+- !private ["So29UIAccessibilityIdentificationP", "CGRect"]
+- !private ["So29UIAccessibilityIdentificationP", "Int"]
+- !private ["So29UIAccessibilityIdentificationP", "UIImage"]
+- !private ["So29UIAccessibilityIdentificationP", "cgImage"]
+- !private ["So29UIAccessibilityIdentificationP", "imageOrientation"]
+- !private ["So29UIAccessibilityIdentificationP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "size"]
+- !private ["So7UIImageC", "CGAffineTransform"]
+- !private ["So7UIImageC", "CGBitmapInfo"]
+- !private ["So7UIImageC", "CGColorSpaceCreateDeviceRGB"]
+- !private ["So7UIImageC", "CGContext"]
+- !private ["So7UIImageC", "CGFloat"]
+- !private ["So7UIImageC", "CGImageAlphaInfo"]
+- ["So7UIImageC", "CGRect"]
+- !private ["So7UIImageC", "Int"]
+- ["So7UIImageC", "UIImage"]
+- !private ["So7UIImageC", "cgImage"]
+- ["So7UIImageC", "clip"]
+- ["So7UIImageC", "fixOrientation"]
+- !private ["So7UIImageC", "imageOrientation"]
+- !private ["So7UIImageC", "init"]
+- !private ["So7UIImageC", "size"]
+- ["SC18UIImageOrientationO", "down"]
+- ["SC18UIImageOrientationO", "downMirrored"]
+- ["SC18UIImageOrientationO", "left"]
+- ["SC18UIImageOrientationO", "leftMirrored"]
+- ["SC18UIImageOrientationO", "right"]
+- ["SC18UIImageOrientationO", "rightMirrored"]
+- !private ["SC18UIImageOrientationO", "up"]
+- ["SC18UIImageOrientationO", "upMirrored"]
+- !private ["So39UIItemProviderPresentationSizeProvidingP", "CGAffineTransform"]
+- !private ["So39UIItemProviderPresentationSizeProvidingP", "CGBitmapInfo"]
+- !private ["So39UIItemProviderPresentationSizeProvidingP", "CGColorSpaceCreateDeviceRGB"]
+- !private ["So39UIItemProviderPresentationSizeProvidingP", "CGContext"]
+- !private ["So39UIItemProviderPresentationSizeProvidingP", "CGFloat"]
+- !private ["So39UIItemProviderPresentationSizeProvidingP", "CGImageAlphaInfo"]
+- !private ["So39UIItemProviderPresentationSizeProvidingP", "CGRect"]
+- !private ["So39UIItemProviderPresentationSizeProvidingP", "Int"]
+- !private ["So39UIItemProviderPresentationSizeProvidingP", "UIImage"]
+- !private ["So39UIItemProviderPresentationSizeProvidingP", "cgImage"]
+- !private ["So39UIItemProviderPresentationSizeProvidingP", "imageOrientation"]
+- !private ["So39UIItemProviderPresentationSizeProvidingP", "init"]
+- !private ["So39UIItemProviderPresentationSizeProvidingP", "size"]
+- !private ["s18_BitwiseOperationsP", "init"]
+- !private ["14CoreFoundation9_CFObjectP", "bitsPerComponent"]
+- !private ["14CoreFoundation9_CFObjectP", "concatenate"]
+- !private ["14CoreFoundation9_CFObjectP", "cropping"]
+- !private ["14CoreFoundation9_CFObjectP", "draw"]
+- !private ["14CoreFoundation9_CFObjectP", "init"]
+- !private ["14CoreFoundation9_CFObjectP", "makeImage"]
+- !private ["s15_CVarArgAlignedP", "pi"]
+- !private ["s22_CVarArgPassedAsDoubleP", "pi"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s26_ExpressibleByImageLiteralP", "CGAffineTransform"]
+- !private ["s26_ExpressibleByImageLiteralP", "CGBitmapInfo"]
+- !private ["s26_ExpressibleByImageLiteralP", "CGColorSpaceCreateDeviceRGB"]
+- !private ["s26_ExpressibleByImageLiteralP", "CGContext"]
+- !private ["s26_ExpressibleByImageLiteralP", "CGFloat"]
+- !private ["s26_ExpressibleByImageLiteralP", "CGImageAlphaInfo"]
+- !private ["s26_ExpressibleByImageLiteralP", "CGRect"]
+- !private ["s26_ExpressibleByImageLiteralP", "Int"]
+- !private ["s26_ExpressibleByImageLiteralP", "UIImage"]
+- !private ["s26_ExpressibleByImageLiteralP", "cgImage"]
+- !private ["s26_ExpressibleByImageLiteralP", "imageOrientation"]
+- !private ["s26_ExpressibleByImageLiteralP", "init"]
+- !private ["s26_ExpressibleByImageLiteralP", "size"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CGAffineTransform"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CGBitmapInfo"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CGColorSpaceCreateDeviceRGB"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CGContext"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CGFloat"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CGImageAlphaInfo"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CGRect"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Int"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIImage"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "cgImage"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "imageOrientation"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "size"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "height"]
+- !private ["s21_ObjectiveCBridgeableP", "identity"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "pi"]
+- !private ["s21_ObjectiveCBridgeableP", "rotated"]
+- !private ["s21_ObjectiveCBridgeableP", "scaledBy"]
+- !private ["s21_ObjectiveCBridgeableP", "translatedBy"]
+- !private ["s21_ObjectiveCBridgeableP", "width"]
+- !private ["s11_StrideableP", "init"]
+- !private ["s11_StrideableP", "pi"]
+depends-nominal:
+- !private "s19BinaryFloatingPointP"
+- !private "s13BinaryIntegerP"
+- !private "Sb"
+- !private "SC17CGAffineTransformV"
+- !private "SC12CGBitmapInfoV"
+- !private "So9CGContextC"
+- !private "12CoreGraphics7CGFloatV"
+- !private "So7CGImageC"
+- !private "SC16CGImageAlphaInfoO"
+- !private "SC6CGRectV"
+- !private "SC6CGSizeV"
+- !private "s7CVarArgP"
+- !private "s10ComparableP"
+- !private "7SnapKit24ConstraintConstantTargetP"
+- !private "7SnapKit21ConstraintInsetTargetP"
+- !private "7SnapKit26ConstraintMultiplierTargetP"
+- !private "7SnapKit22ConstraintOffsetTargetP"
+- !private "7SnapKit24ConstraintPriorityTargetP"
+- !private "7SnapKit25ConstraintRelatableTargetP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s17FixedWidthIntegerP"
+- !private "s13FloatingPointP"
+- "s8HashableP"
+- !private "Si"
+- !private "7RxCocoa16KVORepresentableP"
+- !private "10Kingfisher0A10CompatibleP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "So8NSCodingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- "So8NSObjectC"
+- !private "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- !private "s7NumericP"
+- !private "s9OptionSetP"
+- !private "10Kingfisher11PlaceholderP"
+- "s16RawRepresentableP"
+- !private "7RxSwift18ReactiveCompatibleP"
+- !private "s10SetAlgebraP"
+- !private "s13SignedIntegerP"
+- !private "s13SignedNumericP"
+- !private "s10StrideableP"
+- !private "So29UIAccessibilityIdentificationP"
+- "So7UIImageC"
+- "SC18UIImageOrientationO"
+- !private "So39UIItemProviderPresentationSizeProvidingP"
+- !private "s18_BitwiseOperationsP"
+- !private "14CoreFoundation9_CFObjectP"
+- !private "s15_CVarArgAlignedP"
+- !private "s22_CVarArgPassedAsDoubleP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s26_ExpressibleByImageLiteralP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s11_StrideableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Accelerate.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/os.apinotesc"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Modules/RxCocoa.swiftmodule/x86_64.swiftmodule"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphonesimulator/RxGesture/RxGesture.framework/Modules/RxGesture.swiftmodule/x86_64.swiftmodule"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphonesimulator/Kingfisher/Kingfisher.framework/Modules/Kingfisher.swiftmodule/x86_64.swiftmodule"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Modules/RxSwift.swiftmodule/x86_64.swiftmodule"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphonesimulator/SnapKit/SnapKit.framework/Modules/SnapKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Accelerate.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/os.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Photos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphonesimulator/AVOSCloud/AVOSCloud.framework/Headers/AVACL.h"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphonesimulator/AVOSCloud/AVOSCloud.framework/Headers/AVSMS.h"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/_RX.h"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphonesimulator/AVOSCloud/AVOSCloud.framework/Headers/AVCaptcha.h"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/RxCocoa-umbrella.h"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphonesimulator/AVOSCloud/AVOSCloud.framework/Headers/AVOSCloud-umbrella.h"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphonesimulator/RxGesture/RxGesture.framework/Headers/RxGesture-umbrella.h"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphonesimulator/Kingfisher/Kingfisher.framework/Headers/Kingfisher-umbrella.h"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Headers/RxSwift-umbrella.h"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphonesimulator/SnapKit/SnapKit.framework/Headers/SnapKit-umbrella.h"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/RxCocoa.h"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphonesimulator/AVOSCloud/AVOSCloud.framework/Headers/AVOSCloud.h"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphonesimulator/AVOSCloud/AVOSCloud.framework/Headers/AVCloud.h"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphonesimulator/AVOSCloud/AVOSCloud.framework/Headers/AVFile.h"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphonesimulator/AVOSCloud/AVOSCloud.framework/Headers/AVRole.h"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/_RXObjCRuntime.h"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/RxCocoaRuntime.h"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphonesimulator/AVOSCloud/AVOSCloud.framework/Headers/AVSubclassing.h"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphonesimulator/AVOSCloud/AVOSCloud.framework/Headers/AVPush.h"
+- "/Users/sjwu/video/HouseHold/HouseHold/Classes/Strategy/Model/TopicModel.h"
+- "/Users/sjwu/video/HouseHold/HouseHold/Classes/Strategy/Model/StrategyModel.h"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphonesimulator/AVOSCloud/AVOSCloud.framework/Headers/AVRelation.h"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphonesimulator/AVOSCloud/AVOSCloud.framework/Headers/AVInstallation.h"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphonesimulator/AVOSCloud/AVOSCloud.framework/Headers/AVSaveOption.h"
+- "/Users/sjwu/video/HouseHold/HouseHold/HouseHold-Bridging-Header.h"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphonesimulator/AVOSCloud/AVOSCloud.framework/Headers/AVSearchSortBuilder.h"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphonesimulator/AVOSCloud/AVOSCloud.framework/Headers/AVLogger.h"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphonesimulator/Kingfisher/Kingfisher.framework/Headers/Kingfisher.h"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphonesimulator/AVOSCloud/AVOSCloud.framework/Headers/AVUser.h"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/_RXKVOObserver.h"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphonesimulator/AVOSCloud/AVOSCloud.framework/Headers/AVAnalytics.h"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphonesimulator/AVOSCloud/AVOSCloud.framework/Headers/AVAnonymousUtils.h"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphonesimulator/AVOSCloud/AVOSCloud.framework/Headers/AVObject+Subclass.h"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphonesimulator/AVOSCloud/AVOSCloud.framework/Headers/AVConstants.h"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphonesimulator/AVOSCloud/AVOSCloud.framework/Headers/AVStatus.h"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphonesimulator/AVOSCloud/AVOSCloud.framework/Headers/AVObject.h"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphonesimulator/AVOSCloud/AVOSCloud.framework/Headers/AVDynamicObject.h"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/RxCocoa-Swift.h"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphonesimulator/RxGesture/RxGesture.framework/Headers/RxGesture-Swift.h"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphonesimulator/Kingfisher/Kingfisher.framework/Headers/Kingfisher-Swift.h"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Headers/RxSwift-Swift.h"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphonesimulator/SnapKit/SnapKit.framework/Headers/SnapKit-Swift.h"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphonesimulator/AVOSCloud/AVOSCloud.framework/Headers/AVCloudQueryResult.h"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphonesimulator/AVOSCloud/AVOSCloud.framework/Headers/AVGeoPoint.h"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphonesimulator/AVOSCloud/AVOSCloud.framework/Headers/AVQuery.h"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphonesimulator/AVOSCloud/AVOSCloud.framework/Headers/AVFileQuery.h"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphonesimulator/AVOSCloud/AVOSCloud.framework/Headers/AVSearchQuery.h"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphonesimulator/AVOSCloud/AVOSCloud.framework/Headers/AVAvailability.h"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/_RXDelegateProxy.h"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Modules/module.modulemap"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphonesimulator/AVOSCloud/AVOSCloud.framework/Modules/module.modulemap"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphonesimulator/RxGesture/RxGesture.framework/Modules/module.modulemap"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphonesimulator/Kingfisher/Kingfisher.framework/Modules/module.modulemap"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Modules/module.modulemap"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphonesimulator/SnapKit/SnapKit.framework/Modules/module.modulemap"
+interface-hash: "caad05774c01eea25b81be6bcef55266"

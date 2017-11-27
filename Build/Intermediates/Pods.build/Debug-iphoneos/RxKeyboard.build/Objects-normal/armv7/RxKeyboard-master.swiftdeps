@@ -1,0 +1,5 @@
+version: "Apple Swift version 4.0 (swiftlang-900.0.65 clang-900.0.37)"
+options: "abb137861000ef1b3d86b3b5f18c8963"
+build_time: [1511674668, 952676000]
+inputs:
+  "/Users/sjwu/video/HouseHold/Pods/RxKeyboard/Sources/RxKeyboard/RxKeyboard.swift": [1510149913, 0]

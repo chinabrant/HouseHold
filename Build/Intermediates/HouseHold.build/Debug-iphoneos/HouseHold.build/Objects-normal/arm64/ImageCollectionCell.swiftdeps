@@ -1,0 +1,575 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ImageCollectionCell"
+provides-nominal:
+- "9HouseHold19ImageCollectionCellC"
+provides-member:
+- ["9HouseHold19ImageCollectionCellC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "CGRect"
+- "ImageCollectionCell"
+- "NSCoder"
+- "String"
+- !private "StringLiteralType"
+- "UICollectionView"
+- "UICollectionViewCell"
+- "UIImageView"
+- !private "fatalError"
+depends-member:
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["So15CALayerDelegateP", "ImageCollectionCell"]
+- !private ["So15CALayerDelegateP", "UIImageView"]
+- !private ["So15CALayerDelegateP", "addSubview"]
+- !private ["So15CALayerDelegateP", "fatalError"]
+- !private ["So15CALayerDelegateP", "identifier"]
+- !private ["So15CALayerDelegateP", "imageView"]
+- !private ["So15CALayerDelegateP", "init"]
+- !private ["So15CALayerDelegateP", "register"]
+- !private ["So15CALayerDelegateP", "snp"]
+- ["So15CALayerDelegateP", ""]
+- !private ["s7CVarArgP", "ImageCollectionCell"]
+- !private ["s7CVarArgP", "UIImageView"]
+- !private ["s7CVarArgP", "addSubview"]
+- !private ["s7CVarArgP", "fatalError"]
+- !private ["s7CVarArgP", "identifier"]
+- !private ["s7CVarArgP", "imageView"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "register"]
+- !private ["s7CVarArgP", "snp"]
+- ["s7CVarArgP", ""]
+- !private ["s10CollectionP", "init"]
+- !private ["s10ComparableP", "init"]
+- !private ["7SnapKit23ConstraintAttributesDSLP", "makeConstraints"]
+- !private ["7SnapKit28ConstraintBasicAttributesDSLP", "makeConstraints"]
+- !private ["7SnapKit13ConstraintDSLP", "makeConstraints"]
+- !private ["7SnapKit15ConstraintMakerC", "edges"]
+- !private ["7SnapKit25ConstraintMakerExtendableC", "equalTo"]
+- !private ["7SnapKit24ConstraintMakerRelatableC", "equalTo"]
+- !private ["7SnapKit25ConstraintRelatableTargetP", "ImageCollectionCell"]
+- !private ["7SnapKit25ConstraintRelatableTargetP", "UIImageView"]
+- !private ["7SnapKit25ConstraintRelatableTargetP", "addSubview"]
+- !private ["7SnapKit25ConstraintRelatableTargetP", "fatalError"]
+- !private ["7SnapKit25ConstraintRelatableTargetP", "identifier"]
+- !private ["7SnapKit25ConstraintRelatableTargetP", "imageView"]
+- !private ["7SnapKit25ConstraintRelatableTargetP", "init"]
+- !private ["7SnapKit25ConstraintRelatableTargetP", "register"]
+- !private ["7SnapKit25ConstraintRelatableTargetP", "snp"]
+- ["7SnapKit25ConstraintRelatableTargetP", ""]
+- !private ["7SnapKit17ConstraintViewDSLV", "makeConstraints"]
+- !private ["s28CustomDebugStringConvertibleP", "ImageCollectionCell"]
+- !private ["s28CustomDebugStringConvertibleP", "UIImageView"]
+- !private ["s28CustomDebugStringConvertibleP", "addSubview"]
+- !private ["s28CustomDebugStringConvertibleP", "fatalError"]
+- !private ["s28CustomDebugStringConvertibleP", "identifier"]
+- !private ["s28CustomDebugStringConvertibleP", "imageView"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "register"]
+- !private ["s28CustomDebugStringConvertibleP", "snp"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "ImageCollectionCell"]
+- !private ["s23CustomStringConvertibleP", "UIImageView"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "addSubview"]
+- !private ["s23CustomStringConvertibleP", "fatalError"]
+- !private ["s23CustomStringConvertibleP", "identifier"]
+- !private ["s23CustomStringConvertibleP", "imageView"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "register"]
+- !private ["s23CustomStringConvertibleP", "snp"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EquatableP", "ImageCollectionCell"]
+- !private ["s9EquatableP", "UIImageView"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "addSubview"]
+- !private ["s9EquatableP", "fatalError"]
+- !private ["s9EquatableP", "identifier"]
+- !private ["s9EquatableP", "imageView"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "register"]
+- !private ["s9EquatableP", "snp"]
+- ["s9EquatableP", ""]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["7RxCocoa13HasDataSourceP", "register"]
+- !private ["7RxCocoa11HasDelegateP", "register"]
+- !private ["s8HashableP", "ImageCollectionCell"]
+- !private ["s8HashableP", "UIImageView"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "addSubview"]
+- !private ["s8HashableP", "fatalError"]
+- !private ["s8HashableP", "identifier"]
+- !private ["s8HashableP", "imageView"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "register"]
+- !private ["s8HashableP", "snp"]
+- ["s8HashableP", ""]
+- ["9HouseHold19ImageCollectionCellC", "CGRect"]
+- !private ["9HouseHold19ImageCollectionCellC", "ImageCollectionCell"]
+- ["9HouseHold19ImageCollectionCellC", "NSCoder"]
+- ["9HouseHold19ImageCollectionCellC", "String"]
+- ["9HouseHold19ImageCollectionCellC", "UICollectionView"]
+- ["9HouseHold19ImageCollectionCellC", "UIImageView"]
+- !private ["9HouseHold19ImageCollectionCellC", "addSubview"]
+- ["9HouseHold19ImageCollectionCellC", "deinit"]
+- !private ["9HouseHold19ImageCollectionCellC", "fatalError"]
+- ["9HouseHold19ImageCollectionCellC", "identifier"]
+- ["9HouseHold19ImageCollectionCellC", "imageView"]
+- !private ["9HouseHold19ImageCollectionCellC", "imageView.storage"]
+- ["9HouseHold19ImageCollectionCellC", "init"]
+- ["9HouseHold19ImageCollectionCellC", "registerForCollectionView"]
+- !private ["7RxCocoa16KVORepresentableP", "_getBuiltinLogicValue"]
+- !private ["10Kingfisher0A10CompatibleP", "init"]
+- !private ["10Kingfisher0A10CompatibleP", "snp"]
+- !private ["7SnapKit20LayoutConstraintItemP", "ImageCollectionCell"]
+- !private ["7SnapKit20LayoutConstraintItemP", "UIImageView"]
+- !private ["7SnapKit20LayoutConstraintItemP", "addSubview"]
+- !private ["7SnapKit20LayoutConstraintItemP", "fatalError"]
+- !private ["7SnapKit20LayoutConstraintItemP", "identifier"]
+- !private ["7SnapKit20LayoutConstraintItemP", "imageView"]
+- !private ["7SnapKit20LayoutConstraintItemP", "init"]
+- !private ["7SnapKit20LayoutConstraintItemP", "register"]
+- !private ["7SnapKit20LayoutConstraintItemP", "snp"]
+- ["7SnapKit20LayoutConstraintItemP", ""]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["So8NSCodingP", "ImageCollectionCell"]
+- !private ["So8NSCodingP", "UIImageView"]
+- !private ["So8NSCodingP", "addSubview"]
+- !private ["So8NSCodingP", "fatalError"]
+- !private ["So8NSCodingP", "identifier"]
+- !private ["So8NSCodingP", "imageView"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "register"]
+- !private ["So8NSCodingP", "snp"]
+- ["So8NSCodingP", ""]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderWritingP", "init"]
+- !private ["So16NSMutableCopyingP", "init"]
+- ["So8NSObjectC", "CGRect"]
+- !private ["So8NSObjectC", "ImageCollectionCell"]
+- ["So8NSObjectC", "NSCoder"]
+- ["So8NSObjectC", "String"]
+- ["So8NSObjectC", "UICollectionView"]
+- ["So8NSObjectC", "UIImageView"]
+- !private ["So8NSObjectC", "addSubview"]
+- !private ["So8NSObjectC", "fatalError"]
+- ["So8NSObjectC", "identifier"]
+- ["So8NSObjectC", "imageView"]
+- ["So8NSObjectC", "imageView.storage"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "register"]
+- ["So8NSObjectC", "registerForCollectionView"]
+- !private ["So8NSObjectC", "snp"]
+- !private ["So16NSObjectProtocolP", "ImageCollectionCell"]
+- !private ["So16NSObjectProtocolP", "UIImageView"]
+- !private ["So16NSObjectProtocolP", "addSubview"]
+- !private ["So16NSObjectProtocolP", "fatalError"]
+- !private ["So16NSObjectProtocolP", "identifier"]
+- !private ["So16NSObjectProtocolP", "imageView"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "register"]
+- !private ["So16NSObjectProtocolP", "snp"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So8NSStringC", "init"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["7RxSwift18ReactiveCompatibleP", "ImageCollectionCell"]
+- !private ["7RxSwift18ReactiveCompatibleP", "UIImageView"]
+- !private ["7RxSwift18ReactiveCompatibleP", "addSubview"]
+- !private ["7RxSwift18ReactiveCompatibleP", "fatalError"]
+- !private ["7RxSwift18ReactiveCompatibleP", "identifier"]
+- !private ["7RxSwift18ReactiveCompatibleP", "imageView"]
+- !private ["7RxSwift18ReactiveCompatibleP", "init"]
+- !private ["7RxSwift18ReactiveCompatibleP", "register"]
+- !private ["7RxSwift18ReactiveCompatibleP", "snp"]
+- ["7RxSwift18ReactiveCompatibleP", ""]
+- !private ["s8SequenceP", "init"]
+- !private ["s12StaticStringV", "init"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "init"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "snp"]
+- !private ["So29UIAccessibilityIdentificationP", "ImageCollectionCell"]
+- !private ["So29UIAccessibilityIdentificationP", "UIImageView"]
+- !private ["So29UIAccessibilityIdentificationP", "addSubview"]
+- !private ["So29UIAccessibilityIdentificationP", "fatalError"]
+- !private ["So29UIAccessibilityIdentificationP", "identifier"]
+- !private ["So29UIAccessibilityIdentificationP", "imageView"]
+- !private ["So29UIAccessibilityIdentificationP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "register"]
+- !private ["So29UIAccessibilityIdentificationP", "snp"]
+- ["So29UIAccessibilityIdentificationP", ""]
+- !private ["So12UIAppearanceP", "ImageCollectionCell"]
+- !private ["So12UIAppearanceP", "UIImageView"]
+- !private ["So12UIAppearanceP", "addSubview"]
+- !private ["So12UIAppearanceP", "fatalError"]
+- !private ["So12UIAppearanceP", "identifier"]
+- !private ["So12UIAppearanceP", "imageView"]
+- !private ["So12UIAppearanceP", "init"]
+- !private ["So12UIAppearanceP", "register"]
+- !private ["So12UIAppearanceP", "snp"]
+- ["So12UIAppearanceP", ""]
+- !private ["So21UIAppearanceContainerP", "ImageCollectionCell"]
+- !private ["So21UIAppearanceContainerP", "UIImageView"]
+- !private ["So21UIAppearanceContainerP", "addSubview"]
+- !private ["So21UIAppearanceContainerP", "fatalError"]
+- !private ["So21UIAppearanceContainerP", "identifier"]
+- !private ["So21UIAppearanceContainerP", "imageView"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "register"]
+- !private ["So21UIAppearanceContainerP", "snp"]
+- ["So21UIAppearanceContainerP", ""]
+- ["So24UICollectionReusableViewC", "CGRect"]
+- !private ["So24UICollectionReusableViewC", "ImageCollectionCell"]
+- ["So24UICollectionReusableViewC", "NSCoder"]
+- ["So24UICollectionReusableViewC", "String"]
+- ["So24UICollectionReusableViewC", "UICollectionView"]
+- ["So24UICollectionReusableViewC", "UIImageView"]
+- !private ["So24UICollectionReusableViewC", "addSubview"]
+- !private ["So24UICollectionReusableViewC", "fatalError"]
+- ["So24UICollectionReusableViewC", "identifier"]
+- ["So24UICollectionReusableViewC", "imageView"]
+- ["So24UICollectionReusableViewC", "imageView.storage"]
+- ["So24UICollectionReusableViewC", "init"]
+- ["So24UICollectionReusableViewC", "registerForCollectionView"]
+- !private ["So16UICollectionViewC", "register"]
+- ["So20UICollectionViewCellC", "CGRect"]
+- !private ["So20UICollectionViewCellC", "ImageCollectionCell"]
+- ["So20UICollectionViewCellC", "NSCoder"]
+- ["So20UICollectionViewCellC", "String"]
+- ["So20UICollectionViewCellC", "UICollectionView"]
+- ["So20UICollectionViewCellC", "UIImageView"]
+- !private ["So20UICollectionViewCellC", "addSubview"]
+- !private ["So20UICollectionViewCellC", "fatalError"]
+- ["So20UICollectionViewCellC", "identifier"]
+- ["So20UICollectionViewCellC", "imageView"]
+- ["So20UICollectionViewCellC", "imageView.storage"]
+- ["So20UICollectionViewCellC", "init"]
+- ["So20UICollectionViewCellC", "registerForCollectionView"]
+- ["So20UICollectionViewCellC", ""]
+- !private ["So17UICoordinateSpaceP", "ImageCollectionCell"]
+- !private ["So17UICoordinateSpaceP", "UIImageView"]
+- !private ["So17UICoordinateSpaceP", "addSubview"]
+- !private ["So17UICoordinateSpaceP", "fatalError"]
+- !private ["So17UICoordinateSpaceP", "identifier"]
+- !private ["So17UICoordinateSpaceP", "imageView"]
+- !private ["So17UICoordinateSpaceP", "init"]
+- !private ["So17UICoordinateSpaceP", "register"]
+- !private ["So17UICoordinateSpaceP", "snp"]
+- ["So17UICoordinateSpaceP", ""]
+- !private ["So23UIDataSourceTranslatingP", "register"]
+- !private ["So13UIDynamicItemP", "ImageCollectionCell"]
+- !private ["So13UIDynamicItemP", "UIImageView"]
+- !private ["So13UIDynamicItemP", "addSubview"]
+- !private ["So13UIDynamicItemP", "fatalError"]
+- !private ["So13UIDynamicItemP", "identifier"]
+- !private ["So13UIDynamicItemP", "imageView"]
+- !private ["So13UIDynamicItemP", "init"]
+- !private ["So13UIDynamicItemP", "register"]
+- !private ["So13UIDynamicItemP", "snp"]
+- ["So13UIDynamicItemP", ""]
+- !private ["So18UIFocusEnvironmentP", "ImageCollectionCell"]
+- !private ["So18UIFocusEnvironmentP", "UIImageView"]
+- !private ["So18UIFocusEnvironmentP", "addSubview"]
+- !private ["So18UIFocusEnvironmentP", "fatalError"]
+- !private ["So18UIFocusEnvironmentP", "identifier"]
+- !private ["So18UIFocusEnvironmentP", "imageView"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "register"]
+- !private ["So18UIFocusEnvironmentP", "snp"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So11UIFocusItemP", "ImageCollectionCell"]
+- !private ["So11UIFocusItemP", "UIImageView"]
+- !private ["So11UIFocusItemP", "addSubview"]
+- !private ["So11UIFocusItemP", "fatalError"]
+- !private ["So11UIFocusItemP", "identifier"]
+- !private ["So11UIFocusItemP", "imageView"]
+- !private ["So11UIFocusItemP", "init"]
+- !private ["So11UIFocusItemP", "register"]
+- !private ["So11UIFocusItemP", "snp"]
+- ["So11UIFocusItemP", ""]
+- !private ["So11UIImageViewC", "init"]
+- !private ["So11UIImageViewC", "snp"]
+- !private ["So30UIPasteConfigurationSupportingP", "ImageCollectionCell"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIImageView"]
+- !private ["So30UIPasteConfigurationSupportingP", "addSubview"]
+- !private ["So30UIPasteConfigurationSupportingP", "fatalError"]
+- !private ["So30UIPasteConfigurationSupportingP", "identifier"]
+- !private ["So30UIPasteConfigurationSupportingP", "imageView"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "register"]
+- !private ["So30UIPasteConfigurationSupportingP", "snp"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- ["So11UIResponderC", "CGRect"]
+- !private ["So11UIResponderC", "ImageCollectionCell"]
+- ["So11UIResponderC", "NSCoder"]
+- ["So11UIResponderC", "String"]
+- ["So11UIResponderC", "UICollectionView"]
+- ["So11UIResponderC", "UIImageView"]
+- !private ["So11UIResponderC", "addSubview"]
+- !private ["So11UIResponderC", "fatalError"]
+- ["So11UIResponderC", "identifier"]
+- ["So11UIResponderC", "imageView"]
+- ["So11UIResponderC", "imageView.storage"]
+- ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "register"]
+- ["So11UIResponderC", "registerForCollectionView"]
+- !private ["So11UIResponderC", "snp"]
+- !private ["So30UIResponderStandardEditActionsP", "ImageCollectionCell"]
+- !private ["So30UIResponderStandardEditActionsP", "UIImageView"]
+- !private ["So30UIResponderStandardEditActionsP", "addSubview"]
+- !private ["So30UIResponderStandardEditActionsP", "fatalError"]
+- !private ["So30UIResponderStandardEditActionsP", "identifier"]
+- !private ["So30UIResponderStandardEditActionsP", "imageView"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "register"]
+- !private ["So30UIResponderStandardEditActionsP", "snp"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So12UIScrollViewC", "register"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "register"]
+- !private ["So18UITraitEnvironmentP", "ImageCollectionCell"]
+- !private ["So18UITraitEnvironmentP", "UIImageView"]
+- !private ["So18UITraitEnvironmentP", "addSubview"]
+- !private ["So18UITraitEnvironmentP", "fatalError"]
+- !private ["So18UITraitEnvironmentP", "identifier"]
+- !private ["So18UITraitEnvironmentP", "imageView"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "register"]
+- !private ["So18UITraitEnvironmentP", "snp"]
+- ["So18UITraitEnvironmentP", ""]
+- ["So6UIViewC", "CGRect"]
+- !private ["So6UIViewC", "ImageCollectionCell"]
+- ["So6UIViewC", "NSCoder"]
+- ["So6UIViewC", "String"]
+- ["So6UIViewC", "UICollectionView"]
+- ["So6UIViewC", "UIImageView"]
+- !private ["So6UIViewC", "addSubview"]
+- !private ["So6UIViewC", "fatalError"]
+- ["So6UIViewC", "identifier"]
+- ["So6UIViewC", "imageView"]
+- ["So6UIViewC", "imageView.storage"]
+- ["So6UIViewC", "init"]
+- !private ["So6UIViewC", "register"]
+- ["So6UIViewC", "registerForCollectionView"]
+- !private ["So6UIViewC", "snp"]
+- !private ["s23_BidirectionalIndexableP", "init"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "ImageCollectionCell"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "UIImageView"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "addSubview"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "fatalError"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "identifier"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "imageView"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "init"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "register"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "snp"]
+- ["s37_DefaultCustomPlaygroundQuickLookableP", ""]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s10_IndexableP", "init"]
+- !private ["s14_IndexableBaseP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "ImageCollectionCell"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIImageView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addSubview"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "fatalError"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "identifier"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "imageView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "register"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "snp"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s26_RangeReplaceableIndexableP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "s23BidirectionalCollectionP"
+- !private "Sb"
+- "So15CALayerDelegateP"
+- "s7CVarArgP"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- !private "7SnapKit23ConstraintAttributesDSLP"
+- !private "7SnapKit28ConstraintBasicAttributesDSLP"
+- !private "7SnapKit13ConstraintDSLP"
+- !private "7SnapKit15ConstraintMakerC"
+- !private "7SnapKit25ConstraintMakerExtendableC"
+- !private "7SnapKit24ConstraintMakerRelatableC"
+- "7SnapKit25ConstraintRelatableTargetP"
+- !private "7SnapKit17ConstraintViewDSLV"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "7RxCocoa13HasDataSourceP"
+- !private "7RxCocoa11HasDelegateP"
+- "s8HashableP"
+- "9HouseHold19ImageCollectionCellC"
+- !private "7RxCocoa16KVORepresentableP"
+- !private "10Kingfisher0A10CompatibleP"
+- "7SnapKit20LayoutConstraintItemP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "s26RangeReplaceableCollectionP"
+- "7RxSwift18ReactiveCompatibleP"
+- !private "s8SequenceP"
+- !private "s12StaticStringV"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "So48UIAccessibilityContentSizeCategoryImageAdjustingP"
+- "So29UIAccessibilityIdentificationP"
+- "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- "So24UICollectionReusableViewC"
+- !private "So16UICollectionViewC"
+- "So20UICollectionViewCellC"
+- "So17UICoordinateSpaceP"
+- !private "So23UIDataSourceTranslatingP"
+- "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- "So11UIFocusItemP"
+- !private "So11UIImageViewC"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- !private "So12UIScrollViewC"
+- !private "So35UISpringLoadedInteractionSupportingP"
+- "So18UITraitEnvironmentP"
+- "So6UIViewC"
+- !private "s23_BidirectionalIndexableP"
+- "s37_DefaultCustomPlaygroundQuickLookableP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s10_IndexableP"
+- !private "s14_IndexableBaseP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s26_RangeReplaceableIndexableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Accelerate.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/RxCocoa/RxCocoa.framework/Modules/RxCocoa.swiftmodule/arm64.swiftmodule"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/RxGesture/RxGesture.framework/Modules/RxGesture.swiftmodule/arm64.swiftmodule"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/Kingfisher/Kingfisher.framework/Modules/Kingfisher.swiftmodule/arm64.swiftmodule"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/RxSwift/RxSwift.framework/Modules/RxSwift.swiftmodule/arm64.swiftmodule"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/SnapKit/SnapKit.framework/Modules/SnapKit.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Accelerate.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreLocation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Photos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/AVOSCloud/AVOSCloud.framework/Headers/AVACL.h"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/AVOSCloud/AVOSCloud.framework/Headers/AVSMS.h"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/RxCocoa/RxCocoa.framework/Headers/_RX.h"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/AVOSCloud/AVOSCloud.framework/Headers/AVCaptcha.h"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/RxCocoa/RxCocoa.framework/Headers/RxCocoa-umbrella.h"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/AVOSCloud/AVOSCloud.framework/Headers/AVOSCloud-umbrella.h"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/RxGesture/RxGesture.framework/Headers/RxGesture-umbrella.h"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/Kingfisher/Kingfisher.framework/Headers/Kingfisher-umbrella.h"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/RxSwift/RxSwift.framework/Headers/RxSwift-umbrella.h"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/SnapKit/SnapKit.framework/Headers/SnapKit-umbrella.h"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/RxCocoa/RxCocoa.framework/Headers/RxCocoa.h"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/AVOSCloud/AVOSCloud.framework/Headers/AVOSCloud.h"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/AVOSCloud/AVOSCloud.framework/Headers/AVCloud.h"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/AVOSCloud/AVOSCloud.framework/Headers/AVFile.h"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/AVOSCloud/AVOSCloud.framework/Headers/AVRole.h"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/RxCocoa/RxCocoa.framework/Headers/_RXObjCRuntime.h"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/RxCocoa/RxCocoa.framework/Headers/RxCocoaRuntime.h"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/AVOSCloud/AVOSCloud.framework/Headers/AVSubclassing.h"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/AVOSCloud/AVOSCloud.framework/Headers/AVPush.h"
+- "/Users/sjwu/video/HouseHold/HouseHold/Classes/Strategy/Model/TopicModel.h"
+- "/Users/sjwu/video/HouseHold/HouseHold/Classes/Strategy/Model/StrategyModel.h"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/AVOSCloud/AVOSCloud.framework/Headers/AVRelation.h"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/AVOSCloud/AVOSCloud.framework/Headers/AVInstallation.h"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/AVOSCloud/AVOSCloud.framework/Headers/AVSaveOption.h"
+- "/Users/sjwu/video/HouseHold/HouseHold/HouseHold-Bridging-Header.h"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/AVOSCloud/AVOSCloud.framework/Headers/AVSearchSortBuilder.h"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/AVOSCloud/AVOSCloud.framework/Headers/AVLogger.h"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/Kingfisher/Kingfisher.framework/Headers/Kingfisher.h"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/AVOSCloud/AVOSCloud.framework/Headers/AVUser.h"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/RxCocoa/RxCocoa.framework/Headers/_RXKVOObserver.h"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/AVOSCloud/AVOSCloud.framework/Headers/AVAnalytics.h"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/AVOSCloud/AVOSCloud.framework/Headers/AVAnonymousUtils.h"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/AVOSCloud/AVOSCloud.framework/Headers/AVObject+Subclass.h"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/AVOSCloud/AVOSCloud.framework/Headers/AVConstants.h"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/AVOSCloud/AVOSCloud.framework/Headers/AVStatus.h"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/AVOSCloud/AVOSCloud.framework/Headers/AVObject.h"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/AVOSCloud/AVOSCloud.framework/Headers/AVDynamicObject.h"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/RxCocoa/RxCocoa.framework/Headers/RxCocoa-Swift.h"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/RxGesture/RxGesture.framework/Headers/RxGesture-Swift.h"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/Kingfisher/Kingfisher.framework/Headers/Kingfisher-Swift.h"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/RxSwift/RxSwift.framework/Headers/RxSwift-Swift.h"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/SnapKit/SnapKit.framework/Headers/SnapKit-Swift.h"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/AVOSCloud/AVOSCloud.framework/Headers/AVCloudQueryResult.h"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/AVOSCloud/AVOSCloud.framework/Headers/AVGeoPoint.h"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/AVOSCloud/AVOSCloud.framework/Headers/AVQuery.h"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/AVOSCloud/AVOSCloud.framework/Headers/AVFileQuery.h"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/AVOSCloud/AVOSCloud.framework/Headers/AVSearchQuery.h"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/AVOSCloud/AVOSCloud.framework/Headers/AVAvailability.h"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/RxCocoa/RxCocoa.framework/Headers/_RXDelegateProxy.h"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/RxCocoa/RxCocoa.framework/Modules/module.modulemap"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/AVOSCloud/AVOSCloud.framework/Modules/module.modulemap"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/RxGesture/RxGesture.framework/Modules/module.modulemap"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/Kingfisher/Kingfisher.framework/Modules/module.modulemap"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/RxSwift/RxSwift.framework/Modules/module.modulemap"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/SnapKit/SnapKit.framework/Modules/module.modulemap"
+interface-hash: "572a1415d91a82b40c0b32494f666f3c"

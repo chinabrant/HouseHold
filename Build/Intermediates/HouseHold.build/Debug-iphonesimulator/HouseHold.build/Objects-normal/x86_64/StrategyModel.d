@@ -1,0 +1,34 @@
+dependencies: \
+  /Users/sjwu/video/HouseHold/HouseHold/Classes/Strategy/Model/StrategyModel.m \
+  /Users/sjwu/video/HouseHold/HouseHold/Classes/Strategy/Model/StrategyModel.h \
+  /Users/sjwu/video/HouseHold/Build/Products/Debug-iphonesimulator/AVOSCloud/AVOSCloud.framework/Modules/module.modulemap \
+  /Users/sjwu/video/HouseHold/Build/Products/Debug-iphonesimulator/AVOSCloud/AVOSCloud.framework/Headers/AVSearchSortBuilder.h \
+  /Users/sjwu/video/HouseHold/Build/Products/Debug-iphonesimulator/AVOSCloud/AVOSCloud.framework/Headers/AVSearchQuery.h \
+  /Users/sjwu/video/HouseHold/Build/Products/Debug-iphonesimulator/AVOSCloud/AVOSCloud.framework/Headers/AVCloud.h \
+  /Users/sjwu/video/HouseHold/Build/Products/Debug-iphonesimulator/AVOSCloud/AVOSCloud.framework/Headers/AVAnonymousUtils.h \
+  /Users/sjwu/video/HouseHold/Build/Products/Debug-iphonesimulator/AVOSCloud/AVOSCloud.framework/Headers/AVPush.h \
+  /Users/sjwu/video/HouseHold/Build/Products/Debug-iphonesimulator/AVOSCloud/AVOSCloud.framework/Headers/AVInstallation.h \
+  /Users/sjwu/video/HouseHold/Build/Products/Debug-iphonesimulator/AVOSCloud/AVOSCloud.framework/Headers/AVUser.h \
+  /Users/sjwu/video/HouseHold/Build/Products/Debug-iphonesimulator/AVOSCloud/AVOSCloud.framework/Headers/AVStatus.h \
+  /Users/sjwu/video/HouseHold/Build/Products/Debug-iphonesimulator/AVOSCloud/AVOSCloud.framework/Headers/AVFileQuery.h \
+  /Users/sjwu/video/HouseHold/Build/Products/Debug-iphonesimulator/AVOSCloud/AVOSCloud.framework/Headers/AVFile.h \
+  /Users/sjwu/video/HouseHold/Build/Products/Debug-iphonesimulator/AVOSCloud/AVOSCloud.framework/Headers/AVCloudQueryResult.h \
+  /Users/sjwu/video/HouseHold/Build/Products/Debug-iphonesimulator/AVOSCloud/AVOSCloud.framework/Headers/AVGeoPoint.h \
+  /Users/sjwu/video/HouseHold/Build/Products/Debug-iphonesimulator/AVOSCloud/AVOSCloud.framework/Headers/AVQuery.h \
+  /Users/sjwu/video/HouseHold/Build/Products/Debug-iphonesimulator/AVOSCloud/AVOSCloud.framework/Headers/AVRelation.h \
+  /Users/sjwu/video/HouseHold/Build/Products/Debug-iphonesimulator/AVOSCloud/AVOSCloud.framework/Headers/AVSubclassing.h \
+  /Users/sjwu/video/HouseHold/Build/Products/Debug-iphonesimulator/AVOSCloud/AVOSCloud.framework/Headers/AVObject+Subclass.h \
+  /Users/sjwu/video/HouseHold/Build/Products/Debug-iphonesimulator/AVOSCloud/AVOSCloud.framework/Headers/AVLogger.h \
+  /Users/sjwu/video/HouseHold/Build/Products/Debug-iphonesimulator/AVOSCloud/AVOSCloud.framework/Headers/AVOSCloud.h \
+  /Users/sjwu/video/HouseHold/Build/Products/Debug-iphonesimulator/AVOSCloud/AVOSCloud.framework/Headers/AVAnalytics.h \
+  /Users/sjwu/video/HouseHold/Build/Products/Debug-iphonesimulator/AVOSCloud/AVOSCloud.framework/Headers/AVSaveOption.h \
+  /Users/sjwu/video/HouseHold/Build/Products/Debug-iphonesimulator/AVOSCloud/AVOSCloud.framework/Headers/AVObject.h \
+  /Users/sjwu/video/HouseHold/Build/Products/Debug-iphonesimulator/AVOSCloud/AVOSCloud.framework/Headers/AVRole.h \
+  /Users/sjwu/video/HouseHold/Build/Products/Debug-iphonesimulator/AVOSCloud/AVOSCloud.framework/Headers/AVACL.h \
+  /Users/sjwu/video/HouseHold/Build/Products/Debug-iphonesimulator/AVOSCloud/AVOSCloud.framework/Headers/AVAvailability.h \
+  /Users/sjwu/video/HouseHold/Build/Products/Debug-iphonesimulator/AVOSCloud/AVOSCloud.framework/Headers/AVConstants.h \
+  /Users/sjwu/video/HouseHold/Build/Products/Debug-iphonesimulator/AVOSCloud/AVOSCloud.framework/Headers/AVSMS.h \
+  /Users/sjwu/video/HouseHold/Build/Products/Debug-iphonesimulator/AVOSCloud/AVOSCloud.framework/Headers/AVDynamicObject.h \
+  /Users/sjwu/video/HouseHold/Build/Products/Debug-iphonesimulator/AVOSCloud/AVOSCloud.framework/Headers/AVCaptcha.h \
+  /Users/sjwu/video/HouseHold/Build/Products/Debug-iphonesimulator/AVOSCloud/AVOSCloud.framework/Headers/AVOSCloud-umbrella.h \
+  /Users/sjwu/video/HouseHold/HouseHold/Classes/Strategy/Model/TopicModel.h

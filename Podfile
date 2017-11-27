@@ -8,5 +8,9 @@ target 'HouseHold' do
 pod 'RxSwift', '~>4.0'
 pod 'RxCocoa', '~>4.0'
 pod 'SnapKit', '~>4.0.0'
+pod 'Kingfisher', '~> 4.0'
+pod 'RxGesture', '~> 1.2.1'
+pod 'RxKeyboard'
+pod 'AVOSCloud'
 
 end
