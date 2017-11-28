@@ -23,13 +23,36 @@ class CreateStrategyHeaderView: UIView {
                 self.coverImageView.image = UIImage.init(data: data)
             }
             
+            if let title = strategy?.title {
+                self.titleLabel.text = title
+            }
+            else {
+                self.titleLabel.text = "请输入标题"
+            }
             
+//            if let desc = strategy?.desc {
+//                self.descLabel.text = desc
+//            }
+//            else {
+//                self.descLabel.text = "请输入描述"
+//            }
+            
+            self.descLabel.attributedText = strategy?.attributedDesc()
+            
+            self.titleLabel.width = UIScreen.width - 50
+            self.descLabel.width = UIScreen.width - 50
+            
+            self.titleLabel.sizeToFit()
+            self.descLabel.sizeToFit()
+            
+            self.updateLayout()
         }
     }
     
     var coverImageTapGesture: Observable<UITapGestureRecognizer>?
     var titleTapGesture: Observable<UITapGestureRecognizer>?
     var descTapGesture: Observable<UITapGestureRecognizer>?
+    var layoutUpdatedSubject: PublishSubject<CGFloat> = PublishSubject<CGFloat>()
 
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -45,6 +68,18 @@ class CreateStrategyHeaderView: UIView {
         self.coverImageTapGesture = self.coverImageView.rx.tapGesture().when(.recognized)
         self.titleTapGesture = self.titleLabel.rx.tapGesture().when(.recognized)
         self.descTapGesture = self.descLabel.rx.tapGesture().when(.recognized)
+    }
+    
+    func updateLayout() {
+        if self.titleLabel.height < 25 {
+            self.titleLabel.height = 25
+        }
+        
+        self.separatorView.y = self.titleLabel.bottom + 40
+        self.descLabel.y = self.separatorView.bottom + 30
+        self.height = self.descLabel.bottom + 10
+        
+        self.layoutUpdatedSubject.onNext(self.height)
     }
     
     func layout() {
@@ -91,6 +126,7 @@ class CreateStrategyHeaderView: UIView {
         label.textColor = UIColor.assistColor
         label.font = UIFont.boldSystemFont(ofSize: 17)
         label.text = "请输入标题"
+        label.numberOfLines = 0
         return label
     }()
     
@@ -105,6 +141,7 @@ class CreateStrategyHeaderView: UIView {
         label.textColor = UIColor.assistColor
         label.font = UIFont.systemFont(ofSize: 14)
         label.text = "请输入描述"
+        label.numberOfLines = 0
         return label
     }()
 }

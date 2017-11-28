@@ -51,14 +51,31 @@ class CreateStrategyViewController: BaseViewController {
         // 点击了标题
         self.headerView.titleTapGesture?.subscribe(onNext: { (tap) in
             
-            InputView.showIn(view: self.navigationController!.view, type: .single)
+            InputView.showIn(view: self.navigationController!.view, type: .single).subscribe(onNext: { (result) in
+                
+                self.viewModel.strategy?.title = result
+                self.headerView.strategy = self.viewModel.strategy
+                
+            }).disposed(by: self.disposeBag)    // 这个地方的写法有问题的，不能用这个disposeBag
             
         }).disposed(by: self.disposeBag)
         
         // 点击了描述
         self.headerView.descTapGesture?.subscribe(onNext: { (tap) in
             
-            InputView.showIn(view: self.navigationController!.view, type: .multi)
+            InputView.showIn(view: self.navigationController!.view, type: .multi).subscribe(onNext: { (result) in
+                
+                self.viewModel.strategy?.desc = result
+                self.headerView.strategy = self.viewModel.strategy
+                
+            }).disposed(by: self.disposeBag)
+            
+        }).disposed(by: self.disposeBag)
+        
+        // 更新头部的高度
+        self.headerView.layoutUpdatedSubject.subscribe(onNext: { (height) in
+            
+            self.tableView.tableHeaderView = self.headerView
             
         }).disposed(by: self.disposeBag)
     }

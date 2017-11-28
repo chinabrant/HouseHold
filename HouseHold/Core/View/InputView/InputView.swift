@@ -10,6 +10,7 @@ import UIKit
 import SnapKit
 import RxKeyboard
 import RxSwift
+import RxGesture
 
 // 输入方式，
 enum InputLineType {
@@ -23,6 +24,8 @@ class InputView: UIView {
     
     var lineType: InputLineType = .single   // 默认是单行输入
     
+    var result: PublishSubject<String?> = PublishSubject<String?>()
+    
     // 要显示的placeholder
     var placeHolder: String? {
         didSet {
@@ -32,6 +35,8 @@ class InputView: UIView {
     
     init() {
         super.init(frame: UIScreen.main.bounds)
+        self.isUserInteractionEnabled = true
+        self.contentView.isUserInteractionEnabled = true
         self.backgroundColor = UIColor.init(red: 0, green: 0, blue: 0, alpha: 0.3)
         
         RxKeyboard.instance.frame
@@ -45,6 +50,23 @@ class InputView: UIView {
                 
             })
             .disposed(by: disposeBag)
+        
+        self.submitButton.rx.tapGesture().when(.recognized).subscribe(onNext: { (tap) in
+            
+            if self.lineType == .single {
+                self.result.onNext(self.textField.text)
+            }
+            else {
+                self.result.onNext(self.textView.text)
+            }
+            
+            self.dismiss()
+            
+        }).disposed(by: self.disposeBag)
+    }
+    
+    func dismiss() {
+        self.removeFromSuperview()
     }
     
     func setupViews() {
@@ -90,7 +112,7 @@ class InputView: UIView {
         }
     }
     
-    class func showIn(view: UIView, type: InputLineType) {
+    class func showIn(view: UIView, type: InputLineType) -> PublishSubject<String?>  {
         let inputView = InputView.init()
         inputView.lineType = type
         
@@ -104,6 +126,8 @@ class InputView: UIView {
         else {
             inputView.textView.becomeFirstResponder()
         }
+        
+        return inputView.result
     }
     
     required init?(coder aDecoder: NSCoder) {
