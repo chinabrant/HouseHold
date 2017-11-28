@@ -17,8 +17,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         
-        TopicModel.registerSubclass()
-        StrategyModel.registerSubclass()
+//        TopicModel.registerSubclass()
+//        StrategyModel.registerSubclass()
+        Topic.registerSubclass()
+        Strategy.registerSubclass()
         AVOSCloud.setApplicationId("SPM9bUpyxtGUdbrLMbl9IMMM-gzGzoHsz", clientKey: "HMK6nVDGaKU2m7sJAgHq65hN")
         
         
@@ -30,7 +32,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let home = HomeViewController()
         let navHome = UINavigationController.init(rootViewController: home)
         let homeItem = UITabBarItem()
-        homeItem.title = "Home"
+        homeItem.title = "首页"
         homeItem.image = UIImage.init(named: "tabbar_home")
         homeItem.selectedImage = UIImage.init(named: "tabbar_home_s")
         navHome.tabBarItem = homeItem
@@ -38,7 +40,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let my = MyViewController()
         let navMy = UINavigationController.init(rootViewController: my)
         let myItem = UITabBarItem()
-        myItem.title = "Mine"
+        myItem.title = "我的"
         myItem.image = UIImage.init(named: "tabbar_my")
         myItem.selectedImage = UIImage.init(named: "tabbar_my_s")
         navMy.tabBarItem = myItem

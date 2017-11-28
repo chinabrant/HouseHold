@@ -12,11 +12,11 @@ import RxSwift
 
 class HomeViewModel: BaseViewModel {
     
-    var strategyList: [StrategyModel] = []
+    var strategyList: [Strategy] = []
 
-    func queryStrategyList() -> Observable<[StrategyModel]> {
+    func queryStrategyList() -> Observable<[Strategy]> {
         
-        return Observable<[StrategyModel]>.create { (observer) -> Disposable in
+        return Observable<[Strategy]>.create { (observer) -> Disposable in
             
             let query = StrategyModel.query()
             query.includeKey("user.nick")
@@ -30,7 +30,7 @@ class HomeViewModel: BaseViewModel {
                     return
                 }
                 
-                self.strategyList.append(contentsOf: array as! [StrategyModel])
+                self.strategyList.append(contentsOf: array as! [Strategy])
                 
 //                self.strategyList.forEach({ (model) in
 //                    print(model.title)

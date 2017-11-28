@@ -9,18 +9,27 @@
 import UIKit
 import RxSwift
 import RxGesture
+import Kingfisher
+import AVOSCloud
 
 class CreateStrategyHeaderView: UIView {
     
     let disposeBag: DisposeBag = DisposeBag()
     
-    var strategyModel: StrategyModel? {
+    var strategy: Strategy? {
         didSet {
+            
+            if let data = strategy?.cover?.getData() {
+                self.coverImageView.image = UIImage.init(data: data)
+            }
+            
             
         }
     }
     
     var coverImageTapGesture: Observable<UITapGestureRecognizer>?
+    var titleTapGesture: Observable<UITapGestureRecognizer>?
+    var descTapGesture: Observable<UITapGestureRecognizer>?
 
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -34,6 +43,8 @@ class CreateStrategyHeaderView: UIView {
         self.layout()
         
         self.coverImageTapGesture = self.coverImageView.rx.tapGesture().when(.recognized)
+        self.titleTapGesture = self.titleLabel.rx.tapGesture().when(.recognized)
+        self.descTapGesture = self.descLabel.rx.tapGesture().when(.recognized)
     }
     
     func layout() {
@@ -69,7 +80,7 @@ class CreateStrategyHeaderView: UIView {
         let label = UILabel()
         label.font = UIFont.systemFont(ofSize: 10)
         label.textColor = UIColor.white
-        label.text = "Click to add picture"
+        label.text = "点击添加图片"
         label.textAlignment = NSTextAlignment.center
         label.sizeToFit()
         return label
@@ -79,7 +90,7 @@ class CreateStrategyHeaderView: UIView {
         let label = UILabel()
         label.textColor = UIColor.assistColor
         label.font = UIFont.boldSystemFont(ofSize: 17)
-        label.text = "input title"
+        label.text = "请输入标题"
         return label
     }()
     
@@ -93,7 +104,7 @@ class CreateStrategyHeaderView: UIView {
         let label = UILabel()
         label.textColor = UIColor.assistColor
         label.font = UIFont.systemFont(ofSize: 14)
-        label.text = "input detail"
+        label.text = "请输入描述"
         return label
     }()
 }

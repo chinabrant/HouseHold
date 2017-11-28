@@ -17,7 +17,7 @@ class HomeViewController: BaseViewController, UITableViewDataSource, UITableView
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.title = "Home"
+        self.title = "首页"
 
         layout()
         

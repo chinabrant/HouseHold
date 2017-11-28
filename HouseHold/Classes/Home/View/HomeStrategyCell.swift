@@ -24,21 +24,21 @@ class HomeStrategyCell: UITableViewCell {
     
     @IBOutlet weak var topicLabel: UILabel!
     
-    var strategy: StrategyModel? {
+    var strategy: Strategy? {
         didSet {
             self.titleLabel.text = strategy?.title
             self.subtitleLabel.text = strategy?.subtitle
             
-            if let nick = strategy?.user.object(forKey: "nick") {
+            if let nick = strategy?.user?.object(forKey: "nick") {
                 self.nickLabel.text = nick as? String
             }
             
-            if let sign = strategy?.user.object(forKey: "sign") {
+            if let sign = strategy?.user?.object(forKey: "sign") {
                 
                 self.signLabel.text = sign as? String
             }
             
-            if let topicTitle = strategy?.topic.title {
+            if let topicTitle = strategy?.topic?.title {
                 self.topicLabel.text = topicTitle
             }
             
@@ -50,7 +50,7 @@ class HomeStrategyCell: UITableViewCell {
                 }
             }
             
-            let userAvatar = strategy?.user.object(forKey: "avatar") as! AVFile
+            let userAvatar = strategy?.user?.object(forKey: "avatar") as! AVFile
             if let url = userAvatar.url {
                 if let urlRes = URL(string: url) {
                     self.avatarImageView.kf.setImage(with: urlRes, placeholder: UIImage.init(named: "default_avatar"))
