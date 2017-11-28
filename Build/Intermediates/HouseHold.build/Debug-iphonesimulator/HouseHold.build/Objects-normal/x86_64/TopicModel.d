@@ -2,6 +2,7 @@ dependencies: \
   /Users/sjwu/video/HouseHold/HouseHold/Classes/Strategy/Model/TopicModel.m \
   /Users/sjwu/video/HouseHold/HouseHold/Classes/Strategy/Model/TopicModel.h \
   /Users/sjwu/video/HouseHold/Build/Products/Debug-iphonesimulator/AVOSCloud/AVOSCloud.framework/Modules/module.modulemap \
+  /Users/sjwu/video/HouseHold/Build/Products/Debug-iphonesimulator/AVOSCloud/AVOSCloud.framework/Headers/LCRouter.h \
   /Users/sjwu/video/HouseHold/Build/Products/Debug-iphonesimulator/AVOSCloud/AVOSCloud.framework/Headers/AVSearchSortBuilder.h \
   /Users/sjwu/video/HouseHold/Build/Products/Debug-iphonesimulator/AVOSCloud/AVOSCloud.framework/Headers/AVSearchQuery.h \
   /Users/sjwu/video/HouseHold/Build/Products/Debug-iphonesimulator/AVOSCloud/AVOSCloud.framework/Headers/AVCloud.h \

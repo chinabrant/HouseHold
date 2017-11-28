@@ -1,6 +1,7 @@
 /Users/sjwu/video/HouseHold/Build/Intermediates/HouseHold.build/Debug-iphoneos/HouseHold.build/Objects-normal/arm64/TopicModel.o
 /Users/sjwu/video/HouseHold/Build/Intermediates/HouseHold.build/Debug-iphoneos/HouseHold.build/Objects-normal/arm64/StrategyModel.o
 /Users/sjwu/video/HouseHold/Build/Intermediates/HouseHold.build/Debug-iphoneos/HouseHold.build/Objects-normal/arm64/UIImage+House.o
+/Users/sjwu/video/HouseHold/Build/Intermediates/HouseHold.build/Debug-iphoneos/HouseHold.build/Objects-normal/arm64/Topic.o
 /Users/sjwu/video/HouseHold/Build/Intermediates/HouseHold.build/Debug-iphoneos/HouseHold.build/Objects-normal/arm64/Strategy.o
 /Users/sjwu/video/HouseHold/Build/Intermediates/HouseHold.build/Debug-iphoneos/HouseHold.build/Objects-normal/arm64/BaseViewModel.o
 /Users/sjwu/video/HouseHold/Build/Intermediates/HouseHold.build/Debug-iphoneos/HouseHold.build/Objects-normal/arm64/ViewController.o
@@ -18,12 +19,14 @@
 /Users/sjwu/video/HouseHold/Build/Intermediates/HouseHold.build/Debug-iphoneos/HouseHold.build/Objects-normal/arm64/ImagePicker.o
 /Users/sjwu/video/HouseHold/Build/Intermediates/HouseHold.build/Debug-iphoneos/HouseHold.build/Objects-normal/arm64/CreateStrategyHeaderView.o
 /Users/sjwu/video/HouseHold/Build/Intermediates/HouseHold.build/Debug-iphoneos/HouseHold.build/Objects-normal/arm64/ImageListViewController.o
+/Users/sjwu/video/HouseHold/Build/Intermediates/HouseHold.build/Debug-iphoneos/HouseHold.build/Objects-normal/arm64/InputView.o
 /Users/sjwu/video/HouseHold/Build/Intermediates/HouseHold.build/Debug-iphoneos/HouseHold.build/Objects-normal/arm64/MyViewController.o
 /Users/sjwu/video/HouseHold/Build/Intermediates/HouseHold.build/Debug-iphoneos/HouseHold.build/Objects-normal/arm64/UIScreen+House.o
 /Users/sjwu/video/HouseHold/Build/Intermediates/HouseHold.build/Debug-iphoneos/HouseHold.build/Objects-normal/arm64/CreateStrategyViewController.o
 /Users/sjwu/video/HouseHold/Build/Intermediates/HouseHold.build/Debug-iphoneos/HouseHold.build/Objects-normal/arm64/FolderListViewModel.o
 /Users/sjwu/video/HouseHold/Build/Intermediates/HouseHold.build/Debug-iphoneos/HouseHold.build/Objects-normal/arm64/ScalableImageView.o
 /Users/sjwu/video/HouseHold/Build/Intermediates/HouseHold.build/Debug-iphoneos/HouseHold.build/Objects-normal/arm64/FolderListViewController.o
+/Users/sjwu/video/HouseHold/Build/Intermediates/HouseHold.build/Debug-iphoneos/HouseHold.build/Objects-normal/arm64/CreateStrategyViewModel.o
 /Users/sjwu/video/HouseHold/Build/Intermediates/HouseHold.build/Debug-iphoneos/HouseHold.build/Objects-normal/arm64/HHTabBarViewController.o
 /Users/sjwu/video/HouseHold/Build/Intermediates/HouseHold.build/Debug-iphoneos/HouseHold.build/Objects-normal/arm64/HomeViewController.o
 /Users/sjwu/video/HouseHold/Build/Intermediates/HouseHold.build/Debug-iphoneos/HouseHold.build/Objects-normal/arm64/FolderCell.o

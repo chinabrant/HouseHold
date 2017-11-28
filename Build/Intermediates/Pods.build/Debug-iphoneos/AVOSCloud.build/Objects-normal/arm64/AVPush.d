@@ -31,12 +31,13 @@ dependencies: \
   /Users/sjwu/video/HouseHold/Pods/AVOSCloud/AVOS/AVOSCloud/ACL/AVRole.h \
   /Users/sjwu/video/HouseHold/Pods/AVOSCloud/AVOS/AVOSCloud/Captcha/AVCaptcha.h \
   /Users/sjwu/video/HouseHold/Pods/AVOSCloud/AVOS/AVOSCloud/SMS/AVSMS.h \
+  /Users/sjwu/video/HouseHold/Pods/AVOSCloud/AVOS/AVOSCloud/Router/LCRouter.h \
   /Users/sjwu/video/HouseHold/Pods/AVOSCloud/AVOS/AVOSCloud/Analytics/AVAnalytics.h \
   /Users/sjwu/video/HouseHold/Pods/AVOSCloud/AVOS/AVOSCloud/Utils/UserAgent.h \
   /Users/sjwu/video/HouseHold/Pods/AVOSCloud/AVOS/AVOSCloud/Utils/AVUtils.h \
   /Users/sjwu/video/HouseHold/Pods/AVOSCloud/AVOS/AVOSCloud/Utils/AVHelpers.h \
+  /Users/sjwu/video/HouseHold/Pods/AVOSCloud/AVOS/AVOSCloud/Utils/LCExtension+Cocoa.h \
   /Users/sjwu/video/HouseHold/Pods/AVOSCloud/AVOS/AVOSCloud/Query/AVQuery_Internal.h \
   /Users/sjwu/video/HouseHold/Pods/AVOSCloud/AVOS/AVOSCloud/Push/AVInstallation_Internal.h \
   /Users/sjwu/video/HouseHold/Pods/AVOSCloud/AVOS/AVOSCloud/Object/AVObjectUtils.h \
-  /Users/sjwu/video/HouseHold/Pods/AVOSCloud/AVOS/AVOSCloud/AVGlobal.h \
-  /Users/sjwu/video/HouseHold/Pods/AVOSCloud/AVOS/AVOSCloud/Router/LCRouter.h
+  /Users/sjwu/video/HouseHold/Pods/AVOSCloud/AVOS/AVOSCloud/AVGlobal.h

@@ -176,6 +176,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 @import ObjectiveC;
 @import CoreGraphics;
 @import Foundation;
+@import AVOSCloud;
 #endif
 
 #pragma clang diagnostic ignored "-Wproperty-attribute-mismatch"
@@ -241,6 +242,12 @@ SWIFT_CLASS("_TtC9HouseHold28CreateStrategyViewController")
 - (void)viewDidLoad;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC9HouseHold23CreateStrategyViewModel")
+@interface CreateStrategyViewModel : BaseViewModel
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
 
@@ -340,6 +347,16 @@ SWIFT_CLASS("_TtC9HouseHold23ImageListViewController")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class UITouch;
+
+SWIFT_CLASS("_TtC9HouseHold9InputView")
+@interface InputView : UIView
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+- (void)touchesBegan:(NSSet<UITouch *> * _Nonnull)touches withEvent:(UIEvent * _Nullable)event;
+- (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
+@end
+
 
 SWIFT_CLASS("_TtC9HouseHold16MyViewController")
 @interface MyViewController : BaseViewController
@@ -360,6 +377,39 @@ SWIFT_CLASS("_TtC9HouseHold17ScalableImageView")
 - (UIView * _Nullable)viewForZoomingInScrollView:(UIScrollView * _Nonnull)scrollView SWIFT_WARN_UNUSED_RESULT;
 - (void)scrollViewDidEndZooming:(UIScrollView * _Nonnull)scrollView withView:(UIView * _Nullable)view atScale:(CGFloat)scale;
 - (void)scrollViewDidZoom:(UIScrollView * _Nonnull)scrollView;
+@end
+
+@class AVFile;
+@class AVUser;
+@class Topic;
+
+SWIFT_CLASS("_TtC9HouseHold8Strategy")
+@interface Strategy : AVObject <AVSubclassing, NSCopying>
+@property (nonatomic, copy) NSString * _Nullable title;
+@property (nonatomic, copy) NSString * _Nullable subtitle;
+@property (nonatomic, copy) NSString * _Nullable desc;
+@property (nonatomic, strong) AVFile * _Nullable cover;
+@property (nonatomic) NSInteger likeCount;
+@property (nonatomic, strong) AVUser * _Nullable user;
+@property (nonatomic, strong) Topic * _Nullable topic;
++ (NSString * _Nonnull)parseClassName SWIFT_WARN_UNUSED_RESULT;
+- (id _Nonnull)copyWithZone:(struct _NSZone * _Nullable)zone SWIFT_WARN_UNUSED_RESULT;
+- (nonnull instancetype)initWithClassName:(NSString * _Nonnull)newClassName OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC9HouseHold5Topic")
+@interface Topic : AVObject <AVSubclassing>
+@property (nonatomic, copy) NSString * _Nullable title;
+@property (nonatomic, copy) NSString * _Nullable desc;
+@property (nonatomic, strong) AVFile * _Nullable cover;
+@property (nonatomic) NSInteger likeCount;
++ (NSString * _Nonnull)parseClassName SWIFT_WARN_UNUSED_RESULT;
+- (nonnull instancetype)initWithClassName:(NSString * _Nonnull)newClassName OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
 

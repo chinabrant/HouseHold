@@ -1,6 +1,7 @@
 ### Swift dependencies file v0 ###
 provides-top-level:
 - "TailRecursiveSinkCommand"
+- "maxTailRecursiveSinkStackSize"
 - "TailRecursiveSink"
 provides-nominal:
 - "7RxSwift24TailRecursiveSinkCommandO"
@@ -11,6 +12,7 @@ provides-member:
 provides-dynamic-lookup:
 depends-top-level:
 - !private "-"
+- !private "<"
 - "=="
 - !private ">="
 - "AssignmentPrecedence"
@@ -18,9 +20,9 @@ depends-top-level:
 - "BooleanLiteralType"
 - "Cancelable"
 - "Disposable"
-- !private "FloatLiteralType"
+- "FloatLiteralType"
 - "IntMax"
-- !private "IntegerLiteralType"
+- "IntegerLiteralType"
 - "InvocableScheduledItem"
 - "InvocableWithValueType"
 - "Observable"
@@ -33,9 +35,11 @@ depends-top-level:
 - !private "StringLiteralType"
 - "TailRecursiveSink"
 - "TailRecursiveSinkCommand"
+- "maxTailRecursiveSinkStackSize"
 - !private "rxAbstractMethod"
 depends-member:
 - !private ["Sa", "append"]
+- !private ["Sa", "count"]
 - !private ["Sa", "last"]
 - !private ["Sa", "removeAll"]
 - !private ["Sa", "removeLast"]
@@ -44,12 +48,14 @@ depends-member:
 - ["7RxSwift9AsyncLockC", "init"]
 - !private ["7RxSwift9AsyncLockC", "invoke"]
 - !private ["s23BidirectionalCollectionP", "append"]
+- !private ["s23BidirectionalCollectionP", "count"]
 - !private ["s23BidirectionalCollectionP", "last"]
 - !private ["s23BidirectionalCollectionP", "removeAll"]
 - !private ["s23BidirectionalCollectionP", "removeLast"]
 - !private ["s13BinaryIntegerP", "hashValue"]
 - !private ["Sb", "_getBuiltinLogicValue"]
 - !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "count"]
 - !private ["s7CVarArgP", "hashValue"]
 - !private ["s7CVarArgP", "last"]
 - !private ["s7CVarArgP", "removeAll"]
@@ -59,12 +65,14 @@ depends-member:
 - ["7RxSwift10CancelableP", "init"]
 - !private ["7RxSwift10CancelableP", "setDisposable"]
 - !private ["s10CollectionP", "append"]
+- !private ["s10CollectionP", "count"]
 - !private ["s10CollectionP", "last"]
 - !private ["s10CollectionP", "removeAll"]
 - !private ["s10CollectionP", "removeLast"]
 - !private ["s10ComparableP", "hashValue"]
 - !private ["s28CustomDebugStringConvertibleP", "append"]
 - !private ["s28CustomDebugStringConvertibleP", "completed"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
 - !private ["s28CustomDebugStringConvertibleP", "init"]
 - !private ["s28CustomDebugStringConvertibleP", "last"]
 - !private ["s28CustomDebugStringConvertibleP", "removeAll"]
@@ -73,6 +81,7 @@ depends-member:
 - !private ["s29CustomPlaygroundQuickLookableP", "hashValue"]
 - !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
 - !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "count"]
 - !private ["s17CustomReflectableP", "hashValue"]
 - !private ["s17CustomReflectableP", "init"]
 - !private ["s17CustomReflectableP", "last"]
@@ -80,6 +89,7 @@ depends-member:
 - !private ["s17CustomReflectableP", "removeLast"]
 - !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
 - !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "count"]
 - !private ["s23CustomStringConvertibleP", "hashValue"]
 - !private ["s23CustomStringConvertibleP", "init"]
 - !private ["s23CustomStringConvertibleP", "last"]
@@ -87,6 +97,7 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "removeLast"]
 - !private ["s9DecodableP", "_getBuiltinLogicValue"]
 - !private ["s9DecodableP", "append"]
+- !private ["s9DecodableP", "count"]
 - !private ["s9DecodableP", "hashValue"]
 - !private ["s9DecodableP", "last"]
 - !private ["s9DecodableP", "removeAll"]
@@ -108,6 +119,7 @@ depends-member:
 - !private ["7RxSwift10DisposableP", "forwardOn"]
 - ["7RxSwift10DisposableP", "init"]
 - ["7RxSwift10DisposableP", "invoke"]
+- !private ["7RxSwift10DisposableP", "maxTailRecursiveSinkStackSize"]
 - !private ["7RxSwift10DisposableP", "moveNextCommand"]
 - !private ["7RxSwift10DisposableP", "rxAbstractMethod"]
 - !private ["7RxSwift10DisposableP", "schedule"]
@@ -120,6 +132,7 @@ depends-member:
 - !private ["7RxSwift11DisposeBaseC", "setDisposable"]
 - !private ["s9EncodableP", "_getBuiltinLogicValue"]
 - !private ["s9EncodableP", "append"]
+- !private ["s9EncodableP", "count"]
 - !private ["s9EncodableP", "hashValue"]
 - !private ["s9EncodableP", "last"]
 - !private ["s9EncodableP", "removeAll"]
@@ -132,6 +145,7 @@ depends-member:
 - !private ["7RxSwift5EventO", "completed"]
 - !private ["7RxSwift16EventConvertibleP", "completed"]
 - !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
 - !private ["s25ExpressibleByArrayLiteralP", "last"]
 - !private ["s25ExpressibleByArrayLiteralP", "removeAll"]
 - !private ["s25ExpressibleByArrayLiteralP", "removeLast"]
@@ -165,6 +179,7 @@ depends-member:
 - !private ["7RxSwift22InvocableWithValueTypeP", "extract"]
 - !private ["7RxSwift22InvocableWithValueTypeP", "forwardOn"]
 - ["7RxSwift22InvocableWithValueTypeP", "invoke"]
+- !private ["7RxSwift22InvocableWithValueTypeP", "maxTailRecursiveSinkStackSize"]
 - !private ["7RxSwift22InvocableWithValueTypeP", "moveNextCommand"]
 - !private ["7RxSwift22InvocableWithValueTypeP", "rxAbstractMethod"]
 - !private ["7RxSwift22InvocableWithValueTypeP", "schedule"]
@@ -178,6 +193,7 @@ depends-member:
 - !private ["s25LosslessStringConvertibleP", "hashValue"]
 - !private ["s10MirrorPathP", "hashValue"]
 - !private ["s17MutableCollectionP", "append"]
+- !private ["s17MutableCollectionP", "count"]
 - !private ["s17MutableCollectionP", "last"]
 - !private ["s17MutableCollectionP", "removeAll"]
 - !private ["s17MutableCollectionP", "removeLast"]
@@ -185,15 +201,18 @@ depends-member:
 - !private ["7RxSwift25ObservableConvertibleTypeP", "asObservable"]
 - ["7RxSwift12ObserverTypeP", "E"]
 - !private ["s22RandomAccessCollectionP", "append"]
+- !private ["s22RandomAccessCollectionP", "count"]
 - !private ["s22RandomAccessCollectionP", "last"]
 - !private ["s22RandomAccessCollectionP", "removeAll"]
 - !private ["s22RandomAccessCollectionP", "removeLast"]
 - !private ["s26RangeReplaceableCollectionP", "append"]
+- !private ["s26RangeReplaceableCollectionP", "count"]
 - !private ["s26RangeReplaceableCollectionP", "last"]
 - !private ["s26RangeReplaceableCollectionP", "removeAll"]
 - !private ["s26RangeReplaceableCollectionP", "removeLast"]
 - ["s8SequenceP", "Iterator"]
 - !private ["s8SequenceP", "append"]
+- !private ["s8SequenceP", "count"]
 - !private ["s8SequenceP", "last"]
 - !private ["s8SequenceP", "removeAll"]
 - !private ["s8SequenceP", "removeLast"]
@@ -233,6 +252,7 @@ depends-member:
 - !private ["7RxSwift4SinkC", "forwardOn"]
 - ["7RxSwift4SinkC", "init"]
 - ["7RxSwift4SinkC", "invoke"]
+- !private ["7RxSwift4SinkC", "maxTailRecursiveSinkStackSize"]
 - ["7RxSwift4SinkC", "moveNextCommand"]
 - ["7RxSwift4SinkC", "run"]
 - !private ["7RxSwift4SinkC", "rxAbstractMethod"]
@@ -271,6 +291,7 @@ depends-member:
 - !private ["7RxSwift17TailRecursiveSinkC", "forwardOn"]
 - ["7RxSwift17TailRecursiveSinkC", "init"]
 - ["7RxSwift17TailRecursiveSinkC", "invoke"]
+- !private ["7RxSwift17TailRecursiveSinkC", "maxTailRecursiveSinkStackSize"]
 - !private ["7RxSwift17TailRecursiveSinkC", "moveNextCommand"]
 - ["7RxSwift17TailRecursiveSinkC", "run"]
 - !private ["7RxSwift17TailRecursiveSinkC", "rxAbstractMethod"]
@@ -282,15 +303,18 @@ depends-member:
 - ["7RxSwift24TailRecursiveSinkCommandO", "hashValue"]
 - ["7RxSwift24TailRecursiveSinkCommandO", "moveNext"]
 - !private ["s14_ArrayProtocolP", "append"]
+- !private ["s14_ArrayProtocolP", "count"]
 - !private ["s14_ArrayProtocolP", "last"]
 - !private ["s14_ArrayProtocolP", "removeAll"]
 - !private ["s14_ArrayProtocolP", "removeLast"]
 - !private ["s23_BidirectionalIndexableP", "append"]
+- !private ["s23_BidirectionalIndexableP", "count"]
 - !private ["s23_BidirectionalIndexableP", "last"]
 - !private ["s23_BidirectionalIndexableP", "removeAll"]
 - !private ["s23_BidirectionalIndexableP", "removeLast"]
 - !private ["s18_BitwiseOperationsP", "hashValue"]
 - !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s24_DestructorSafeContainerP", "count"]
 - !private ["s24_DestructorSafeContainerP", "last"]
 - !private ["s24_DestructorSafeContainerP", "removeAll"]
 - !private ["s24_DestructorSafeContainerP", "removeLast"]
@@ -300,28 +324,34 @@ depends-member:
 - !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
 - !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
 - !private ["s10_IndexableP", "append"]
+- !private ["s10_IndexableP", "count"]
 - !private ["s10_IndexableP", "last"]
 - !private ["s10_IndexableP", "removeAll"]
 - !private ["s10_IndexableP", "removeLast"]
 - !private ["s14_IndexableBaseP", "append"]
+- !private ["s14_IndexableBaseP", "count"]
 - !private ["s14_IndexableBaseP", "last"]
 - !private ["s14_IndexableBaseP", "removeAll"]
 - !private ["s14_IndexableBaseP", "removeLast"]
 - !private ["s17_MutableIndexableP", "append"]
+- !private ["s17_MutableIndexableP", "count"]
 - !private ["s17_MutableIndexableP", "last"]
 - !private ["s17_MutableIndexableP", "removeAll"]
 - !private ["s17_MutableIndexableP", "removeLast"]
 - !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
 - !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
 - !private ["s21_ObjectiveCBridgeableP", "hashValue"]
 - !private ["s21_ObjectiveCBridgeableP", "last"]
 - !private ["s21_ObjectiveCBridgeableP", "removeAll"]
 - !private ["s21_ObjectiveCBridgeableP", "removeLast"]
 - !private ["s22_RandomAccessIndexableP", "append"]
+- !private ["s22_RandomAccessIndexableP", "count"]
 - !private ["s22_RandomAccessIndexableP", "last"]
 - !private ["s22_RandomAccessIndexableP", "removeAll"]
 - !private ["s22_RandomAccessIndexableP", "removeLast"]
 - !private ["s26_RangeReplaceableIndexableP", "append"]
+- !private ["s26_RangeReplaceableIndexableP", "count"]
 - !private ["s26_RangeReplaceableIndexableP", "last"]
 - !private ["s26_RangeReplaceableIndexableP", "removeAll"]
 - !private ["s26_RangeReplaceableIndexableP", "removeLast"]
@@ -411,6 +441,6 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Swift.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/UIKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/SwiftOnoneSupport.swiftmodule"
-- "/Users/sjwu/video/HouseHold/Pods/Target Support Files/RxSwift/RxSwift-umbrella.h"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/RxSwift/RxSwift.framework/Headers/RxSwift-umbrella.h"
 - "/Users/sjwu/video/HouseHold/Build/Intermediates/Pods.build/Debug-iphoneos/RxSwift.build/unextended-module.modulemap"
 interface-hash: "43d2a3b17ed5ad28bda288c911cf6851"

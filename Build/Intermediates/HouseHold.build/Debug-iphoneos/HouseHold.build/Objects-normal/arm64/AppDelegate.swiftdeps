@@ -24,9 +24,9 @@ depends-top-level:
 - !private "HHTabBarViewController"
 - !private "HomeViewController"
 - !private "MyViewController"
-- !private "StrategyModel"
+- !private "Strategy"
 - !private "StringLiteralType"
-- !private "TopicModel"
+- !private "Topic"
 - "UIApplication"
 - "UIApplicationDelegate"
 - "UIApplicationLaunchOptionsKey"
@@ -46,8 +46,8 @@ depends-member:
 - !private ["9HouseHold11AppDelegateC", "HHTabBarViewController"]
 - !private ["9HouseHold11AppDelegateC", "HomeViewController"]
 - !private ["9HouseHold11AppDelegateC", "MyViewController"]
-- !private ["9HouseHold11AppDelegateC", "StrategyModel"]
-- !private ["9HouseHold11AppDelegateC", "TopicModel"]
+- !private ["9HouseHold11AppDelegateC", "Strategy"]
+- !private ["9HouseHold11AppDelegateC", "Topic"]
 - ["9HouseHold11AppDelegateC", "UIApplication"]
 - ["9HouseHold11AppDelegateC", "UIApplicationLaunchOptionsKey"]
 - !private ["9HouseHold11AppDelegateC", "UIColor"]
@@ -82,8 +82,8 @@ depends-member:
 - !private ["s7CVarArgP", "HHTabBarViewController"]
 - !private ["s7CVarArgP", "HomeViewController"]
 - !private ["s7CVarArgP", "MyViewController"]
-- !private ["s7CVarArgP", "StrategyModel"]
-- !private ["s7CVarArgP", "TopicModel"]
+- !private ["s7CVarArgP", "Strategy"]
+- !private ["s7CVarArgP", "Topic"]
 - !private ["s7CVarArgP", "UIColor"]
 - !private ["s7CVarArgP", "UIImage"]
 - !private ["s7CVarArgP", "UINavigationController"]
@@ -130,8 +130,8 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "HHTabBarViewController"]
 - !private ["s28CustomDebugStringConvertibleP", "HomeViewController"]
 - !private ["s28CustomDebugStringConvertibleP", "MyViewController"]
-- !private ["s28CustomDebugStringConvertibleP", "StrategyModel"]
-- !private ["s28CustomDebugStringConvertibleP", "TopicModel"]
+- !private ["s28CustomDebugStringConvertibleP", "Strategy"]
+- !private ["s28CustomDebugStringConvertibleP", "Topic"]
 - !private ["s28CustomDebugStringConvertibleP", "UIColor"]
 - !private ["s28CustomDebugStringConvertibleP", "UIImage"]
 - !private ["s28CustomDebugStringConvertibleP", "UINavigationController"]
@@ -173,8 +173,8 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "HHTabBarViewController"]
 - !private ["s23CustomStringConvertibleP", "HomeViewController"]
 - !private ["s23CustomStringConvertibleP", "MyViewController"]
-- !private ["s23CustomStringConvertibleP", "StrategyModel"]
-- !private ["s23CustomStringConvertibleP", "TopicModel"]
+- !private ["s23CustomStringConvertibleP", "Strategy"]
+- !private ["s23CustomStringConvertibleP", "Topic"]
 - !private ["s23CustomStringConvertibleP", "UIColor"]
 - !private ["s23CustomStringConvertibleP", "UIImage"]
 - !private ["s23CustomStringConvertibleP", "UINavigationController"]
@@ -216,8 +216,8 @@ depends-member:
 - !private ["s9EquatableP", "HHTabBarViewController"]
 - !private ["s9EquatableP", "HomeViewController"]
 - !private ["s9EquatableP", "MyViewController"]
-- !private ["s9EquatableP", "StrategyModel"]
-- !private ["s9EquatableP", "TopicModel"]
+- !private ["s9EquatableP", "Strategy"]
+- !private ["s9EquatableP", "Topic"]
 - !private ["s9EquatableP", "UIColor"]
 - !private ["s9EquatableP", "UIImage"]
 - !private ["s9EquatableP", "UINavigationController"]
@@ -270,8 +270,8 @@ depends-member:
 - !private ["s8HashableP", "HHTabBarViewController"]
 - !private ["s8HashableP", "HomeViewController"]
 - !private ["s8HashableP", "MyViewController"]
-- !private ["s8HashableP", "StrategyModel"]
-- !private ["s8HashableP", "TopicModel"]
+- !private ["s8HashableP", "Strategy"]
+- !private ["s8HashableP", "Topic"]
 - !private ["s8HashableP", "UIColor"]
 - !private ["s8HashableP", "UIImage"]
 - !private ["s8HashableP", "UINavigationController"]
@@ -331,6 +331,7 @@ depends-member:
 - !private ["So8NSCodingP", "title"]
 - !private ["So8NSCodingP", "viewControllers"]
 - !private ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "registerSubclass"]
 - !private ["So26NSExtensionRequestHandlingP", "init"]
 - !private ["So26NSExtensionRequestHandlingP", "tabBar"]
 - !private ["So26NSExtensionRequestHandlingP", "tabBarItem"]
@@ -345,8 +346,8 @@ depends-member:
 - !private ["So8NSObjectC", "HHTabBarViewController"]
 - !private ["So8NSObjectC", "HomeViewController"]
 - !private ["So8NSObjectC", "MyViewController"]
-- !private ["So8NSObjectC", "StrategyModel"]
-- !private ["So8NSObjectC", "TopicModel"]
+- !private ["So8NSObjectC", "Strategy"]
+- !private ["So8NSObjectC", "Topic"]
 - ["So8NSObjectC", "UIApplication"]
 - ["So8NSObjectC", "UIApplicationLaunchOptionsKey"]
 - !private ["So8NSObjectC", "UIColor"]
@@ -387,8 +388,8 @@ depends-member:
 - !private ["So16NSObjectProtocolP", "HHTabBarViewController"]
 - !private ["So16NSObjectProtocolP", "HomeViewController"]
 - !private ["So16NSObjectProtocolP", "MyViewController"]
-- !private ["So16NSObjectProtocolP", "StrategyModel"]
-- !private ["So16NSObjectProtocolP", "TopicModel"]
+- !private ["So16NSObjectProtocolP", "Strategy"]
+- !private ["So16NSObjectProtocolP", "Topic"]
 - !private ["So16NSObjectProtocolP", "UIColor"]
 - !private ["So16NSObjectProtocolP", "UIImage"]
 - !private ["So16NSObjectProtocolP", "UINavigationController"]
@@ -434,8 +435,8 @@ depends-member:
 - !private ["7RxSwift18ReactiveCompatibleP", "HHTabBarViewController"]
 - !private ["7RxSwift18ReactiveCompatibleP", "HomeViewController"]
 - !private ["7RxSwift18ReactiveCompatibleP", "MyViewController"]
-- !private ["7RxSwift18ReactiveCompatibleP", "StrategyModel"]
-- !private ["7RxSwift18ReactiveCompatibleP", "TopicModel"]
+- !private ["7RxSwift18ReactiveCompatibleP", "Strategy"]
+- !private ["7RxSwift18ReactiveCompatibleP", "Topic"]
 - !private ["7RxSwift18ReactiveCompatibleP", "UIColor"]
 - !private ["7RxSwift18ReactiveCompatibleP", "UIImage"]
 - !private ["7RxSwift18ReactiveCompatibleP", "UINavigationController"]
@@ -472,12 +473,14 @@ depends-member:
 - ["7RxSwift18ReactiveCompatibleP", "window"]
 - ["7RxSwift18ReactiveCompatibleP", ""]
 - !private ["s8SequenceP", "init"]
-- !private ["So13StrategyModelC", "registerSubclass"]
+- !private ["9HouseHold8StrategyC", "deinit"]
+- !private ["9HouseHold8StrategyC", "registerSubclass"]
 - !private ["SS", "init"]
 - !private ["s14StringProtocolP", "init"]
 - !private ["s16TextOutputStreamP", "init"]
 - !private ["s20TextOutputStreamableP", "init"]
-- !private ["So10TopicModelC", "registerSubclass"]
+- !private ["9HouseHold5TopicC", "deinit"]
+- !private ["9HouseHold5TopicC", "registerSubclass"]
 - !private ["So29UIAccessibilityIdentificationP", "image"]
 - !private ["So29UIAccessibilityIdentificationP", "init"]
 - !private ["So29UIAccessibilityIdentificationP", "makeKeyAndVisible"]
@@ -506,8 +509,8 @@ depends-member:
 - !private ["So21UIApplicationDelegateP", "HHTabBarViewController"]
 - !private ["So21UIApplicationDelegateP", "HomeViewController"]
 - !private ["So21UIApplicationDelegateP", "MyViewController"]
-- !private ["So21UIApplicationDelegateP", "StrategyModel"]
-- !private ["So21UIApplicationDelegateP", "TopicModel"]
+- !private ["So21UIApplicationDelegateP", "Strategy"]
+- !private ["So21UIApplicationDelegateP", "Topic"]
 - !private ["So21UIApplicationDelegateP", "UIColor"]
 - !private ["So21UIApplicationDelegateP", "UIImage"]
 - !private ["So21UIApplicationDelegateP", "UINavigationController"]
@@ -570,8 +573,8 @@ depends-member:
 - !private ["So30UIPasteConfigurationSupportingP", "HHTabBarViewController"]
 - !private ["So30UIPasteConfigurationSupportingP", "HomeViewController"]
 - !private ["So30UIPasteConfigurationSupportingP", "MyViewController"]
-- !private ["So30UIPasteConfigurationSupportingP", "StrategyModel"]
-- !private ["So30UIPasteConfigurationSupportingP", "TopicModel"]
+- !private ["So30UIPasteConfigurationSupportingP", "Strategy"]
+- !private ["So30UIPasteConfigurationSupportingP", "Topic"]
 - !private ["So30UIPasteConfigurationSupportingP", "UIColor"]
 - !private ["So30UIPasteConfigurationSupportingP", "UIImage"]
 - !private ["So30UIPasteConfigurationSupportingP", "UINavigationController"]
@@ -605,8 +608,8 @@ depends-member:
 - !private ["So11UIResponderC", "HHTabBarViewController"]
 - !private ["So11UIResponderC", "HomeViewController"]
 - !private ["So11UIResponderC", "MyViewController"]
-- !private ["So11UIResponderC", "StrategyModel"]
-- !private ["So11UIResponderC", "TopicModel"]
+- !private ["So11UIResponderC", "Strategy"]
+- !private ["So11UIResponderC", "Topic"]
 - ["So11UIResponderC", "UIApplication"]
 - ["So11UIResponderC", "UIApplicationLaunchOptionsKey"]
 - !private ["So11UIResponderC", "UIColor"]
@@ -641,8 +644,8 @@ depends-member:
 - !private ["So30UIResponderStandardEditActionsP", "HHTabBarViewController"]
 - !private ["So30UIResponderStandardEditActionsP", "HomeViewController"]
 - !private ["So30UIResponderStandardEditActionsP", "MyViewController"]
-- !private ["So30UIResponderStandardEditActionsP", "StrategyModel"]
-- !private ["So30UIResponderStandardEditActionsP", "TopicModel"]
+- !private ["So30UIResponderStandardEditActionsP", "Strategy"]
+- !private ["So30UIResponderStandardEditActionsP", "Topic"]
 - !private ["So30UIResponderStandardEditActionsP", "UIColor"]
 - !private ["So30UIResponderStandardEditActionsP", "UIImage"]
 - !private ["So30UIResponderStandardEditActionsP", "UINavigationController"]
@@ -741,8 +744,8 @@ depends-member:
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "HHTabBarViewController"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "HomeViewController"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "MyViewController"]
-- !private ["10Foundation27_KeyValueCodingAndObservingP", "StrategyModel"]
-- !private ["10Foundation27_KeyValueCodingAndObservingP", "TopicModel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Strategy"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Topic"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "UIColor"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "UIImage"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "UINavigationController"]
@@ -826,12 +829,12 @@ depends-nominal:
 - !private "s26RangeReplaceableCollectionP"
 - "7RxSwift18ReactiveCompatibleP"
 - !private "s8SequenceP"
-- !private "So13StrategyModelC"
+- !private "9HouseHold8StrategyC"
 - !private "SS"
 - !private "s14StringProtocolP"
 - !private "s16TextOutputStreamP"
 - !private "s20TextOutputStreamableP"
-- !private "So10TopicModelC"
+- !private "9HouseHold5TopicC"
 - !private "So29UIAccessibilityIdentificationP"
 - !private "So12UIAppearanceP"
 - !private "So21UIAppearanceContainerP"
@@ -884,6 +887,7 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Accelerate.apinotesc"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
 - "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/RxCocoa/RxCocoa.framework/Modules/RxCocoa.swiftmodule/arm64.swiftmodule"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/RxKeyboard/RxKeyboard.framework/Modules/RxKeyboard.swiftmodule/arm64.swiftmodule"
 - "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/RxGesture/RxGesture.framework/Modules/RxGesture.swiftmodule/arm64.swiftmodule"
 - "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/Kingfisher/Kingfisher.framework/Modules/Kingfisher.swiftmodule/arm64.swiftmodule"
 - "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/RxSwift/RxSwift.framework/Modules/RxSwift.swiftmodule/arm64.swiftmodule"
@@ -912,6 +916,7 @@ depends-external:
 - "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/RxCocoa/RxCocoa.framework/Headers/_RX.h"
 - "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/AVOSCloud/AVOSCloud.framework/Headers/AVCaptcha.h"
 - "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/RxCocoa/RxCocoa.framework/Headers/RxCocoa-umbrella.h"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/RxKeyboard/RxKeyboard.framework/Headers/RxKeyboard-umbrella.h"
 - "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/AVOSCloud/AVOSCloud.framework/Headers/AVOSCloud-umbrella.h"
 - "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/RxGesture/RxGesture.framework/Headers/RxGesture-umbrella.h"
 - "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/Kingfisher/Kingfisher.framework/Headers/Kingfisher-umbrella.h"
@@ -936,6 +941,7 @@ depends-external:
 - "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/AVOSCloud/AVOSCloud.framework/Headers/AVLogger.h"
 - "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/Kingfisher/Kingfisher.framework/Headers/Kingfisher.h"
 - "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/AVOSCloud/AVOSCloud.framework/Headers/AVUser.h"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/AVOSCloud/AVOSCloud.framework/Headers/LCRouter.h"
 - "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/RxCocoa/RxCocoa.framework/Headers/_RXKVOObserver.h"
 - "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/AVOSCloud/AVOSCloud.framework/Headers/AVAnalytics.h"
 - "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/AVOSCloud/AVOSCloud.framework/Headers/AVAnonymousUtils.h"
@@ -945,6 +951,7 @@ depends-external:
 - "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/AVOSCloud/AVOSCloud.framework/Headers/AVObject.h"
 - "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/AVOSCloud/AVOSCloud.framework/Headers/AVDynamicObject.h"
 - "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/RxCocoa/RxCocoa.framework/Headers/RxCocoa-Swift.h"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/RxKeyboard/RxKeyboard.framework/Headers/RxKeyboard-Swift.h"
 - "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/RxGesture/RxGesture.framework/Headers/RxGesture-Swift.h"
 - "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/Kingfisher/Kingfisher.framework/Headers/Kingfisher-Swift.h"
 - "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/RxSwift/RxSwift.framework/Headers/RxSwift-Swift.h"
@@ -957,6 +964,7 @@ depends-external:
 - "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/AVOSCloud/AVOSCloud.framework/Headers/AVAvailability.h"
 - "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/RxCocoa/RxCocoa.framework/Headers/_RXDelegateProxy.h"
 - "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/RxCocoa/RxCocoa.framework/Modules/module.modulemap"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/RxKeyboard/RxKeyboard.framework/Modules/module.modulemap"
 - "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/AVOSCloud/AVOSCloud.framework/Modules/module.modulemap"
 - "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/RxGesture/RxGesture.framework/Modules/module.modulemap"
 - "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/Kingfisher/Kingfisher.framework/Modules/module.modulemap"

@@ -30,6 +30,7 @@ dependencies: \
   /Users/sjwu/video/HouseHold/Pods/AVOSCloud/AVOS/AVOSCloud/ACL/AVRole.h \
   /Users/sjwu/video/HouseHold/Pods/AVOSCloud/AVOS/AVOSCloud/Captcha/AVCaptcha.h \
   /Users/sjwu/video/HouseHold/Pods/AVOSCloud/AVOS/AVOSCloud/SMS/AVSMS.h \
+  /Users/sjwu/video/HouseHold/Pods/AVOSCloud/AVOS/AVOSCloud/Router/LCRouter.h \
   /Users/sjwu/video/HouseHold/Pods/AVOSCloud/AVOS/AVOSCloud/Analytics/AVAnalytics.h \
   /Users/sjwu/video/HouseHold/Pods/AVOSCloud/AVOS/AVOSCloud/Utils/AVErrorUtils.h \
   /Users/sjwu/video/HouseHold/Pods/AVOSCloud/AVOS/AVOSCloud/ThirdParty/AFNetworking/AVNetworking.h \
@@ -42,6 +43,7 @@ dependencies: \
   /Users/sjwu/video/HouseHold/Pods/AVOSCloud/AVOS/AVOSCloud/ThirdParty/AFNetworking/AVNetworkActivityIndicatorManager.h \
   /Users/sjwu/video/HouseHold/Pods/AVOSCloud/AVOS/AVOSCloud/Utils/AVUtils.h \
   /Users/sjwu/video/HouseHold/Pods/AVOSCloud/AVOS/AVOSCloud/Utils/AVHelpers.h \
+  /Users/sjwu/video/HouseHold/Pods/AVOSCloud/AVOS/AVOSCloud/Utils/LCExtension+Cocoa.h \
   /Users/sjwu/video/HouseHold/Pods/AVOSCloud/AVOS/AVOSCloud/File/AVFile_Internal.h \
   /Users/sjwu/video/HouseHold/Pods/AVOSCloud/AVOS/AVOSCloud/Request/AVPaasClient.h \
   /Users/sjwu/video/HouseHold/Pods/AVOSCloud/AVOS/AVOSCloud/Utils/UserAgent.h \

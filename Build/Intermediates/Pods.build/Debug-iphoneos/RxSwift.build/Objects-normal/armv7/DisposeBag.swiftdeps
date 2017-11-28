@@ -212,6 +212,6 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Swift.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/UIKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/SwiftOnoneSupport.swiftmodule"
-- "/Users/sjwu/video/HouseHold/Pods/Target Support Files/RxSwift/RxSwift-umbrella.h"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/RxSwift/RxSwift.framework/Headers/RxSwift-umbrella.h"
 - "/Users/sjwu/video/HouseHold/Build/Intermediates/Pods.build/Debug-iphoneos/RxSwift.build/unextended-module.modulemap"
 interface-hash: "35f6eb181876a3e486c716774c3befdc"

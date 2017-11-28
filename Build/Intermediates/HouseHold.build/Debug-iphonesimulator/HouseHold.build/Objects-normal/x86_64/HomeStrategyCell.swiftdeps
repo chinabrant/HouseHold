@@ -21,7 +21,7 @@ depends-top-level:
 - "Bool"
 - "CastingPrecedence"
 - "HomeStrategyCell"
-- "StrategyModel"
+- "Strategy"
 - "String"
 - !private "StringLiteralType"
 - !private "UIImage"
@@ -253,7 +253,7 @@ depends-member:
 - !private ["9HouseHold16HomeStrategyCellC", "AVFile"]
 - ["9HouseHold16HomeStrategyCellC", "Bool"]
 - !private ["9HouseHold16HomeStrategyCellC", "HomeStrategyCell"]
-- ["9HouseHold16HomeStrategyCellC", "StrategyModel"]
+- ["9HouseHold16HomeStrategyCellC", "Strategy"]
 - ["9HouseHold16HomeStrategyCellC", "String"]
 - !private ["9HouseHold16HomeStrategyCellC", "UIImage"]
 - ["9HouseHold16HomeStrategyCellC", "UIImageView"]
@@ -333,14 +333,19 @@ depends-member:
 - !private ["So8NSCodingP", "url"]
 - !private ["So8NSCodingP", "user"]
 - ["So8NSCodingP", ""]
+- !private ["So9NSCopyingP", "cover"]
 - !private ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "subtitle"]
+- !private ["So9NSCopyingP", "title"]
+- !private ["So9NSCopyingP", "topic"]
+- !private ["So9NSCopyingP", "user"]
 - !private ["So21NSItemProviderReadingP", "init"]
 - !private ["So21NSItemProviderWritingP", "init"]
 - !private ["So16NSMutableCopyingP", "init"]
 - !private ["So8NSObjectC", "AVFile"]
 - ["So8NSObjectC", "Bool"]
 - !private ["So8NSObjectC", "HomeStrategyCell"]
-- ["So8NSObjectC", "StrategyModel"]
+- ["So8NSObjectC", "Strategy"]
 - ["So8NSObjectC", "String"]
 - !private ["So8NSObjectC", "UIImage"]
 - ["So8NSObjectC", "UIImageView"]
@@ -438,16 +443,16 @@ depends-member:
 - !private ["10Foundation20ReferenceConvertibleP", "init"]
 - !private ["10Kingfisher8ResourceP", "init"]
 - !private ["s8SequenceP", "init"]
-- !private ["So13StrategyModelC", "cover"]
-- !private ["So13StrategyModelC", "subtitle"]
-- !private ["So13StrategyModelC", "title"]
-- !private ["So13StrategyModelC", "topic"]
-- !private ["So13StrategyModelC", "user"]
+- !private ["9HouseHold8StrategyC", "cover"]
+- !private ["9HouseHold8StrategyC", "subtitle"]
+- !private ["9HouseHold8StrategyC", "title"]
+- !private ["9HouseHold8StrategyC", "topic"]
+- !private ["9HouseHold8StrategyC", "user"]
 - !private ["SS", "init"]
 - !private ["s14StringProtocolP", "init"]
 - !private ["s16TextOutputStreamP", "init"]
 - !private ["s20TextOutputStreamableP", "init"]
-- !private ["So10TopicModelC", "title"]
+- !private ["9HouseHold5TopicC", "title"]
 - !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "kf"]
 - !private ["So29UIAccessibilityIdentificationP", "HomeStrategyCell"]
 - !private ["So29UIAccessibilityIdentificationP", "UIImage"]
@@ -654,7 +659,7 @@ depends-member:
 - !private ["So11UIResponderC", "AVFile"]
 - ["So11UIResponderC", "Bool"]
 - !private ["So11UIResponderC", "HomeStrategyCell"]
-- ["So11UIResponderC", "StrategyModel"]
+- ["So11UIResponderC", "Strategy"]
 - ["So11UIResponderC", "String"]
 - !private ["So11UIResponderC", "UIImage"]
 - ["So11UIResponderC", "UIImageView"]
@@ -707,7 +712,7 @@ depends-member:
 - !private ["So15UITableViewCellC", "AVFile"]
 - ["So15UITableViewCellC", "Bool"]
 - !private ["So15UITableViewCellC", "HomeStrategyCell"]
-- ["So15UITableViewCellC", "StrategyModel"]
+- ["So15UITableViewCellC", "Strategy"]
 - ["So15UITableViewCellC", "String"]
 - !private ["So15UITableViewCellC", "UIImage"]
 - ["So15UITableViewCellC", "UIImageView"]
@@ -757,7 +762,7 @@ depends-member:
 - !private ["So6UIViewC", "AVFile"]
 - ["So6UIViewC", "Bool"]
 - !private ["So6UIViewC", "HomeStrategyCell"]
-- ["So6UIViewC", "StrategyModel"]
+- ["So6UIViewC", "Strategy"]
 - ["So6UIViewC", "String"]
 - !private ["So6UIViewC", "UIImage"]
 - ["So6UIViewC", "UIImageView"]
@@ -894,12 +899,12 @@ depends-nominal:
 - !private "10Foundation20ReferenceConvertibleP"
 - !private "10Kingfisher8ResourceP"
 - !private "s8SequenceP"
-- !private "So13StrategyModelC"
+- !private "9HouseHold8StrategyC"
 - !private "SS"
 - !private "s14StringProtocolP"
 - !private "s16TextOutputStreamP"
 - !private "s20TextOutputStreamableP"
-- !private "So10TopicModelC"
+- !private "9HouseHold5TopicC"
 - !private "So48UIAccessibilityContentSizeCategoryImageAdjustingP"
 - "So29UIAccessibilityIdentificationP"
 - "So12UIAppearanceP"
@@ -947,8 +952,8 @@ depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Accelerate.apinotesc"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/os.apinotesc"
 - "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Modules/RxCocoa.swiftmodule/x86_64.swiftmodule"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphonesimulator/RxKeyboard/RxKeyboard.framework/Modules/RxKeyboard.swiftmodule/x86_64.swiftmodule"
 - "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphonesimulator/RxGesture/RxGesture.framework/Modules/RxGesture.swiftmodule/x86_64.swiftmodule"
 - "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphonesimulator/Kingfisher/Kingfisher.framework/Modules/Kingfisher.swiftmodule/x86_64.swiftmodule"
 - "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Modules/RxSwift.swiftmodule/x86_64.swiftmodule"
@@ -968,7 +973,6 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/os.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Photos.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
@@ -978,6 +982,7 @@ depends-external:
 - "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/_RX.h"
 - "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphonesimulator/AVOSCloud/AVOSCloud.framework/Headers/AVCaptcha.h"
 - "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/RxCocoa-umbrella.h"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphonesimulator/RxKeyboard/RxKeyboard.framework/Headers/RxKeyboard-umbrella.h"
 - "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphonesimulator/AVOSCloud/AVOSCloud.framework/Headers/AVOSCloud-umbrella.h"
 - "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphonesimulator/RxGesture/RxGesture.framework/Headers/RxGesture-umbrella.h"
 - "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphonesimulator/Kingfisher/Kingfisher.framework/Headers/Kingfisher-umbrella.h"
@@ -1002,6 +1007,7 @@ depends-external:
 - "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphonesimulator/AVOSCloud/AVOSCloud.framework/Headers/AVLogger.h"
 - "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphonesimulator/Kingfisher/Kingfisher.framework/Headers/Kingfisher.h"
 - "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphonesimulator/AVOSCloud/AVOSCloud.framework/Headers/AVUser.h"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphonesimulator/AVOSCloud/AVOSCloud.framework/Headers/LCRouter.h"
 - "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/_RXKVOObserver.h"
 - "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphonesimulator/AVOSCloud/AVOSCloud.framework/Headers/AVAnalytics.h"
 - "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphonesimulator/AVOSCloud/AVOSCloud.framework/Headers/AVAnonymousUtils.h"
@@ -1011,6 +1017,7 @@ depends-external:
 - "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphonesimulator/AVOSCloud/AVOSCloud.framework/Headers/AVObject.h"
 - "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphonesimulator/AVOSCloud/AVOSCloud.framework/Headers/AVDynamicObject.h"
 - "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/RxCocoa-Swift.h"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphonesimulator/RxKeyboard/RxKeyboard.framework/Headers/RxKeyboard-Swift.h"
 - "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphonesimulator/RxGesture/RxGesture.framework/Headers/RxGesture-Swift.h"
 - "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphonesimulator/Kingfisher/Kingfisher.framework/Headers/Kingfisher-Swift.h"
 - "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Headers/RxSwift-Swift.h"
@@ -1023,9 +1030,10 @@ depends-external:
 - "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphonesimulator/AVOSCloud/AVOSCloud.framework/Headers/AVAvailability.h"
 - "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/_RXDelegateProxy.h"
 - "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Modules/module.modulemap"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphonesimulator/RxKeyboard/RxKeyboard.framework/Modules/module.modulemap"
 - "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphonesimulator/AVOSCloud/AVOSCloud.framework/Modules/module.modulemap"
 - "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphonesimulator/RxGesture/RxGesture.framework/Modules/module.modulemap"
 - "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphonesimulator/Kingfisher/Kingfisher.framework/Modules/module.modulemap"
 - "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Modules/module.modulemap"
 - "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphonesimulator/SnapKit/SnapKit.framework/Modules/module.modulemap"
-interface-hash: "92ac849cb408870570aca641a133c1d1"
+interface-hash: "76c65f66adbb51000a62c915b49c63e7"

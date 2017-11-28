@@ -32,4 +32,6 @@ dependencies: \
   /Users/sjwu/video/HouseHold/Pods/AVOSCloud/AVOS/AVOSCloud/ACL/AVRole.h \
   /Users/sjwu/video/HouseHold/Pods/AVOSCloud/AVOS/AVOSCloud/Captcha/AVCaptcha.h \
   /Users/sjwu/video/HouseHold/Pods/AVOSCloud/AVOS/AVOSCloud/SMS/AVSMS.h \
-  /Users/sjwu/video/HouseHold/Pods/AVOSCloud/AVOS/AVOSCloud/Analytics/AVAnalytics.h
+  /Users/sjwu/video/HouseHold/Pods/AVOSCloud/AVOS/AVOSCloud/Router/LCRouter.h \
+  /Users/sjwu/video/HouseHold/Pods/AVOSCloud/AVOS/AVOSCloud/Analytics/AVAnalytics.h \
+  /Users/sjwu/video/HouseHold/Pods/AVOSCloud/AVOS/AVOSCloud/Utils/LCExtension+Cocoa.h

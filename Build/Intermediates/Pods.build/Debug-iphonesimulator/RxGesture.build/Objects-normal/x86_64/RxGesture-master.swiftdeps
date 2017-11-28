@@ -1,6 +1,6 @@
 version: "Apple Swift version 4.0 (swiftlang-900.0.65 clang-900.0.37)"
 options: "489f0e2f939e70b08d82e55aa1279047"
-build_time: [1510234645, 832220000]
+build_time: [1511877319, 345170000]
 inputs:
   "/Users/sjwu/video/HouseHold/Pods/RxGesture/Pod/Classes/GestureFactory.swift": [1510149907, 0]
   "/Users/sjwu/video/HouseHold/Pods/RxGesture/Pod/Classes/RxGestureRecognizerDelegate.swift": [1510149907, 0]

@@ -98,7 +98,7 @@ class CreateStrategyViewController: BaseViewController {
     private lazy var tableView: UITableView = {
         let table = UITableView()
         table.tableFooterView = UIView()
-        
+        table.backgroundColor = UIColor.backgroundColor
         return table
     }()
     

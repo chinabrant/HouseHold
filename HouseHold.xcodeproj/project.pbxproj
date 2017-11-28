@@ -41,6 +41,7 @@
 		61CDF3701FB49458003C62DF /* UIView+Position.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61CDF36F1FB49458003C62DF /* UIView+Position.swift */; };
 		61CDF3721FB49B48003C62DF /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61CDF3711FB49B47003C62DF /* Photos.framework */; };
 		61CDF3741FCA8A10003C62DF /* Strategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61CDF3731FCA8A10003C62DF /* Strategy.swift */; };
+		61CDF3761FCDA8F9003C62DF /* TopicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61CDF3751FCDA8F9003C62DF /* TopicView.swift */; };
 		944C5F321FCD3E86007C9E2C /* Topic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944C5F311FCD3E86007C9E2C /* Topic.swift */; };
 		944C5F381FCD4530007C9E2C /* CreateStrategyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944C5F371FCD4530007C9E2C /* CreateStrategyViewModel.swift */; };
 		944C5F3B1FCD4DD5007C9E2C /* InputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944C5F3A1FCD4DD5007C9E2C /* InputView.swift */; };
@@ -88,6 +89,7 @@
 		61CDF36F1FB49458003C62DF /* UIView+Position.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Position.swift"; sourceTree = "<group>"; };
 		61CDF3711FB49B47003C62DF /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
 		61CDF3731FCA8A10003C62DF /* Strategy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strategy.swift; sourceTree = "<group>"; };
+		61CDF3751FCDA8F9003C62DF /* TopicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopicView.swift; sourceTree = "<group>"; };
 		944C5F311FCD3E86007C9E2C /* Topic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Topic.swift; sourceTree = "<group>"; };
 		944C5F371FCD4530007C9E2C /* CreateStrategyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateStrategyViewModel.swift; sourceTree = "<group>"; };
 		944C5F3A1FCD4DD5007C9E2C /* InputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputView.swift; sourceTree = "<group>"; };
@@ -340,6 +342,7 @@
 			isa = PBXGroup;
 			children = (
 				617A917B1FB0AD9E0065FF3A /* CreateStrategyHeaderView.swift */,
+				61CDF3751FCDA8F9003C62DF /* TopicView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -503,7 +506,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		7754B4A23BDC63BE58CF2647 /* [CP] Embed Pods Frameworks */ = {
@@ -572,6 +575,7 @@
 				615C7BE71F9A4DAE00B3D7FA /* AppDelegate.swift in Sources */,
 				618094DF1F9F84DE0031A006 /* TopicModel.m in Sources */,
 				615C7C131F9A4F1100B3D7FA /* BaseViewController.swift in Sources */,
+				61CDF3761FCDA8F9003C62DF /* TopicView.swift in Sources */,
 				61CDF3641FB4939B003C62DF /* ClipView.swift in Sources */,
 				618094E51FA2163F0031A006 /* UIImage+HH.swift in Sources */,
 				61CDF36E1FB4939B003C62DF /* UIImage+Clip.swift in Sources */,

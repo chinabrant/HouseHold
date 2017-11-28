@@ -38,7 +38,7 @@
 		</data>
 		<key>Headers/AVConstants.h</key>
 		<data>
-		Jv+IuzfrSTQHn/lxc2+1ZEBltgU=
+		JCGZ4KMp1fbQOPj0J+vBq39jx7o=
 		</data>
 		<key>Headers/AVDynamicObject.h</key>
 		<data>
@@ -66,11 +66,11 @@
 		</data>
 		<key>Headers/AVOSCloud-umbrella.h</key>
 		<data>
-		90HQxBFY4dJ7KQFeZijMFIP+o5Y=
+		vk8QcC7lbV7hp6O4+jsvZmegLus=
 		</data>
 		<key>Headers/AVOSCloud.h</key>
 		<data>
-		fTlr3cD8uhCuCRTcSiHpt66DZr4=
+		eItWji/KW5yVCri0AVIdVjj3b70=
 		</data>
 		<key>Headers/AVObject+Subclass.h</key>
 		<data>
@@ -86,7 +86,7 @@
 		</data>
 		<key>Headers/AVQuery.h</key>
 		<data>
-		tAHMmXBOFaATK6Qoe8qd6yfrrB8=
+		vPf7a8X/Ftj97rxCFozur/UbtOE=
 		</data>
 		<key>Headers/AVRelation.h</key>
 		<data>
@@ -118,15 +118,19 @@
 		</data>
 		<key>Headers/AVSubclassing.h</key>
 		<data>
-		vpMTEBQMe2w+qj6+4qL7o+2GsNQ=
+		S+tDTK9hjqYmVNK9ZkQNHjBcSok=
 		</data>
 		<key>Headers/AVUser.h</key>
 		<data>
-		u7myK9BiMZZOkTfdCCI7gPtQqto=
+		eJU5rckgySnFsvQ8RJqZVVcFwTw=
+		</data>
+		<key>Headers/LCRouter.h</key>
+		<data>
+		aitr6Bbc6CnS0GGTXHcy7m930ng=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		Hg95msfdncTE7udd6P2m0O2v3RY=
+		CthIAHGOHp2PfWV0R5DFvErDGJ8=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -227,11 +231,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Jv+IuzfrSTQHn/lxc2+1ZEBltgU=
+			JCGZ4KMp1fbQOPj0J+vBq39jx7o=
 			</data>
 			<key>hash2</key>
 			<data>
-			MHjMNOjXlMnayLibiQekG2R7bqqGHNNBtGFtgqj+c20=
+			wqBlpgQrSn+8dhcHibLo5OV6mhMEdKsVkXjr333yLKU=
 			</data>
 		</dict>
 		<key>Headers/AVDynamicObject.h</key>
@@ -304,22 +308,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			90HQxBFY4dJ7KQFeZijMFIP+o5Y=
+			vk8QcC7lbV7hp6O4+jsvZmegLus=
 			</data>
 			<key>hash2</key>
 			<data>
-			ZhrIxMeKzW+XuSGo2rwCtRADk3iFHh6y451TNYxTtfc=
+			ZlRAGu+0UXohi6rajsg72n//FMAvC6JvlyOu2qRRwn0=
 			</data>
 		</dict>
 		<key>Headers/AVOSCloud.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			fTlr3cD8uhCuCRTcSiHpt66DZr4=
+			eItWji/KW5yVCri0AVIdVjj3b70=
 			</data>
 			<key>hash2</key>
 			<data>
-			TJ0foYh0Nw7tT2EYaUjFJo/cYjKhVrA9d9MGYnZstB0=
+			zAtJaVH3FfLD8boRa4CrMQRpduxNJgGc0nY0621YU3E=
 			</data>
 		</dict>
 		<key>Headers/AVObject+Subclass.h</key>
@@ -359,11 +363,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			tAHMmXBOFaATK6Qoe8qd6yfrrB8=
+			vPf7a8X/Ftj97rxCFozur/UbtOE=
 			</data>
 			<key>hash2</key>
 			<data>
-			kkrbDws5PENGIb1vci4eRjLzS/mE5eRSNWPqZf2qNn0=
+			2i19V246TY4A69Fjx7DnfKA4t657BPiMrDEwG5JjGac=
 			</data>
 		</dict>
 		<key>Headers/AVRelation.h</key>
@@ -447,22 +451,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			vpMTEBQMe2w+qj6+4qL7o+2GsNQ=
+			S+tDTK9hjqYmVNK9ZkQNHjBcSok=
 			</data>
 			<key>hash2</key>
 			<data>
-			YpW0qnXWz6ljUyaLHT4LxEeOY1ltvBtUz2Xay0K8cdM=
+			UYQGfqdCGNxJcrsObOnkeS1KpAqaMWFYbSI3Eg0PEEg=
 			</data>
 		</dict>
 		<key>Headers/AVUser.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			u7myK9BiMZZOkTfdCCI7gPtQqto=
+			eJU5rckgySnFsvQ8RJqZVVcFwTw=
 			</data>
 			<key>hash2</key>
 			<data>
-			mD8FJ7Mq2JYmhbbGribC4J/d2a8II5ZKZC3qTtM7qXc=
+			w8bkxdeRdqG+DBmRV9fzbAhJYG21EmvIEskhZqrTLig=
+			</data>
+		</dict>
+		<key>Headers/LCRouter.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			aitr6Bbc6CnS0GGTXHcy7m930ng=
+			</data>
+			<key>hash2</key>
+			<data>
+			Xmp439gAvRP/juCs7gI/zkI6Azq/aiZVxBpCcJvzf6Q=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

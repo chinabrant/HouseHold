@@ -30,13 +30,6 @@ class CreateStrategyHeaderView: UIView {
                 self.titleLabel.text = "请输入标题"
             }
             
-//            if let desc = strategy?.desc {
-//                self.descLabel.text = desc
-//            }
-//            else {
-//                self.descLabel.text = "请输入描述"
-//            }
-            
             self.descLabel.attributedText = strategy?.attributedDesc()
             
             self.titleLabel.width = UIScreen.width - 50
@@ -63,6 +56,8 @@ class CreateStrategyHeaderView: UIView {
         self.addSubview(separatorView)
         self.addSubview(descLabel)
         
+        self.addSubview(self.topicBackView)
+        
         self.layout()
         
         self.coverImageTapGesture = self.coverImageView.rx.tapGesture().when(.recognized)
@@ -77,7 +72,9 @@ class CreateStrategyHeaderView: UIView {
         
         self.separatorView.y = self.titleLabel.bottom + 40
         self.descLabel.y = self.separatorView.bottom + 30
-        self.height = self.descLabel.bottom + 10
+        self.topicBackView.y = self.descLabel.bottom + 20
+        
+        self.height = self.topicBackView.bottom + 10
         
         self.layoutUpdatedSubject.onNext(self.height)
     }
@@ -93,6 +90,10 @@ class CreateStrategyHeaderView: UIView {
         self.separatorView.frame = CGRect(x: 25, y: self.titleLabel.bottom + 40, width: 40, height: 1)
         
         self.descLabel.frame = CGRect(x: 25, y: self.separatorView.bottom + 30, width: UIScreen.width - 50, height: 65)
+        
+        
+        
+        self.topicBackView.frame = CGRect(x: 25, y: self.descLabel.bottom + 20, width: UIScreen.width - 50, height: 44)
         
         self.height = self.descLabel.bottom + 10
     }
@@ -144,4 +145,11 @@ class CreateStrategyHeaderView: UIView {
         label.numberOfLines = 0
         return label
     }()
+    
+    private lazy var topicBackView: TopicView = {
+        let view = TopicView(frame:CGRect(x: 0, y: 0, width: self.width - 50, height: 44))
+        view.backgroundColor = UIColor.white
+        return view
+    }()
+    
 }

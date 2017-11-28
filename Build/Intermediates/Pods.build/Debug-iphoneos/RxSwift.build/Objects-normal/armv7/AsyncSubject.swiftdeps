@@ -23,6 +23,7 @@ depends-top-level:
 - "RecursiveLock"
 - "SubjectType"
 - !private "SubscriptionDisposable"
+- "SynchronizationTracker"
 - "SynchronizedUnsubscribeType"
 - !private "dispatch"
 depends-member:
@@ -41,11 +42,13 @@ depends-member:
 - ["7RxSwift12AsyncSubjectC", "RecursiveLock"]
 - ["7RxSwift12AsyncSubjectC", "SubjectObserverType"]
 - !private ["7RxSwift12AsyncSubjectC", "SubscriptionDisposable"]
+- ["7RxSwift12AsyncSubjectC", "SynchronizationTracker"]
 - !private ["7RxSwift12AsyncSubjectC", "_isStopped"]
 - !private ["7RxSwift12AsyncSubjectC", "_lastElement"]
 - ["7RxSwift12AsyncSubjectC", "_lock"]
 - !private ["7RxSwift12AsyncSubjectC", "_observers"]
 - !private ["7RxSwift12AsyncSubjectC", "_stoppedEvent"]
+- !private ["7RxSwift12AsyncSubjectC", "_synchronizationTracker"]
 - ["7RxSwift12AsyncSubjectC", "_synchronized_on"]
 - ["7RxSwift12AsyncSubjectC", "_synchronized_subscribe"]
 - ["7RxSwift12AsyncSubjectC", "_synchronized_unsubscribe"]
@@ -92,6 +95,7 @@ depends-member:
 - !private ["s9EncodableP", "_getBuiltinLogicValue"]
 - !private ["s9EncodableP", "next"]
 - !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "default"]
 - ["s9EquatableP", "init"]
 - !private ["s9EquatableP", "lock"]
 - !private ["s9EquatableP", "unlock"]
@@ -104,6 +108,7 @@ depends-member:
 - !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
 - !private ["s23ExpressibleByNilLiteralP", "next"]
 - !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "default"]
 - ["s8HashableP", "init"]
 - !private ["s8HashableP", "lock"]
 - !private ["s8HashableP", "unlock"]
@@ -138,11 +143,13 @@ depends-member:
 - ["7RxSwift10ObservableC", "RecursiveLock"]
 - ["7RxSwift10ObservableC", "SubjectObserverType"]
 - !private ["7RxSwift10ObservableC", "SubscriptionDisposable"]
+- ["7RxSwift10ObservableC", "SynchronizationTracker"]
 - ["7RxSwift10ObservableC", "_isStopped"]
 - ["7RxSwift10ObservableC", "_lastElement"]
 - ["7RxSwift10ObservableC", "_lock"]
 - ["7RxSwift10ObservableC", "_observers"]
 - ["7RxSwift10ObservableC", "_stoppedEvent"]
+- ["7RxSwift10ObservableC", "_synchronizationTracker"]
 - ["7RxSwift10ObservableC", "_synchronized_on"]
 - ["7RxSwift10ObservableC", "_synchronized_subscribe"]
 - ["7RxSwift10ObservableC", "_synchronized_unsubscribe"]
@@ -161,11 +168,13 @@ depends-member:
 - ["7RxSwift25ObservableConvertibleTypeP", "RecursiveLock"]
 - ["7RxSwift25ObservableConvertibleTypeP", "SubjectObserverType"]
 - !private ["7RxSwift25ObservableConvertibleTypeP", "SubscriptionDisposable"]
+- ["7RxSwift25ObservableConvertibleTypeP", "SynchronizationTracker"]
 - !private ["7RxSwift25ObservableConvertibleTypeP", "_isStopped"]
 - !private ["7RxSwift25ObservableConvertibleTypeP", "_lastElement"]
 - !private ["7RxSwift25ObservableConvertibleTypeP", "_lock"]
 - !private ["7RxSwift25ObservableConvertibleTypeP", "_observers"]
 - !private ["7RxSwift25ObservableConvertibleTypeP", "_stoppedEvent"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "_synchronizationTracker"]
 - !private ["7RxSwift25ObservableConvertibleTypeP", "_synchronized_on"]
 - !private ["7RxSwift25ObservableConvertibleTypeP", "_synchronized_subscribe"]
 - !private ["7RxSwift25ObservableConvertibleTypeP", "_synchronized_unsubscribe"]
@@ -182,11 +191,13 @@ depends-member:
 - ["7RxSwift14ObservableTypeP", "RecursiveLock"]
 - ["7RxSwift14ObservableTypeP", "SubjectObserverType"]
 - !private ["7RxSwift14ObservableTypeP", "SubscriptionDisposable"]
+- ["7RxSwift14ObservableTypeP", "SynchronizationTracker"]
 - !private ["7RxSwift14ObservableTypeP", "_isStopped"]
 - !private ["7RxSwift14ObservableTypeP", "_lastElement"]
 - !private ["7RxSwift14ObservableTypeP", "_lock"]
 - !private ["7RxSwift14ObservableTypeP", "_observers"]
 - !private ["7RxSwift14ObservableTypeP", "_stoppedEvent"]
+- !private ["7RxSwift14ObservableTypeP", "_synchronizationTracker"]
 - !private ["7RxSwift14ObservableTypeP", "_synchronized_on"]
 - !private ["7RxSwift14ObservableTypeP", "_synchronized_subscribe"]
 - !private ["7RxSwift14ObservableTypeP", "_synchronized_unsubscribe"]
@@ -203,11 +214,13 @@ depends-member:
 - ["7RxSwift12ObserverTypeP", "RecursiveLock"]
 - ["7RxSwift12ObserverTypeP", "SubjectObserverType"]
 - !private ["7RxSwift12ObserverTypeP", "SubscriptionDisposable"]
+- ["7RxSwift12ObserverTypeP", "SynchronizationTracker"]
 - !private ["7RxSwift12ObserverTypeP", "_isStopped"]
 - !private ["7RxSwift12ObserverTypeP", "_lastElement"]
 - !private ["7RxSwift12ObserverTypeP", "_lock"]
 - !private ["7RxSwift12ObserverTypeP", "_observers"]
 - !private ["7RxSwift12ObserverTypeP", "_stoppedEvent"]
+- !private ["7RxSwift12ObserverTypeP", "_synchronizationTracker"]
 - !private ["7RxSwift12ObserverTypeP", "_synchronized_on"]
 - !private ["7RxSwift12ObserverTypeP", "_synchronized_subscribe"]
 - !private ["7RxSwift12ObserverTypeP", "_synchronized_unsubscribe"]
@@ -218,6 +231,7 @@ depends-member:
 - ["7RxSwift12ObserverTypeP", "synchronizedUnsubscribe"]
 - ["7RxSwift12ObserverTypeP", ""]
 - !private ["Sq", "next"]
+- !private ["s16RawRepresentableP", "default"]
 - ["7RxSwift18ReactiveCompatibleP", "init"]
 - !private ["7RxSwift18ReactiveCompatibleP", "lock"]
 - !private ["7RxSwift18ReactiveCompatibleP", "unlock"]
@@ -228,11 +242,13 @@ depends-member:
 - ["7RxSwift11SubjectTypeP", "RecursiveLock"]
 - ["7RxSwift11SubjectTypeP", "SubjectObserverType"]
 - !private ["7RxSwift11SubjectTypeP", "SubscriptionDisposable"]
+- ["7RxSwift11SubjectTypeP", "SynchronizationTracker"]
 - !private ["7RxSwift11SubjectTypeP", "_isStopped"]
 - !private ["7RxSwift11SubjectTypeP", "_lastElement"]
 - !private ["7RxSwift11SubjectTypeP", "_lock"]
 - !private ["7RxSwift11SubjectTypeP", "_observers"]
 - !private ["7RxSwift11SubjectTypeP", "_stoppedEvent"]
+- !private ["7RxSwift11SubjectTypeP", "_synchronizationTracker"]
 - !private ["7RxSwift11SubjectTypeP", "_synchronized_on"]
 - !private ["7RxSwift11SubjectTypeP", "_synchronized_subscribe"]
 - !private ["7RxSwift11SubjectTypeP", "_synchronized_unsubscribe"]
@@ -243,6 +259,10 @@ depends-member:
 - ["7RxSwift11SubjectTypeP", ""]
 - !private ["7RxSwift22SubscriptionDisposableV", "deinit"]
 - !private ["7RxSwift22SubscriptionDisposableV", "init"]
+- !private ["7RxSwift22SynchronizationTrackerC27SychronizationErrorMessagesO", "default"]
+- ["7RxSwift22SynchronizationTrackerC", "init"]
+- !private ["7RxSwift22SynchronizationTrackerC", "register"]
+- !private ["7RxSwift22SynchronizationTrackerC", "unregister"]
 - !private ["7RxSwift27SynchronizedUnsubscribeTypeP", "Disposables"]
 - ["7RxSwift27SynchronizedUnsubscribeTypeP", "DisposeKey"]
 - ["7RxSwift27SynchronizedUnsubscribeTypeP", "E"]
@@ -250,11 +270,13 @@ depends-member:
 - ["7RxSwift27SynchronizedUnsubscribeTypeP", "RecursiveLock"]
 - ["7RxSwift27SynchronizedUnsubscribeTypeP", "SubjectObserverType"]
 - !private ["7RxSwift27SynchronizedUnsubscribeTypeP", "SubscriptionDisposable"]
+- ["7RxSwift27SynchronizedUnsubscribeTypeP", "SynchronizationTracker"]
 - !private ["7RxSwift27SynchronizedUnsubscribeTypeP", "_isStopped"]
 - !private ["7RxSwift27SynchronizedUnsubscribeTypeP", "_lastElement"]
 - !private ["7RxSwift27SynchronizedUnsubscribeTypeP", "_lock"]
 - !private ["7RxSwift27SynchronizedUnsubscribeTypeP", "_observers"]
 - !private ["7RxSwift27SynchronizedUnsubscribeTypeP", "_stoppedEvent"]
+- !private ["7RxSwift27SynchronizedUnsubscribeTypeP", "_synchronizationTracker"]
 - !private ["7RxSwift27SynchronizedUnsubscribeTypeP", "_synchronized_on"]
 - !private ["7RxSwift27SynchronizedUnsubscribeTypeP", "_synchronized_subscribe"]
 - !private ["7RxSwift27SynchronizedUnsubscribeTypeP", "_synchronized_unsubscribe"]
@@ -300,9 +322,12 @@ depends-nominal:
 - "7RxSwift14ObservableTypeP"
 - "7RxSwift12ObserverTypeP"
 - !private "Sq"
+- !private "s16RawRepresentableP"
 - "7RxSwift18ReactiveCompatibleP"
 - "7RxSwift11SubjectTypeP"
 - !private "7RxSwift22SubscriptionDisposableV"
+- !private "7RxSwift22SynchronizationTrackerC27SychronizationErrorMessagesO"
+- "7RxSwift22SynchronizationTrackerC"
 - "7RxSwift27SynchronizedUnsubscribeTypeP"
 - !private "s35_ExpressibleByBuiltinBooleanLiteralP"
 - "10Foundation27_KeyValueCodingAndObservingP"
@@ -322,6 +347,6 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Swift.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/UIKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/SwiftOnoneSupport.swiftmodule"
-- "/Users/sjwu/video/HouseHold/Pods/Target Support Files/RxSwift/RxSwift-umbrella.h"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/RxSwift/RxSwift.framework/Headers/RxSwift-umbrella.h"
 - "/Users/sjwu/video/HouseHold/Build/Intermediates/Pods.build/Debug-iphoneos/RxSwift.build/unextended-module.modulemap"
 interface-hash: "a7ace7d7238ebfe072799caf446699d3"

@@ -6,24 +6,82 @@ provides-nominal:
 provides-member:
 - ["9HouseHold8StrategyC", ""]
 provides-dynamic-lookup:
+- "copy"
+- "cover"
+- "desc"
+- "likeCount"
 - "parseClassName"
+- "subtitle"
+- "title"
+- "topic"
+- "user"
 depends-top-level:
+- !private "=="
+- "AVFile"
 - "AVObject"
 - "AVSubclassing"
+- "AVUser"
+- "AssignmentPrecedence"
+- "Int"
+- "NSAttributedString"
+- !private "NSAttributedStringKey"
+- "NSCopying"
+- !private "NSMakeRange"
+- !private "NSMutableAttributedString"
+- !private "NSMutableParagraphStyle"
+- !private "NSTextAlignment"
+- "NSZone"
 - "Strategy"
 - "String"
 - !private "StringLiteralType"
+- "TernaryPrecedence"
+- "Topic"
+- !private "UIFont"
 depends-member:
+- ["So8AVObjectC", "AVFile"]
+- ["So8AVObjectC", "AVUser"]
+- ["So8AVObjectC", "Int"]
+- ["So8AVObjectC", "NSAttributedString"]
+- !private ["So8AVObjectC", "NSAttributedStringKey"]
+- !private ["So8AVObjectC", "NSMakeRange"]
+- !private ["So8AVObjectC", "NSMutableAttributedString"]
+- !private ["So8AVObjectC", "NSMutableParagraphStyle"]
+- !private ["So8AVObjectC", "NSTextAlignment"]
+- ["So8AVObjectC", "NSZone"]
+- !private ["So8AVObjectC", "Strategy"]
 - ["So8AVObjectC", "String"]
+- ["So8AVObjectC", "Topic"]
+- !private ["So8AVObjectC", "UIFont"]
+- ["So8AVObjectC", "attributedDesc"]
+- ["So8AVObjectC", "copy"]
+- ["So8AVObjectC", "copyWithZone"]
+- ["So8AVObjectC", "cover"]
+- ["So8AVObjectC", "desc"]
 - ["So8AVObjectC", "init"]
-- ["So8AVObjectC", "object"]
+- ["So8AVObjectC", "likeCount"]
+- !private ["So8AVObjectC", "objectId"]
 - ["So8AVObjectC", "objectWithoutData"]
 - ["So8AVObjectC", "objectWithoutDataWithObjectId"]
 - ["So8AVObjectC", "parseClassName"]
 - ["So8AVObjectC", "query"]
 - ["So8AVObjectC", "registerSubclass"]
+- ["So8AVObjectC", "subtitle"]
+- ["So8AVObjectC", "title"]
+- ["So8AVObjectC", "topic"]
+- ["So8AVObjectC", "user"]
 - ["So8AVObjectC", ""]
-- ["So13AVSubclassingP", "object"]
+- !private ["So13AVSubclassingP", "NSAttributedStringKey"]
+- !private ["So13AVSubclassingP", "NSMakeRange"]
+- !private ["So13AVSubclassingP", "NSMutableAttributedString"]
+- !private ["So13AVSubclassingP", "NSMutableParagraphStyle"]
+- !private ["So13AVSubclassingP", "NSTextAlignment"]
+- !private ["So13AVSubclassingP", "Strategy"]
+- !private ["So13AVSubclassingP", "UIFont"]
+- ["So13AVSubclassingP", "copy"]
+- ["So13AVSubclassingP", "copyWithZone"]
+- !private ["So13AVSubclassingP", "desc"]
+- !private ["So13AVSubclassingP", "init"]
+- !private ["So13AVSubclassingP", "objectId"]
 - ["So13AVSubclassingP", "objectWithoutData"]
 - ["So13AVSubclassingP", "objectWithoutDataWithObjectId"]
 - ["So13AVSubclassingP", "parseClassName"]
@@ -31,112 +89,353 @@ depends-member:
 - ["So13AVSubclassingP", "registerSubclass"]
 - ["So13AVSubclassingP", ""]
 - !private ["s23BidirectionalCollectionP", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "NSAttributedStringKey"]
+- !private ["s7CVarArgP", "NSMakeRange"]
+- !private ["s7CVarArgP", "NSMutableAttributedString"]
+- !private ["s7CVarArgP", "NSMutableParagraphStyle"]
+- !private ["s7CVarArgP", "NSTextAlignment"]
+- !private ["s7CVarArgP", "Strategy"]
+- !private ["s7CVarArgP", "UIFont"]
+- !private ["s7CVarArgP", "addAttribute"]
+- !private ["s7CVarArgP", "alignment"]
+- ["s7CVarArgP", "copy"]
+- ["s7CVarArgP", "copyWithZone"]
+- !private ["s7CVarArgP", "desc"]
 - !private ["s7CVarArgP", "init"]
-- ["s7CVarArgP", "object"]
+- !private ["s7CVarArgP", "length"]
+- !private ["s7CVarArgP", "lineSpacing"]
+- !private ["s7CVarArgP", "objectId"]
 - ["s7CVarArgP", "objectWithoutData"]
 - ["s7CVarArgP", "objectWithoutDataWithObjectId"]
 - ["s7CVarArgP", "parseClassName"]
 - ["s7CVarArgP", "query"]
 - ["s7CVarArgP", "registerSubclass"]
+- !private ["s7CVarArgP", "systemFont"]
 - ["s7CVarArgP", ""]
 - !private ["s10CollectionP", "init"]
 - !private ["s10ComparableP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "NSAttributedStringKey"]
+- !private ["s28CustomDebugStringConvertibleP", "NSMakeRange"]
+- !private ["s28CustomDebugStringConvertibleP", "NSMutableAttributedString"]
+- !private ["s28CustomDebugStringConvertibleP", "NSMutableParagraphStyle"]
+- !private ["s28CustomDebugStringConvertibleP", "NSTextAlignment"]
+- !private ["s28CustomDebugStringConvertibleP", "Strategy"]
+- !private ["s28CustomDebugStringConvertibleP", "UIFont"]
+- !private ["s28CustomDebugStringConvertibleP", "addAttribute"]
+- !private ["s28CustomDebugStringConvertibleP", "alignment"]
+- ["s28CustomDebugStringConvertibleP", "copy"]
+- ["s28CustomDebugStringConvertibleP", "copyWithZone"]
+- !private ["s28CustomDebugStringConvertibleP", "desc"]
 - !private ["s28CustomDebugStringConvertibleP", "init"]
-- ["s28CustomDebugStringConvertibleP", "object"]
+- !private ["s28CustomDebugStringConvertibleP", "length"]
+- !private ["s28CustomDebugStringConvertibleP", "lineSpacing"]
+- !private ["s28CustomDebugStringConvertibleP", "objectId"]
 - ["s28CustomDebugStringConvertibleP", "objectWithoutData"]
 - ["s28CustomDebugStringConvertibleP", "objectWithoutDataWithObjectId"]
 - ["s28CustomDebugStringConvertibleP", "parseClassName"]
 - ["s28CustomDebugStringConvertibleP", "query"]
 - ["s28CustomDebugStringConvertibleP", "registerSubclass"]
+- !private ["s28CustomDebugStringConvertibleP", "systemFont"]
 - ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
 - !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
 - !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "NSAttributedStringKey"]
+- !private ["s23CustomStringConvertibleP", "NSMakeRange"]
+- !private ["s23CustomStringConvertibleP", "NSMutableAttributedString"]
+- !private ["s23CustomStringConvertibleP", "NSMutableParagraphStyle"]
+- !private ["s23CustomStringConvertibleP", "NSTextAlignment"]
+- !private ["s23CustomStringConvertibleP", "Strategy"]
+- !private ["s23CustomStringConvertibleP", "UIFont"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "addAttribute"]
+- !private ["s23CustomStringConvertibleP", "alignment"]
+- ["s23CustomStringConvertibleP", "copy"]
+- ["s23CustomStringConvertibleP", "copyWithZone"]
+- !private ["s23CustomStringConvertibleP", "desc"]
 - !private ["s23CustomStringConvertibleP", "init"]
-- ["s23CustomStringConvertibleP", "object"]
+- !private ["s23CustomStringConvertibleP", "length"]
+- !private ["s23CustomStringConvertibleP", "lineSpacing"]
+- !private ["s23CustomStringConvertibleP", "objectId"]
 - ["s23CustomStringConvertibleP", "objectWithoutData"]
 - ["s23CustomStringConvertibleP", "objectWithoutDataWithObjectId"]
 - ["s23CustomStringConvertibleP", "parseClassName"]
 - ["s23CustomStringConvertibleP", "query"]
 - ["s23CustomStringConvertibleP", "registerSubclass"]
+- !private ["s23CustomStringConvertibleP", "systemFont"]
 - ["s23CustomStringConvertibleP", ""]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
 - !private ["s9DecodableP", "init"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
 - !private ["s9EncodableP", "init"]
+- !private ["s9EquatableP", "NSAttributedStringKey"]
+- !private ["s9EquatableP", "NSMakeRange"]
+- !private ["s9EquatableP", "NSMutableAttributedString"]
+- !private ["s9EquatableP", "NSMutableParagraphStyle"]
+- !private ["s9EquatableP", "NSTextAlignment"]
+- !private ["s9EquatableP", "Strategy"]
+- !private ["s9EquatableP", "UIFont"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "addAttribute"]
+- !private ["s9EquatableP", "alignment"]
+- ["s9EquatableP", "copy"]
+- ["s9EquatableP", "copyWithZone"]
+- !private ["s9EquatableP", "desc"]
+- !private ["s9EquatableP", "font"]
 - !private ["s9EquatableP", "init"]
-- ["s9EquatableP", "object"]
+- !private ["s9EquatableP", "justified"]
+- !private ["s9EquatableP", "length"]
+- !private ["s9EquatableP", "lineSpacing"]
+- !private ["s9EquatableP", "objectId"]
 - ["s9EquatableP", "objectWithoutData"]
 - ["s9EquatableP", "objectWithoutDataWithObjectId"]
+- !private ["s9EquatableP", "paragraphStyle"]
 - ["s9EquatableP", "parseClassName"]
 - ["s9EquatableP", "query"]
 - ["s9EquatableP", "registerSubclass"]
+- !private ["s9EquatableP", "systemFont"]
 - ["s9EquatableP", ""]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
 - !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
 - !private ["s26ExpressibleByStringLiteralP", "init"]
 - !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s8HashableP", "NSAttributedStringKey"]
+- !private ["s8HashableP", "NSMakeRange"]
+- !private ["s8HashableP", "NSMutableAttributedString"]
+- !private ["s8HashableP", "NSMutableParagraphStyle"]
+- !private ["s8HashableP", "NSTextAlignment"]
+- !private ["s8HashableP", "Strategy"]
+- !private ["s8HashableP", "UIFont"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "addAttribute"]
+- !private ["s8HashableP", "alignment"]
+- ["s8HashableP", "copy"]
+- ["s8HashableP", "copyWithZone"]
+- !private ["s8HashableP", "desc"]
+- !private ["s8HashableP", "font"]
 - !private ["s8HashableP", "init"]
-- ["s8HashableP", "object"]
+- !private ["s8HashableP", "justified"]
+- !private ["s8HashableP", "length"]
+- !private ["s8HashableP", "lineSpacing"]
+- !private ["s8HashableP", "objectId"]
 - ["s8HashableP", "objectWithoutData"]
 - ["s8HashableP", "objectWithoutDataWithObjectId"]
+- !private ["s8HashableP", "paragraphStyle"]
 - ["s8HashableP", "parseClassName"]
 - ["s8HashableP", "query"]
 - ["s8HashableP", "registerSubclass"]
+- !private ["s8HashableP", "systemFont"]
 - ["s8HashableP", ""]
+- !private ["7RxCocoa16KVORepresentableP", "_getBuiltinLogicValue"]
 - !private ["10Kingfisher0A10CompatibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
 - !private ["s25LosslessStringConvertibleP", "init"]
 - !private ["s10MirrorPathP", "init"]
+- !private ["So18NSAttributedStringC", "addAttribute"]
+- !private ["So18NSAttributedStringC", "init"]
+- !private ["So18NSAttributedStringC", "length"]
+- !private ["SC21NSAttributedStringKeyV", "font"]
+- !private ["SC21NSAttributedStringKeyV", "paragraphStyle"]
+- !private ["So8NSCodingP", "NSAttributedStringKey"]
+- !private ["So8NSCodingP", "NSMakeRange"]
+- !private ["So8NSCodingP", "NSMutableAttributedString"]
+- !private ["So8NSCodingP", "NSMutableParagraphStyle"]
+- !private ["So8NSCodingP", "NSTextAlignment"]
+- !private ["So8NSCodingP", "Strategy"]
+- !private ["So8NSCodingP", "UIFont"]
+- !private ["So8NSCodingP", "addAttribute"]
+- !private ["So8NSCodingP", "alignment"]
+- ["So8NSCodingP", "copy"]
+- ["So8NSCodingP", "copyWithZone"]
+- !private ["So8NSCodingP", "desc"]
 - !private ["So8NSCodingP", "init"]
-- ["So8NSCodingP", "object"]
+- !private ["So8NSCodingP", "length"]
+- !private ["So8NSCodingP", "lineSpacing"]
+- !private ["So8NSCodingP", "objectId"]
 - ["So8NSCodingP", "objectWithoutData"]
 - ["So8NSCodingP", "objectWithoutDataWithObjectId"]
 - ["So8NSCodingP", "parseClassName"]
 - ["So8NSCodingP", "query"]
 - ["So8NSCodingP", "registerSubclass"]
 - ["So8NSCodingP", ""]
+- !private ["So9NSCopyingP", "NSAttributedStringKey"]
+- !private ["So9NSCopyingP", "NSMakeRange"]
+- !private ["So9NSCopyingP", "NSMutableAttributedString"]
+- !private ["So9NSCopyingP", "NSMutableParagraphStyle"]
+- !private ["So9NSCopyingP", "NSTextAlignment"]
+- !private ["So9NSCopyingP", "Strategy"]
+- !private ["So9NSCopyingP", "UIFont"]
+- !private ["So9NSCopyingP", "addAttribute"]
+- !private ["So9NSCopyingP", "alignment"]
+- ["So9NSCopyingP", "copy"]
+- ["So9NSCopyingP", "copyWithZone"]
+- !private ["So9NSCopyingP", "desc"]
 - !private ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "length"]
+- !private ["So9NSCopyingP", "lineSpacing"]
+- !private ["So9NSCopyingP", "objectId"]
+- ["So9NSCopyingP", "objectWithoutData"]
+- ["So9NSCopyingP", "objectWithoutDataWithObjectId"]
+- ["So9NSCopyingP", "parseClassName"]
+- ["So9NSCopyingP", "query"]
+- ["So9NSCopyingP", "registerSubclass"]
+- !private ["So9NSCopyingP", "systemFont"]
+- ["So9NSCopyingP", ""]
+- !private ["So21NSItemProviderReadingP", "addAttribute"]
 - !private ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderReadingP", "length"]
+- !private ["So21NSItemProviderWritingP", "addAttribute"]
 - !private ["So21NSItemProviderWritingP", "init"]
+- !private ["So21NSItemProviderWritingP", "length"]
+- !private ["So25NSMutableAttributedStringC", "addAttribute"]
+- !private ["So25NSMutableAttributedStringC", "init"]
+- !private ["So25NSMutableAttributedStringC", "length"]
+- !private ["So16NSMutableCopyingP", "addAttribute"]
+- !private ["So16NSMutableCopyingP", "alignment"]
 - !private ["So16NSMutableCopyingP", "init"]
+- !private ["So16NSMutableCopyingP", "length"]
+- !private ["So16NSMutableCopyingP", "lineSpacing"]
+- !private ["So23NSMutableParagraphStyleC", "alignment"]
+- !private ["So23NSMutableParagraphStyleC", "init"]
+- !private ["So23NSMutableParagraphStyleC", "lineSpacing"]
+- ["So8NSObjectC", "AVFile"]
+- ["So8NSObjectC", "AVUser"]
+- ["So8NSObjectC", "Int"]
+- ["So8NSObjectC", "NSAttributedString"]
+- !private ["So8NSObjectC", "NSAttributedStringKey"]
+- !private ["So8NSObjectC", "NSMakeRange"]
+- !private ["So8NSObjectC", "NSMutableAttributedString"]
+- !private ["So8NSObjectC", "NSMutableParagraphStyle"]
+- !private ["So8NSObjectC", "NSTextAlignment"]
+- ["So8NSObjectC", "NSZone"]
+- !private ["So8NSObjectC", "Strategy"]
 - ["So8NSObjectC", "String"]
+- ["So8NSObjectC", "Topic"]
+- !private ["So8NSObjectC", "UIFont"]
+- !private ["So8NSObjectC", "addAttribute"]
+- !private ["So8NSObjectC", "alignment"]
+- ["So8NSObjectC", "attributedDesc"]
+- ["So8NSObjectC", "copy"]
+- ["So8NSObjectC", "copyWithZone"]
+- ["So8NSObjectC", "cover"]
+- ["So8NSObjectC", "desc"]
 - ["So8NSObjectC", "init"]
-- ["So8NSObjectC", "object"]
+- !private ["So8NSObjectC", "length"]
+- ["So8NSObjectC", "likeCount"]
+- !private ["So8NSObjectC", "lineSpacing"]
+- !private ["So8NSObjectC", "objectId"]
 - ["So8NSObjectC", "objectWithoutData"]
 - ["So8NSObjectC", "objectWithoutDataWithObjectId"]
 - ["So8NSObjectC", "parseClassName"]
 - ["So8NSObjectC", "query"]
 - ["So8NSObjectC", "registerSubclass"]
+- ["So8NSObjectC", "subtitle"]
+- !private ["So8NSObjectC", "systemFont"]
+- ["So8NSObjectC", "title"]
+- ["So8NSObjectC", "topic"]
+- ["So8NSObjectC", "user"]
+- !private ["So16NSObjectProtocolP", "NSAttributedStringKey"]
+- !private ["So16NSObjectProtocolP", "NSMakeRange"]
+- !private ["So16NSObjectProtocolP", "NSMutableAttributedString"]
+- !private ["So16NSObjectProtocolP", "NSMutableParagraphStyle"]
+- !private ["So16NSObjectProtocolP", "NSTextAlignment"]
+- !private ["So16NSObjectProtocolP", "Strategy"]
+- !private ["So16NSObjectProtocolP", "UIFont"]
+- !private ["So16NSObjectProtocolP", "addAttribute"]
+- !private ["So16NSObjectProtocolP", "alignment"]
+- ["So16NSObjectProtocolP", "copy"]
+- ["So16NSObjectProtocolP", "copyWithZone"]
+- !private ["So16NSObjectProtocolP", "desc"]
 - !private ["So16NSObjectProtocolP", "init"]
-- ["So16NSObjectProtocolP", "object"]
+- !private ["So16NSObjectProtocolP", "length"]
+- !private ["So16NSObjectProtocolP", "lineSpacing"]
+- !private ["So16NSObjectProtocolP", "objectId"]
 - ["So16NSObjectProtocolP", "objectWithoutData"]
 - ["So16NSObjectProtocolP", "objectWithoutDataWithObjectId"]
 - ["So16NSObjectProtocolP", "parseClassName"]
 - ["So16NSObjectProtocolP", "query"]
 - ["So16NSObjectProtocolP", "registerSubclass"]
+- !private ["So16NSObjectProtocolP", "systemFont"]
 - ["So16NSObjectProtocolP", ""]
+- !private ["So16NSParagraphStyleC", "alignment"]
+- !private ["So16NSParagraphStyleC", "init"]
+- !private ["So16NSParagraphStyleC", "lineSpacing"]
+- !private ["So14NSSecureCodingP", "addAttribute"]
+- !private ["So14NSSecureCodingP", "alignment"]
 - !private ["So14NSSecureCodingP", "init"]
+- !private ["So14NSSecureCodingP", "length"]
+- !private ["So14NSSecureCodingP", "lineSpacing"]
 - !private ["So8NSStringC", "init"]
+- !private ["SC15NSTextAlignmentO", "justified"]
 - !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s16RawRepresentableP", "font"]
+- !private ["s16RawRepresentableP", "justified"]
+- !private ["s16RawRepresentableP", "paragraphStyle"]
+- !private ["7RxSwift18ReactiveCompatibleP", "NSAttributedStringKey"]
+- !private ["7RxSwift18ReactiveCompatibleP", "NSMakeRange"]
+- !private ["7RxSwift18ReactiveCompatibleP", "NSMutableAttributedString"]
+- !private ["7RxSwift18ReactiveCompatibleP", "NSMutableParagraphStyle"]
+- !private ["7RxSwift18ReactiveCompatibleP", "NSTextAlignment"]
+- !private ["7RxSwift18ReactiveCompatibleP", "Strategy"]
+- !private ["7RxSwift18ReactiveCompatibleP", "UIFont"]
+- !private ["7RxSwift18ReactiveCompatibleP", "addAttribute"]
+- !private ["7RxSwift18ReactiveCompatibleP", "alignment"]
+- ["7RxSwift18ReactiveCompatibleP", "copy"]
+- ["7RxSwift18ReactiveCompatibleP", "copyWithZone"]
+- !private ["7RxSwift18ReactiveCompatibleP", "desc"]
 - !private ["7RxSwift18ReactiveCompatibleP", "init"]
-- ["7RxSwift18ReactiveCompatibleP", "object"]
+- !private ["7RxSwift18ReactiveCompatibleP", "length"]
+- !private ["7RxSwift18ReactiveCompatibleP", "lineSpacing"]
+- !private ["7RxSwift18ReactiveCompatibleP", "objectId"]
 - ["7RxSwift18ReactiveCompatibleP", "objectWithoutData"]
 - ["7RxSwift18ReactiveCompatibleP", "objectWithoutDataWithObjectId"]
 - ["7RxSwift18ReactiveCompatibleP", "parseClassName"]
 - ["7RxSwift18ReactiveCompatibleP", "query"]
 - ["7RxSwift18ReactiveCompatibleP", "registerSubclass"]
+- !private ["7RxSwift18ReactiveCompatibleP", "systemFont"]
 - ["7RxSwift18ReactiveCompatibleP", ""]
 - !private ["s8SequenceP", "init"]
+- ["9HouseHold8StrategyC", "AVFile"]
+- ["9HouseHold8StrategyC", "AVUser"]
+- ["9HouseHold8StrategyC", "Int"]
+- ["9HouseHold8StrategyC", "NSAttributedString"]
+- !private ["9HouseHold8StrategyC", "NSAttributedStringKey"]
+- !private ["9HouseHold8StrategyC", "NSMakeRange"]
+- !private ["9HouseHold8StrategyC", "NSMutableAttributedString"]
+- !private ["9HouseHold8StrategyC", "NSMutableParagraphStyle"]
+- !private ["9HouseHold8StrategyC", "NSTextAlignment"]
+- ["9HouseHold8StrategyC", "NSZone"]
+- !private ["9HouseHold8StrategyC", "Strategy"]
 - ["9HouseHold8StrategyC", "String"]
+- ["9HouseHold8StrategyC", "Topic"]
+- !private ["9HouseHold8StrategyC", "UIFont"]
+- ["9HouseHold8StrategyC", "attributedDesc"]
+- ["9HouseHold8StrategyC", "copy"]
+- ["9HouseHold8StrategyC", "copyWithZone"]
+- ["9HouseHold8StrategyC", "cover"]
 - ["9HouseHold8StrategyC", "deinit"]
+- ["9HouseHold8StrategyC", "desc"]
 - ["9HouseHold8StrategyC", "init"]
-- ["9HouseHold8StrategyC", "object"]
+- ["9HouseHold8StrategyC", "likeCount"]
+- !private ["9HouseHold8StrategyC", "objectId"]
 - ["9HouseHold8StrategyC", "objectWithoutData"]
 - ["9HouseHold8StrategyC", "objectWithoutDataWithObjectId"]
 - ["9HouseHold8StrategyC", "parseClassName"]
 - ["9HouseHold8StrategyC", "query"]
 - ["9HouseHold8StrategyC", "registerSubclass"]
+- ["9HouseHold8StrategyC", "subtitle"]
+- ["9HouseHold8StrategyC", "title"]
+- ["9HouseHold8StrategyC", "topic"]
+- ["9HouseHold8StrategyC", "user"]
 - !private ["SS", "init"]
 - !private ["s14StringProtocolP", "init"]
 - !private ["s16TextOutputStreamP", "init"]
 - !private ["s20TextOutputStreamableP", "init"]
+- !private ["So6UIFontC", "systemFont"]
 - !private ["s23_BidirectionalIndexableP", "init"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
 - !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
 - !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
 - !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
@@ -145,21 +444,42 @@ depends-member:
 - !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
 - !private ["s10_IndexableP", "init"]
 - !private ["s14_IndexableBaseP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSAttributedStringKey"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSMakeRange"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSMutableAttributedString"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSMutableParagraphStyle"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSTextAlignment"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Strategy"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIFont"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addAttribute"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "alignment"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "copy"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "copyWithZone"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "desc"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
-- ["10Foundation27_KeyValueCodingAndObservingP", "object"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "length"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "lineSpacing"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "objectId"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "objectWithoutData"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "objectWithoutDataWithObjectId"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "parseClassName"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "query"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "registerSubclass"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "systemFont"]
 - ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "font"]
 - !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "paragraphStyle"]
 - !private ["s26_RangeReplaceableIndexableP", "init"]
+- !private ["s20_SwiftNewtypeWrapperP", "font"]
+- !private ["s20_SwiftNewtypeWrapperP", "paragraphStyle"]
 - !private ["s16_SwiftStringViewP", "init"]
 depends-nominal:
 - "So8AVObjectC"
 - "So13AVSubclassingP"
 - !private "s23BidirectionalCollectionP"
+- !private "Sb"
 - "s7CVarArgP"
 - !private "s10CollectionP"
 - !private "s10ComparableP"
@@ -170,23 +490,32 @@ depends-nominal:
 - !private "s9DecodableP"
 - !private "s9EncodableP"
 - "s9EquatableP"
+- !private "s27ExpressibleByBooleanLiteralP"
 - !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
 - !private "s26ExpressibleByStringLiteralP"
 - !private "s33ExpressibleByUnicodeScalarLiteralP"
 - "s8HashableP"
+- !private "7RxCocoa16KVORepresentableP"
 - !private "10Kingfisher0A10CompatibleP"
 - !private "s25LosslessStringConvertibleP"
 - !private "s10MirrorPathP"
+- !private "So18NSAttributedStringC"
+- !private "SC21NSAttributedStringKeyV"
 - "So8NSCodingP"
-- !private "So9NSCopyingP"
+- "So9NSCopyingP"
 - !private "So21NSItemProviderReadingP"
 - !private "So21NSItemProviderWritingP"
+- !private "So25NSMutableAttributedStringC"
 - !private "So16NSMutableCopyingP"
+- !private "So23NSMutableParagraphStyleC"
 - "So8NSObjectC"
 - "So16NSObjectProtocolP"
+- !private "So16NSParagraphStyleC"
 - !private "So14NSSecureCodingP"
 - !private "So8NSStringC"
+- !private "SC15NSTextAlignmentO"
 - !private "s26RangeReplaceableCollectionP"
+- !private "s16RawRepresentableP"
 - "7RxSwift18ReactiveCompatibleP"
 - !private "s8SequenceP"
 - "9HouseHold8StrategyC"
@@ -194,7 +523,9 @@ depends-nominal:
 - !private "s14StringProtocolP"
 - !private "s16TextOutputStreamP"
 - !private "s20TextOutputStreamableP"
+- !private "So6UIFontC"
 - !private "s23_BidirectionalIndexableP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
 - !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
 - !private "s34_ExpressibleByBuiltinStringLiteralP"
 - !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
@@ -206,12 +537,14 @@ depends-nominal:
 - "10Foundation27_KeyValueCodingAndObservingP"
 - !private "s21_ObjectiveCBridgeableP"
 - !private "s26_RangeReplaceableIndexableP"
+- !private "s20_SwiftNewtypeWrapperP"
 - !private "s16_SwiftStringViewP"
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Accelerate.apinotesc"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
 - "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/RxCocoa/RxCocoa.framework/Modules/RxCocoa.swiftmodule/arm64.swiftmodule"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/RxKeyboard/RxKeyboard.framework/Modules/RxKeyboard.swiftmodule/arm64.swiftmodule"
 - "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/RxGesture/RxGesture.framework/Modules/RxGesture.swiftmodule/arm64.swiftmodule"
 - "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/Kingfisher/Kingfisher.framework/Modules/Kingfisher.swiftmodule/arm64.swiftmodule"
 - "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/RxSwift/RxSwift.framework/Modules/RxSwift.swiftmodule/arm64.swiftmodule"
@@ -240,6 +573,7 @@ depends-external:
 - "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/RxCocoa/RxCocoa.framework/Headers/_RX.h"
 - "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/AVOSCloud/AVOSCloud.framework/Headers/AVCaptcha.h"
 - "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/RxCocoa/RxCocoa.framework/Headers/RxCocoa-umbrella.h"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/RxKeyboard/RxKeyboard.framework/Headers/RxKeyboard-umbrella.h"
 - "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/AVOSCloud/AVOSCloud.framework/Headers/AVOSCloud-umbrella.h"
 - "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/RxGesture/RxGesture.framework/Headers/RxGesture-umbrella.h"
 - "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/Kingfisher/Kingfisher.framework/Headers/Kingfisher-umbrella.h"
@@ -264,6 +598,7 @@ depends-external:
 - "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/AVOSCloud/AVOSCloud.framework/Headers/AVLogger.h"
 - "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/Kingfisher/Kingfisher.framework/Headers/Kingfisher.h"
 - "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/AVOSCloud/AVOSCloud.framework/Headers/AVUser.h"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/AVOSCloud/AVOSCloud.framework/Headers/LCRouter.h"
 - "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/RxCocoa/RxCocoa.framework/Headers/_RXKVOObserver.h"
 - "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/AVOSCloud/AVOSCloud.framework/Headers/AVAnalytics.h"
 - "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/AVOSCloud/AVOSCloud.framework/Headers/AVAnonymousUtils.h"
@@ -273,6 +608,7 @@ depends-external:
 - "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/AVOSCloud/AVOSCloud.framework/Headers/AVObject.h"
 - "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/AVOSCloud/AVOSCloud.framework/Headers/AVDynamicObject.h"
 - "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/RxCocoa/RxCocoa.framework/Headers/RxCocoa-Swift.h"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/RxKeyboard/RxKeyboard.framework/Headers/RxKeyboard-Swift.h"
 - "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/RxGesture/RxGesture.framework/Headers/RxGesture-Swift.h"
 - "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/Kingfisher/Kingfisher.framework/Headers/Kingfisher-Swift.h"
 - "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/RxSwift/RxSwift.framework/Headers/RxSwift-Swift.h"
@@ -285,9 +621,10 @@ depends-external:
 - "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/AVOSCloud/AVOSCloud.framework/Headers/AVAvailability.h"
 - "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/RxCocoa/RxCocoa.framework/Headers/_RXDelegateProxy.h"
 - "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/RxCocoa/RxCocoa.framework/Modules/module.modulemap"
+- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/RxKeyboard/RxKeyboard.framework/Modules/module.modulemap"
 - "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/AVOSCloud/AVOSCloud.framework/Modules/module.modulemap"
 - "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/RxGesture/RxGesture.framework/Modules/module.modulemap"
 - "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/Kingfisher/Kingfisher.framework/Modules/module.modulemap"
 - "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/RxSwift/RxSwift.framework/Modules/module.modulemap"
 - "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/SnapKit/SnapKit.framework/Modules/module.modulemap"
-interface-hash: "42c635b3e6038d11866fed5c4f189fb2"
+interface-hash: "f990225b6e73597858f6b3e091193822"
