@@ -47,6 +47,7 @@
 		944B5C011FCE42A600EFF8BB /* Topic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944B5C001FCE42A600EFF8BB /* Topic.swift */; };
 		944B5C041FCE42C500EFF8BB /* TopicSelectCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944B5C021FCE42C500EFF8BB /* TopicSelectCell.swift */; };
 		944B5C051FCE42C500EFF8BB /* TopicSelectCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 944B5C031FCE42C500EFF8BB /* TopicSelectCell.xib */; };
+		944B5C1F1FCEB64400EFF8BB /* IntroduceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944B5C1E1FCEB64400EFF8BB /* IntroduceView.swift */; };
 		944C5F381FCD4530007C9E2C /* CreateStrategyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944C5F371FCD4530007C9E2C /* CreateStrategyViewModel.swift */; };
 		944C5F3B1FCD4DD5007C9E2C /* InputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944C5F3A1FCD4DD5007C9E2C /* InputView.swift */; };
 		CDBB98FAE61B743D1AD12785 /* Pods_HouseHold.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A96D11C2D0C18A40183F5675 /* Pods_HouseHold.framework */; };
@@ -99,6 +100,7 @@
 		944B5C001FCE42A600EFF8BB /* Topic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Topic.swift; sourceTree = "<group>"; };
 		944B5C021FCE42C500EFF8BB /* TopicSelectCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopicSelectCell.swift; sourceTree = "<group>"; };
 		944B5C031FCE42C500EFF8BB /* TopicSelectCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TopicSelectCell.xib; sourceTree = "<group>"; };
+		944B5C1E1FCEB64400EFF8BB /* IntroduceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroduceView.swift; sourceTree = "<group>"; };
 		944C5F371FCD4530007C9E2C /* CreateStrategyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateStrategyViewModel.swift; sourceTree = "<group>"; };
 		944C5F3A1FCD4DD5007C9E2C /* InputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputView.swift; sourceTree = "<group>"; };
 		A96D11C2D0C18A40183F5675 /* Pods_HouseHold.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HouseHold.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -351,6 +353,7 @@
 			children = (
 				617A917B1FB0AD9E0065FF3A /* CreateStrategyHeaderView.swift */,
 				61CDF3751FCDA8F9003C62DF /* TopicView.swift */,
+				944B5C1E1FCEB64400EFF8BB /* IntroduceView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -621,6 +624,7 @@
 				61CDF3691FB4939B003C62DF /* ImageCollectionCell.swift in Sources */,
 				618F874A1F9E280900201826 /* HomeStrategyCell.swift in Sources */,
 				944B5C011FCE42A600EFF8BB /* Topic.swift in Sources */,
+				944B5C1F1FCEB64400EFF8BB /* IntroduceView.swift in Sources */,
 				61CDF3701FB49458003C62DF /* UIView+Position.swift in Sources */,
 				618094D91F9F7D0F0031A006 /* HomeViewModel.swift in Sources */,
 				61CDF3681FB4939B003C62DF /* FolderModel.swift in Sources */,
