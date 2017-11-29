@@ -10,14 +10,6 @@ import Foundation
 import AVOSCloud
 
 class Strategy: AVObject, AVSubclassing, NSCopying  {
-    
-//    @property (nonatomic, copy) NSString *title;
-//    @property (nonatomic, copy) NSString *subtitle;
-//    @property (nonatomic, copy) NSString *desc;
-//    @property (nonatomic, strong) AVFile *cover;
-//    @property (nonatomic, strong) NSNumber *likeCount;
-//    @property (nonatomic, strong) AVUser *user;
-//    @property (nonatomic, strong) TopicModel *topic;
 
     @objc dynamic var title: String?
     @objc dynamic var subtitle: String?

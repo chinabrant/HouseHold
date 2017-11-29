@@ -30,6 +30,8 @@ class CreateStrategyHeaderView: UIView {
                 self.titleLabel.text = "请输入标题"
             }
             
+            self.topicBackView.title = strategy?.topic?.title
+            
             self.descLabel.attributedText = strategy?.attributedDesc()
             
             self.titleLabel.width = UIScreen.width - 50
@@ -45,6 +47,7 @@ class CreateStrategyHeaderView: UIView {
     var coverImageTapGesture: Observable<UITapGestureRecognizer>?
     var titleTapGesture: Observable<UITapGestureRecognizer>?
     var descTapGesture: Observable<UITapGestureRecognizer>?
+    var topicTapGesture: Observable<UITapGestureRecognizer>?
     var layoutUpdatedSubject: PublishSubject<CGFloat> = PublishSubject<CGFloat>()
 
     override init(frame: CGRect) {
@@ -63,6 +66,7 @@ class CreateStrategyHeaderView: UIView {
         self.coverImageTapGesture = self.coverImageView.rx.tapGesture().when(.recognized)
         self.titleTapGesture = self.titleLabel.rx.tapGesture().when(.recognized)
         self.descTapGesture = self.descLabel.rx.tapGesture().when(.recognized)
+        self.topicTapGesture = self.topicBackView.rx.tapGesture().when(.recognized)
     }
     
     func updateLayout() {
@@ -72,9 +76,9 @@ class CreateStrategyHeaderView: UIView {
         
         self.separatorView.y = self.titleLabel.bottom + 40
         self.descLabel.y = self.separatorView.bottom + 30
-        self.topicBackView.y = self.descLabel.bottom + 20
+//        self.topicBackView.y = self.descLabel.bottom + 20
         
-        self.height = self.topicBackView.bottom + 10
+        self.height = self.descLabel.bottom + 10
         
         self.layoutUpdatedSubject.onNext(self.height)
     }
@@ -85,7 +89,9 @@ class CreateStrategyHeaderView: UIView {
         
         self.imageTipsLabel.center = self.coverImageView.center
         
-        self.titleLabel.frame = CGRect(x: 25, y: self.coverImageView.bottom + 35, width: UIScreen.width - 50, height: 25)
+        self.topicBackView.frame = CGRect(x: 0, y: self.coverImageView.bottom, width: UIScreen.width, height: 44)
+        
+        self.titleLabel.frame = CGRect(x: 25, y: self.topicBackView.bottom + 35, width: UIScreen.width - 50, height: 25)
         
         self.separatorView.frame = CGRect(x: 25, y: self.titleLabel.bottom + 40, width: 40, height: 1)
         
@@ -93,7 +99,7 @@ class CreateStrategyHeaderView: UIView {
         
         
         
-        self.topicBackView.frame = CGRect(x: 25, y: self.descLabel.bottom + 20, width: UIScreen.width - 50, height: 44)
+        
         
         self.height = self.descLabel.bottom + 10
     }

@@ -56,7 +56,7 @@ class CreateStrategyViewController: BaseViewController {
                 self.viewModel.strategy?.title = result
                 self.headerView.strategy = self.viewModel.strategy
                 
-            }).disposed(by: self.disposeBag)    // 这个地方的写法有问题的，不能用这个disposeBag
+            }).disposed(by: self.disposeBag)    // 这个地方的写法有问题的，不能用这个disposeBag, 要用InputView实例里面的那个
             
         }).disposed(by: self.disposeBag)
         
@@ -69,6 +69,22 @@ class CreateStrategyViewController: BaseViewController {
                 self.headerView.strategy = self.viewModel.strategy
                 
             }).disposed(by: self.disposeBag)
+            
+        }).disposed(by: self.disposeBag)
+        
+        // 点击了选择栏目
+        self.headerView.topicTapGesture?.subscribe(onNext: { (tap) in
+            
+            let topicSelectVC = TopicSelectViewController()
+            topicSelectVC.result.subscribe(onNext: { (topic) in
+                
+                // 栏目选择好了
+                self.viewModel.strategy?.topic = topic
+                self.headerView.strategy = self.viewModel.strategy
+                
+            }).disposed(by: topicSelectVC.disposeBag)
+            
+            self.navigationController?.pushViewController(topicSelectVC, animated: true)
             
         }).disposed(by: self.disposeBag)
         
