@@ -60,6 +60,7 @@ class CreateStrategyHeaderView: UIView {
         self.addSubview(descLabel)
         
         self.addSubview(self.topicBackView)
+        self.addSubview(self.introduceView)
         
         self.layout()
         
@@ -70,6 +71,9 @@ class CreateStrategyHeaderView: UIView {
     }
     
     func updateLayout() {
+        
+        self.titleLabel.y = self.introduceView.bottom + 35
+        
         if self.titleLabel.height < 25 {
             self.titleLabel.height = 25
         }
@@ -90,16 +94,13 @@ class CreateStrategyHeaderView: UIView {
         self.imageTipsLabel.center = self.coverImageView.center
         
         self.topicBackView.frame = CGRect(x: 0, y: self.coverImageView.bottom, width: UIScreen.width, height: 44)
+        self.introduceView.y = self.topicBackView.bottom
         
-        self.titleLabel.frame = CGRect(x: 25, y: self.topicBackView.bottom + 35, width: UIScreen.width - 50, height: 25)
+        self.titleLabel.frame = CGRect(x: 25, y: self.introduceView.bottom + 35, width: UIScreen.width - 50, height: 25)
         
         self.separatorView.frame = CGRect(x: 25, y: self.titleLabel.bottom + 40, width: 40, height: 1)
         
         self.descLabel.frame = CGRect(x: 25, y: self.separatorView.bottom + 30, width: UIScreen.width - 50, height: 65)
-        
-        
-        
-        
         
         self.height = self.descLabel.bottom + 10
     }
@@ -153,9 +154,14 @@ class CreateStrategyHeaderView: UIView {
     }()
     
     private lazy var topicBackView: TopicView = {
-        let view = TopicView(frame:CGRect(x: 0, y: 0, width: self.width - 50, height: 44))
+        let view = TopicView(frame:CGRect(x: 0, y: 0, width: self.width - 0, height: 44))
         view.backgroundColor = UIColor.white
         return view
     }()
     
+    private lazy var introduceView: IntroduceView = {
+        let view = IntroduceView(frame: CGRect(x: 0, y: 0, width: self.width - 0, height: 44))
+        view.backgroundColor = UIColor.white
+        return view
+    }()
 }
