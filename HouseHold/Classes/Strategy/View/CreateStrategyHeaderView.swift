@@ -32,6 +32,8 @@ class CreateStrategyHeaderView: UIView {
             
             self.topicBackView.title = strategy?.topic?.title
             
+            self.introduceView.subtitle = strategy?.subtitle
+            
             self.descLabel.attributedText = strategy?.attributedDesc()
             
             self.titleLabel.width = UIScreen.width - 50
@@ -48,6 +50,7 @@ class CreateStrategyHeaderView: UIView {
     var titleTapGesture: Observable<UITapGestureRecognizer>?
     var descTapGesture: Observable<UITapGestureRecognizer>?
     var topicTapGesture: Observable<UITapGestureRecognizer>?
+    var introduceTapGesture: Observable<UITapGestureRecognizer>?
     var layoutUpdatedSubject: PublishSubject<CGFloat> = PublishSubject<CGFloat>()
 
     override init(frame: CGRect) {
@@ -68,6 +71,7 @@ class CreateStrategyHeaderView: UIView {
         self.titleTapGesture = self.titleLabel.rx.tapGesture().when(.recognized)
         self.descTapGesture = self.descLabel.rx.tapGesture().when(.recognized)
         self.topicTapGesture = self.topicBackView.rx.tapGesture().when(.recognized)
+        self.introduceTapGesture = self.introduceView.rx.tapGesture().when(.recognized)
     }
     
     func updateLayout() {

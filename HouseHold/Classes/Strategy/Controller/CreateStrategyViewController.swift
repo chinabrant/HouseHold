@@ -88,6 +88,18 @@ class CreateStrategyViewController: BaseViewController {
             
         }).disposed(by: self.disposeBag)
         
+        // 点击了一句话介绍
+        self.headerView.introduceTapGesture?.subscribe(onNext: { (tap) in
+            
+            InputView.showIn(view: self.navigationController!.view, type: .single).subscribe(onNext: { (result) in
+                
+                self.viewModel.strategy?.subtitle = result
+                self.headerView.strategy = self.viewModel.strategy
+                
+            }).disposed(by: self.disposeBag)
+            
+        }).disposed(by: self.disposeBag)
+        
         // 更新头部的高度
         self.headerView.layoutUpdatedSubject.subscribe(onNext: { (height) in
             

@@ -53,6 +53,7 @@ class IntroduceView: UIView {
         label.text = "请输入一句话描述（在首页列表显示）"
         label.textColor = UIColor.assistColor
         label.font = UIFont.systemFont(ofSize: 14)
+        label.numberOfLines = 0
         return label
     }()
 
