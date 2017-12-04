@@ -30,7 +30,6 @@ depends-top-level:
 - "ObservableConvertibleType"
 - "ObservableType"
 - "SpinLock"
-- "SynchronizationTracker"
 - "Variable"
 depends-member:
 - !private ["7RxSwift15BehaviorSubjectC", "deinit"]
@@ -56,7 +55,6 @@ depends-member:
 - ["s9EquatableP", "init"]
 - !private ["s9EquatableP", "lock"]
 - !private ["s9EquatableP", "unlock"]
-- !private ["s9EquatableP", "variable"]
 - !private ["s9EquatableP", "whileConnected"]
 - !private ["7RxSwift5EventO", "completed"]
 - !private ["7RxSwift5EventO", "next"]
@@ -66,7 +64,6 @@ depends-member:
 - ["s8HashableP", "init"]
 - !private ["s8HashableP", "lock"]
 - !private ["s8HashableP", "unlock"]
-- !private ["s8HashableP", "variable"]
 - !private ["s8HashableP", "whileConnected"]
 - ["7RxSwift4LockP", "init"]
 - !private ["7RxSwift4LockP", "lock"]
@@ -130,7 +127,6 @@ depends-member:
 - ["7RxSwift14ObservableTypeP", "takeWhileWithIndex"]
 - !private ["7RxSwift12ObserverTypeP", "init"]
 - !private ["7RxSwift12ObserverTypeP", "on"]
-- !private ["s16RawRepresentableP", "variable"]
 - ["7RxSwift18ReactiveCompatibleP", "init"]
 - !private ["7RxSwift18ReactiveCompatibleP", "lock"]
 - !private ["7RxSwift18ReactiveCompatibleP", "unlock"]
@@ -138,10 +134,6 @@ depends-member:
 - !private ["7RxSwift20SubjectLifetimeScopeO", "whileConnected"]
 - !private ["7RxSwift11SubjectTypeP", "init"]
 - !private ["7RxSwift11SubjectTypeP", "on"]
-- !private ["7RxSwift22SynchronizationTrackerC27SychronizationErrorMessagesO", "variable"]
-- ["7RxSwift22SynchronizationTrackerC", "init"]
-- !private ["7RxSwift22SynchronizationTrackerC", "register"]
-- !private ["7RxSwift22SynchronizationTrackerC", "unregister"]
 - !private ["7RxSwift27SynchronizedUnsubscribeTypeP", "init"]
 - !private ["7RxSwift27SynchronizedUnsubscribeTypeP", "on"]
 - ["7RxSwift8VariableC", "BehaviorSubject"]
@@ -149,10 +141,8 @@ depends-member:
 - ["7RxSwift8VariableC", "Element"]
 - ["7RxSwift8VariableC", "Observable"]
 - ["7RxSwift8VariableC", "SpinLock"]
-- ["7RxSwift8VariableC", "SynchronizationTracker"]
 - !private ["7RxSwift8VariableC", "_lock"]
 - !private ["7RxSwift8VariableC", "_subject"]
-- !private ["7RxSwift8VariableC", "_synchronizationTracker"]
 - !private ["7RxSwift8VariableC", "_value"]
 - ["7RxSwift8VariableC", "asObservable"]
 - ["7RxSwift8VariableC", "deinit"]
@@ -180,12 +170,9 @@ depends-nominal:
 - "7RxSwift25ObservableConvertibleTypeP"
 - "7RxSwift14ObservableTypeP"
 - !private "7RxSwift12ObserverTypeP"
-- !private "s16RawRepresentableP"
 - "7RxSwift18ReactiveCompatibleP"
 - !private "7RxSwift20SubjectLifetimeScopeO"
 - !private "7RxSwift11SubjectTypeP"
-- !private "7RxSwift22SynchronizationTrackerC27SychronizationErrorMessagesO"
-- "7RxSwift22SynchronizationTrackerC"
 - !private "7RxSwift27SynchronizedUnsubscribeTypeP"
 - "7RxSwift8VariableC"
 - "10Foundation27_KeyValueCodingAndObservingP"
@@ -204,6 +191,6 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Swift.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/UIKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/SwiftOnoneSupport.swiftmodule"
-- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/RxSwift/RxSwift.framework/Headers/RxSwift-umbrella.h"
+- "/Users/sjwu/video/HouseHold/Pods/Target Support Files/RxSwift/RxSwift-umbrella.h"
 - "/Users/sjwu/video/HouseHold/Build/Intermediates/Pods.build/Debug-iphoneos/RxSwift.build/unextended-module.modulemap"
 interface-hash: "13f114c7e444800030cb48cc95019290"

@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		H57UnFWBiYQxbyZbxelD6AGI7hU=
+		1T+jQlY4T6IhqK8QeOEQuvI5ZO0=
 		</data>
 		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<data>
@@ -34,7 +34,7 @@
 		</data>
 		<key>Frameworks/AVOSCloud.framework/AVOSCloud</key>
 		<data>
-		mZotH6pdn1+NOF5b+/xxwiM523E=
+		y3nQoq3BRuMNdn6CrF3S31IYa1Q=
 		</data>
 		<key>Frameworks/AVOSCloud.framework/AVOSCloud_Art.inc</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Frameworks/Kingfisher.framework/Kingfisher</key>
 		<data>
-		5N2hGNKcKGPe/RXbkW2RTz9b7nk=
+		y4BZnJeZX3gPAxJO1KMdBrr0BIE=
 		</data>
 		<key>Frameworks/Kingfisher.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -66,7 +66,7 @@
 		</data>
 		<key>Frameworks/RxCocoa.framework/RxCocoa</key>
 		<data>
-		YTY6V1rc3twhEEB5kd2mWjGJP8s=
+		KQaYY6h1sk4qQNAtRcDCNqdephY=
 		</data>
 		<key>Frameworks/RxCocoa.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -78,7 +78,7 @@
 		</data>
 		<key>Frameworks/RxGesture.framework/RxGesture</key>
 		<data>
-		wHpoTeGMvsFgkrBd4medhRDjjG8=
+		Oz5Sz7yfAJTsmmR1BcBrjzKzHsM=
 		</data>
 		<key>Frameworks/RxGesture.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -90,7 +90,7 @@
 		</data>
 		<key>Frameworks/RxKeyboard.framework/RxKeyboard</key>
 		<data>
-		kobjOy6CPS39U1ptttXxQA5XoSo=
+		qRxkR4I4okUcsN7+rQfknSG8jWo=
 		</data>
 		<key>Frameworks/RxKeyboard.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -102,7 +102,7 @@
 		</data>
 		<key>Frameworks/RxSwift.framework/RxSwift</key>
 		<data>
-		fB6+8dQkVrpXlf6ouqqcmL0BEtQ=
+		kPHsyknYAClKUzV5NEuoQon66es=
 		</data>
 		<key>Frameworks/RxSwift.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -114,7 +114,7 @@
 		</data>
 		<key>Frameworks/SnapKit.framework/SnapKit</key>
 		<data>
-		KThg5UD9G7qeL+DtgNZmn+Iht+g=
+		5u0Pf4TQj/5X7aeSnwnrvXFbuT0=
 		</data>
 		<key>Frameworks/SnapKit.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -216,6 +216,30 @@
 		<data>
 		n57qDP4tZfLD1rCS43W0B4LQjzE=
 		</data>
+		<key>Strategy.storyboardc/CreateStrategyItemViewController.nib/objects-11.0+.nib</key>
+		<data>
+		ueRiUiDdTkTEHOdnTlScyO5klgY=
+		</data>
+		<key>Strategy.storyboardc/CreateStrategyItemViewController.nib/runtime.nib</key>
+		<data>
+		fTeAGowy/dI+6YWyqYE1H839i8E=
+		</data>
+		<key>Strategy.storyboardc/Info.plist</key>
+		<data>
+		oRz3cg6JLPE5PXa7B8L2RP4CEJw=
+		</data>
+		<key>Strategy.storyboardc/O1v-Oy-Paz-view-js5-xn-txg.nib/objects-11.0+.nib</key>
+		<data>
+		TzEMIvefgHTx5x7uyQ+KUs3yQgc=
+		</data>
+		<key>Strategy.storyboardc/O1v-Oy-Paz-view-js5-xn-txg.nib/runtime.nib</key>
+		<data>
+		RFicIssfkc1ZklDcCPHAlYenyyY=
+		</data>
+		<key>TopicSelectCell.nib</key>
+		<data>
+		uJFGRCcQHolMxrTHH6wJiy3qS3I=
+		</data>
 		<key>embedded.mobileprovision</key>
 		<data>
 		0eDwqqPJ8zY1go0ELjI2b8hByCM=
@@ -231,11 +255,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			H57UnFWBiYQxbyZbxelD6AGI7hU=
+			1T+jQlY4T6IhqK8QeOEQuvI5ZO0=
 			</data>
 			<key>hash2</key>
 			<data>
-			r3w7YKPFgmH5EVtUjvL7Haa6NBntiEWs4FV8rt5pesM=
+			KrlVBK7FSlPW3DCUKO9+6ja3W9N9/Pklov5A4MGUBQ8=
 			</data>
 		</dict>
 		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
@@ -308,11 +332,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			mZotH6pdn1+NOF5b+/xxwiM523E=
+			y3nQoq3BRuMNdn6CrF3S31IYa1Q=
 			</data>
 			<key>hash2</key>
 			<data>
-			8607GHgOPclcgPUBVEcTx1JBDtmdD7VeTYqQMSrjyqk=
+			ogZX5vIDu0EwWOMRDtaJe2ErMNrrU9rMncBE35I9VSI=
 			</data>
 		</dict>
 		<key>Frameworks/AVOSCloud.framework/AVOSCloud_Art.inc</key>
@@ -363,11 +387,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			5N2hGNKcKGPe/RXbkW2RTz9b7nk=
+			y4BZnJeZX3gPAxJO1KMdBrr0BIE=
 			</data>
 			<key>hash2</key>
 			<data>
-			bCaJmbNrPGR21DLwH5cy5qB7KoV3FaYKYtPK1OstN+c=
+			oDAy4tadp4Aan/JGcmDpq1fGb8h3W1nEUIqMIm6r7Fw=
 			</data>
 		</dict>
 		<key>Frameworks/Kingfisher.framework/_CodeSignature/CodeResources</key>
@@ -396,11 +420,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			YTY6V1rc3twhEEB5kd2mWjGJP8s=
+			KQaYY6h1sk4qQNAtRcDCNqdephY=
 			</data>
 			<key>hash2</key>
 			<data>
-			gpy8iFJNqGk0B6640iqJqrp5s8WPWLtXQyHZjNE5qfQ=
+			KpcMEa6c0OtO8YD0guqvz1Fsuit5AKwr37UbvRy4Pac=
 			</data>
 		</dict>
 		<key>Frameworks/RxCocoa.framework/_CodeSignature/CodeResources</key>
@@ -429,11 +453,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			wHpoTeGMvsFgkrBd4medhRDjjG8=
+			Oz5Sz7yfAJTsmmR1BcBrjzKzHsM=
 			</data>
 			<key>hash2</key>
 			<data>
-			vGXrQPYk7NIUoHplcIFeQTDfT7hXWRTPXGZ9UKR8yLY=
+			rM1r/oVV31hWSK+W8TM6HaSkPjBABcqJY7MsH13kUf0=
 			</data>
 		</dict>
 		<key>Frameworks/RxGesture.framework/_CodeSignature/CodeResources</key>
@@ -462,11 +486,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			kobjOy6CPS39U1ptttXxQA5XoSo=
+			qRxkR4I4okUcsN7+rQfknSG8jWo=
 			</data>
 			<key>hash2</key>
 			<data>
-			r2N7zfcHBNI/iMHIzrgLAMWJyR5HITprhMM5JgmTRoM=
+			VfDujOILuk2v5b1BNKLqmar5Sde9msM+jHWGJlWIKhU=
 			</data>
 		</dict>
 		<key>Frameworks/RxKeyboard.framework/_CodeSignature/CodeResources</key>
@@ -495,11 +519,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			fB6+8dQkVrpXlf6ouqqcmL0BEtQ=
+			kPHsyknYAClKUzV5NEuoQon66es=
 			</data>
 			<key>hash2</key>
 			<data>
-			Q1TVgWdwU9XNnwFbY0p99v10aOHI/9NHr975Jg0e0xY=
+			mghBc+ZtPJmWvV6mX7cRsu76I3ET7H9EXk9s+SImtsE=
 			</data>
 		</dict>
 		<key>Frameworks/RxSwift.framework/_CodeSignature/CodeResources</key>
@@ -528,11 +552,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			KThg5UD9G7qeL+DtgNZmn+Iht+g=
+			5u0Pf4TQj/5X7aeSnwnrvXFbuT0=
 			</data>
 			<key>hash2</key>
 			<data>
-			hFzlMDpR67FVE2HeRuNI3LsYhrDTmHaydlN4I0hDAyQ=
+			36pZhqbmOfIxh41+uuaBDf95mX9ixp3Wmf7/fzhg17s=
 			</data>
 		</dict>
 		<key>Frameworks/SnapKit.framework/_CodeSignature/CodeResources</key>
@@ -786,6 +810,72 @@
 			<key>hash2</key>
 			<data>
 			PD3zGkP6NLiOohSc/ME06cuyZpXW1dXt9nk8WSRvvyI=
+			</data>
+		</dict>
+		<key>Strategy.storyboardc/CreateStrategyItemViewController.nib/objects-11.0+.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			ueRiUiDdTkTEHOdnTlScyO5klgY=
+			</data>
+			<key>hash2</key>
+			<data>
+			3SnaWtMMDJ4DwM4ecvUMD6qs4QAsvztsfm2CvptZjeA=
+			</data>
+		</dict>
+		<key>Strategy.storyboardc/CreateStrategyItemViewController.nib/runtime.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			fTeAGowy/dI+6YWyqYE1H839i8E=
+			</data>
+			<key>hash2</key>
+			<data>
+			kRvmIeU2X4ynd2en2uaPnzq9yOGOxh1UUxy2criIhM8=
+			</data>
+		</dict>
+		<key>Strategy.storyboardc/Info.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			oRz3cg6JLPE5PXa7B8L2RP4CEJw=
+			</data>
+			<key>hash2</key>
+			<data>
+			6vBqG72iyRGK6CnvnGfX7XxwSFT3ZaysHDGKgvmVIx8=
+			</data>
+		</dict>
+		<key>Strategy.storyboardc/O1v-Oy-Paz-view-js5-xn-txg.nib/objects-11.0+.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			TzEMIvefgHTx5x7uyQ+KUs3yQgc=
+			</data>
+			<key>hash2</key>
+			<data>
+			BN0EFXuTkbNneEaP5gPMK5WbSNOafePhwpfzm8B3dTo=
+			</data>
+		</dict>
+		<key>Strategy.storyboardc/O1v-Oy-Paz-view-js5-xn-txg.nib/runtime.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			RFicIssfkc1ZklDcCPHAlYenyyY=
+			</data>
+			<key>hash2</key>
+			<data>
+			otLuzHGuJzZ2cmzbMg/dfybWXhmrO6+XLyJqfaNOHfY=
+			</data>
+		</dict>
+		<key>TopicSelectCell.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			uJFGRCcQHolMxrTHH6wJiy3qS3I=
+			</data>
+			<key>hash2</key>
+			<data>
+			CcPO5daMFqG/Kwy95EJEM3XFU6GPNfogqLPpTBgwNfc=
 			</data>
 		</dict>
 		<key>embedded.mobileprovision</key>

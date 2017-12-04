@@ -22,6 +22,31 @@ class CreateStrategyViewController: BaseViewController {
         self.layout()
         
         self.bindActions()
+        
+        self.setupNavigationItems()
+        
+        self.tableView.tableFooterView = self.footerView
+    }
+    
+    func setupNavigationItems() {
+        let saveItem = UIBarButtonItem(title: "保存", style: UIBarButtonItemStyle.done, target: self, action: #selector(save))
+        self.navigationItem.rightBarButtonItem = saveItem
+    }
+    
+    @objc func save() {
+        BHud.show(in: self.view)
+        self.viewModel.saveStrategy().subscribe(onNext: { (isSuccess: Bool, error) in
+            
+            BHud.hideHud(for: self.view)
+            if isSuccess {
+                print("保存成功了")
+                // 保存成功后。显示添加攻略项按钮
+                self.tableView.tableFooterView = self.footerView
+            }
+        }, onError: { (error) in
+            BHud.hideHud(for: self.view)
+            
+            }).disposed(by: self.disposeBag)
     }
     
     func bindActions() {
@@ -106,6 +131,14 @@ class CreateStrategyViewController: BaseViewController {
             self.tableView.tableHeaderView = self.headerView
             
         }).disposed(by: self.disposeBag)
+
+        // 点击了添加攻略项
+        self.footerView.addButton.rx.controlEvent(UIControlEvents.touchUpInside).subscribe(onNext: { () in
+        
+            let itemVc = UIStoryboard(name: "Strategy", bundle: nil).instantiateViewController(withIdentifier: "CreateStrategyItemViewController")
+            self.navigationController?.pushViewController(itemVc, animated: true)
+            
+        }).disposed(by: self.disposeBag)
     }
     
     func layout() {
@@ -133,5 +166,11 @@ class CreateStrategyViewController: BaseViewController {
     private lazy var viewModel: CreateStrategyViewModel = {
         let vm = CreateStrategyViewModel()
         return vm
+    }()
+    
+    private lazy var footerView: CreateStrategyFooterView = {
+        let footer = CreateStrategyFooterView()
+        
+        return footer
     }()
 }

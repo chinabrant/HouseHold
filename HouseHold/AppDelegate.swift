@@ -21,6 +21,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 //        StrategyModel.registerSubclass()
         Topic.registerSubclass()
         Strategy.registerSubclass()
+        StrategyItem.registerSubclass()
         AVOSCloud.setApplicationId("SPM9bUpyxtGUdbrLMbl9IMMM-gzGzoHsz", clientKey: "HMK6nVDGaKU2m7sJAgHq65hN")
         
         

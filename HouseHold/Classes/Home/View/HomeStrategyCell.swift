@@ -50,6 +50,9 @@ class HomeStrategyCell: UITableViewCell {
                 }
             }
             
+            guard let user = strategy?.user else {
+                return
+            }
             let userAvatar = strategy?.user?.object(forKey: "avatar") as! AVFile
             if let url = userAvatar.url {
                 if let urlRes = URL(string: url) {

@@ -11,13 +11,65 @@ import AVOSCloud
 
 class Strategy: AVObject, AVSubclassing, NSCopying  {
 
-    @objc dynamic var title: String?
-    @objc dynamic var subtitle: String?
-    @objc dynamic var desc: String?
-    @objc dynamic var cover: AVFile?
-    @objc dynamic var likeCount: Int = 0
-    @objc dynamic var user: AVUser?
-    @objc dynamic var topic: Topic?
+    // 标题
+    var title: String? {
+        set {
+            setObject(newValue, forKey: "title")
+        }
+        get {
+            return self.object(forKey: "title") as? String
+        }
+    }
+    
+    // 一句话描述
+    var subtitle: String? {
+        set {
+            setObject(newValue, forKey: "subtitle")
+        }
+        get {
+            return self.object(forKey: "subtitle") as? String
+        }
+    }
+    
+    // 描述
+    var desc: String? {
+        set {
+            setObject(newValue, forKey: "desc")
+        }
+        get {
+            return self.object(forKey: "desc") as? String
+        }
+    }
+    
+    // 封面图
+    var cover: AVFile? {
+        set {
+            setObject(newValue, forKey: "cover")
+        }
+        get {
+            return self.object(forKey: "cover") as? AVFile
+        }
+    }
+    
+    var likeCount: Int = 0
+    var user: AVUser? {
+        set {
+            setObject(newValue, forKey: "user")
+        }
+        get {
+            return self.object(forKey: "user") as? AVUser
+        }
+    }
+    
+    var topic: Topic? {
+        set {
+            setObject(newValue, forKey: "topic")
+        }
+        get {
+            return self.object(forKey: "topic") as? Topic
+        }
+    }
+    
     
     static func parseClassName() -> String {
         return "Strategy"

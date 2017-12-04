@@ -40,6 +40,6 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Swift.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/UIKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/SwiftOnoneSupport.swiftmodule"
-- "/Users/sjwu/video/HouseHold/Build/Products/Debug-iphoneos/SnapKit/SnapKit.framework/Headers/SnapKit-umbrella.h"
+- "/Users/sjwu/video/HouseHold/Pods/Target Support Files/SnapKit/SnapKit-umbrella.h"
 - "/Users/sjwu/video/HouseHold/Build/Intermediates/Pods.build/Debug-iphoneos/SnapKit.build/unextended-module.modulemap"
 interface-hash: "d96f9dd62b6dfe4c7b50171d24f492fa"

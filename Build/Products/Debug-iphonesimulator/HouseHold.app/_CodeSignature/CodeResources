@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		j7t006JWm6SDoBkxdGE+a5TSzsg=
+		GewS8FqPpyn0QxeJAbPyLktxYNw=
 		</data>
 		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<data>
@@ -216,6 +216,30 @@
 		<data>
 		n57qDP4tZfLD1rCS43W0B4LQjzE=
 		</data>
+		<key>Strategy.storyboardc/CreateStrategyItemViewController.nib/objects-11.0+.nib</key>
+		<data>
+		UfhhhGcjgPJlISA49Jyf446vsd8=
+		</data>
+		<key>Strategy.storyboardc/CreateStrategyItemViewController.nib/runtime.nib</key>
+		<data>
+		4tA4a7NOp8DpG//Oyyr0qALTbUk=
+		</data>
+		<key>Strategy.storyboardc/Info.plist</key>
+		<data>
+		oRz3cg6JLPE5PXa7B8L2RP4CEJw=
+		</data>
+		<key>Strategy.storyboardc/O1v-Oy-Paz-view-js5-xn-txg.nib/objects-11.0+.nib</key>
+		<data>
+		sCGlai+wVGlG5En/QWUt6T8alVE=
+		</data>
+		<key>Strategy.storyboardc/O1v-Oy-Paz-view-js5-xn-txg.nib/runtime.nib</key>
+		<data>
+		nN1MM45LBeahvQ1fKP1gYmg4nII=
+		</data>
+		<key>TopicSelectCell.nib</key>
+		<data>
+		6AdyFtvMYFRHT4lPqoOQfMh6DHI=
+		</data>
 		<key>libswiftRemoteMirror.dylib</key>
 		<data>
 		XwQS+76ZM5ALEZqeqyfgRAO4lEc=
@@ -227,11 +251,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			j7t006JWm6SDoBkxdGE+a5TSzsg=
+			GewS8FqPpyn0QxeJAbPyLktxYNw=
 			</data>
 			<key>hash2</key>
 			<data>
-			OfFN9IgUUTskue/k8NdvXy3wg6dZLWEMgpl5tCYyYq4=
+			Cr60ppmq+p3aQeskbqn3FM8+2Wj5s8FZXaSm3I4JyQY=
 			</data>
 		</dict>
 		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
@@ -782,6 +806,72 @@
 			<key>hash2</key>
 			<data>
 			/mu7y6uC5hLcjEDQfKNXA2Xy6NeuLplci8/VSiTnyD4=
+			</data>
+		</dict>
+		<key>Strategy.storyboardc/CreateStrategyItemViewController.nib/objects-11.0+.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			UfhhhGcjgPJlISA49Jyf446vsd8=
+			</data>
+			<key>hash2</key>
+			<data>
+			s4m52OzjSDvjVOh6JS+Ccjf90nMne90qShAu5MhX/dI=
+			</data>
+		</dict>
+		<key>Strategy.storyboardc/CreateStrategyItemViewController.nib/runtime.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			4tA4a7NOp8DpG//Oyyr0qALTbUk=
+			</data>
+			<key>hash2</key>
+			<data>
+			KzDd0GxxYztXudqBlG98Cudu0Ll8S7yOH/SMaX+rXIk=
+			</data>
+		</dict>
+		<key>Strategy.storyboardc/Info.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			oRz3cg6JLPE5PXa7B8L2RP4CEJw=
+			</data>
+			<key>hash2</key>
+			<data>
+			6vBqG72iyRGK6CnvnGfX7XxwSFT3ZaysHDGKgvmVIx8=
+			</data>
+		</dict>
+		<key>Strategy.storyboardc/O1v-Oy-Paz-view-js5-xn-txg.nib/objects-11.0+.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			sCGlai+wVGlG5En/QWUt6T8alVE=
+			</data>
+			<key>hash2</key>
+			<data>
+			0BCSQPl0KULYgFrb5Q4QlIcUdl7qzl058AEWFVlglUM=
+			</data>
+		</dict>
+		<key>Strategy.storyboardc/O1v-Oy-Paz-view-js5-xn-txg.nib/runtime.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			nN1MM45LBeahvQ1fKP1gYmg4nII=
+			</data>
+			<key>hash2</key>
+			<data>
+			nLOCO4y2x93PAW0hzB+jtZ0Irx6TUYFk39yH4XuoPF0=
+			</data>
+		</dict>
+		<key>TopicSelectCell.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			6AdyFtvMYFRHT4lPqoOQfMh6DHI=
+			</data>
+			<key>hash2</key>
+			<data>
+			HGcDIO7uTG1+LUbniibWZZBRrb5FlFGux+8CRxim7jM=
 			</data>
 		</dict>
 		<key>libswiftRemoteMirror.dylib</key>

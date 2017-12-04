@@ -25,6 +25,7 @@ depends-top-level:
 - !private "HomeViewController"
 - !private "MyViewController"
 - !private "Strategy"
+- !private "StrategyItem"
 - !private "StringLiteralType"
 - !private "Topic"
 - "UIApplication"
@@ -47,6 +48,7 @@ depends-member:
 - !private ["9HouseHold11AppDelegateC", "HomeViewController"]
 - !private ["9HouseHold11AppDelegateC", "MyViewController"]
 - !private ["9HouseHold11AppDelegateC", "Strategy"]
+- !private ["9HouseHold11AppDelegateC", "StrategyItem"]
 - !private ["9HouseHold11AppDelegateC", "Topic"]
 - ["9HouseHold11AppDelegateC", "UIApplication"]
 - ["9HouseHold11AppDelegateC", "UIApplicationLaunchOptionsKey"]
@@ -83,6 +85,7 @@ depends-member:
 - !private ["s7CVarArgP", "HomeViewController"]
 - !private ["s7CVarArgP", "MyViewController"]
 - !private ["s7CVarArgP", "Strategy"]
+- !private ["s7CVarArgP", "StrategyItem"]
 - !private ["s7CVarArgP", "Topic"]
 - !private ["s7CVarArgP", "UIColor"]
 - !private ["s7CVarArgP", "UIImage"]
@@ -131,6 +134,7 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "HomeViewController"]
 - !private ["s28CustomDebugStringConvertibleP", "MyViewController"]
 - !private ["s28CustomDebugStringConvertibleP", "Strategy"]
+- !private ["s28CustomDebugStringConvertibleP", "StrategyItem"]
 - !private ["s28CustomDebugStringConvertibleP", "Topic"]
 - !private ["s28CustomDebugStringConvertibleP", "UIColor"]
 - !private ["s28CustomDebugStringConvertibleP", "UIImage"]
@@ -174,6 +178,7 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "HomeViewController"]
 - !private ["s23CustomStringConvertibleP", "MyViewController"]
 - !private ["s23CustomStringConvertibleP", "Strategy"]
+- !private ["s23CustomStringConvertibleP", "StrategyItem"]
 - !private ["s23CustomStringConvertibleP", "Topic"]
 - !private ["s23CustomStringConvertibleP", "UIColor"]
 - !private ["s23CustomStringConvertibleP", "UIImage"]
@@ -217,6 +222,7 @@ depends-member:
 - !private ["s9EquatableP", "HomeViewController"]
 - !private ["s9EquatableP", "MyViewController"]
 - !private ["s9EquatableP", "Strategy"]
+- !private ["s9EquatableP", "StrategyItem"]
 - !private ["s9EquatableP", "Topic"]
 - !private ["s9EquatableP", "UIColor"]
 - !private ["s9EquatableP", "UIImage"]
@@ -271,6 +277,7 @@ depends-member:
 - !private ["s8HashableP", "HomeViewController"]
 - !private ["s8HashableP", "MyViewController"]
 - !private ["s8HashableP", "Strategy"]
+- !private ["s8HashableP", "StrategyItem"]
 - !private ["s8HashableP", "Topic"]
 - !private ["s8HashableP", "UIColor"]
 - !private ["s8HashableP", "UIImage"]
@@ -347,6 +354,7 @@ depends-member:
 - !private ["So8NSObjectC", "HomeViewController"]
 - !private ["So8NSObjectC", "MyViewController"]
 - !private ["So8NSObjectC", "Strategy"]
+- !private ["So8NSObjectC", "StrategyItem"]
 - !private ["So8NSObjectC", "Topic"]
 - ["So8NSObjectC", "UIApplication"]
 - ["So8NSObjectC", "UIApplicationLaunchOptionsKey"]
@@ -389,6 +397,7 @@ depends-member:
 - !private ["So16NSObjectProtocolP", "HomeViewController"]
 - !private ["So16NSObjectProtocolP", "MyViewController"]
 - !private ["So16NSObjectProtocolP", "Strategy"]
+- !private ["So16NSObjectProtocolP", "StrategyItem"]
 - !private ["So16NSObjectProtocolP", "Topic"]
 - !private ["So16NSObjectProtocolP", "UIColor"]
 - !private ["So16NSObjectProtocolP", "UIImage"]
@@ -436,6 +445,7 @@ depends-member:
 - !private ["7RxSwift18ReactiveCompatibleP", "HomeViewController"]
 - !private ["7RxSwift18ReactiveCompatibleP", "MyViewController"]
 - !private ["7RxSwift18ReactiveCompatibleP", "Strategy"]
+- !private ["7RxSwift18ReactiveCompatibleP", "StrategyItem"]
 - !private ["7RxSwift18ReactiveCompatibleP", "Topic"]
 - !private ["7RxSwift18ReactiveCompatibleP", "UIColor"]
 - !private ["7RxSwift18ReactiveCompatibleP", "UIImage"]
@@ -475,6 +485,8 @@ depends-member:
 - !private ["s8SequenceP", "init"]
 - !private ["9HouseHold8StrategyC", "deinit"]
 - !private ["9HouseHold8StrategyC", "registerSubclass"]
+- !private ["9HouseHold12StrategyItemC", "deinit"]
+- !private ["9HouseHold12StrategyItemC", "registerSubclass"]
 - !private ["SS", "init"]
 - !private ["s14StringProtocolP", "init"]
 - !private ["s16TextOutputStreamP", "init"]
@@ -510,6 +522,7 @@ depends-member:
 - !private ["So21UIApplicationDelegateP", "HomeViewController"]
 - !private ["So21UIApplicationDelegateP", "MyViewController"]
 - !private ["So21UIApplicationDelegateP", "Strategy"]
+- !private ["So21UIApplicationDelegateP", "StrategyItem"]
 - !private ["So21UIApplicationDelegateP", "Topic"]
 - !private ["So21UIApplicationDelegateP", "UIColor"]
 - !private ["So21UIApplicationDelegateP", "UIImage"]
@@ -574,6 +587,7 @@ depends-member:
 - !private ["So30UIPasteConfigurationSupportingP", "HomeViewController"]
 - !private ["So30UIPasteConfigurationSupportingP", "MyViewController"]
 - !private ["So30UIPasteConfigurationSupportingP", "Strategy"]
+- !private ["So30UIPasteConfigurationSupportingP", "StrategyItem"]
 - !private ["So30UIPasteConfigurationSupportingP", "Topic"]
 - !private ["So30UIPasteConfigurationSupportingP", "UIColor"]
 - !private ["So30UIPasteConfigurationSupportingP", "UIImage"]
@@ -609,6 +623,7 @@ depends-member:
 - !private ["So11UIResponderC", "HomeViewController"]
 - !private ["So11UIResponderC", "MyViewController"]
 - !private ["So11UIResponderC", "Strategy"]
+- !private ["So11UIResponderC", "StrategyItem"]
 - !private ["So11UIResponderC", "Topic"]
 - ["So11UIResponderC", "UIApplication"]
 - ["So11UIResponderC", "UIApplicationLaunchOptionsKey"]
@@ -645,6 +660,7 @@ depends-member:
 - !private ["So30UIResponderStandardEditActionsP", "HomeViewController"]
 - !private ["So30UIResponderStandardEditActionsP", "MyViewController"]
 - !private ["So30UIResponderStandardEditActionsP", "Strategy"]
+- !private ["So30UIResponderStandardEditActionsP", "StrategyItem"]
 - !private ["So30UIResponderStandardEditActionsP", "Topic"]
 - !private ["So30UIResponderStandardEditActionsP", "UIColor"]
 - !private ["So30UIResponderStandardEditActionsP", "UIImage"]
@@ -745,6 +761,7 @@ depends-member:
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "HomeViewController"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "MyViewController"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "Strategy"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "StrategyItem"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "Topic"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "UIColor"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "UIImage"]
@@ -830,6 +847,7 @@ depends-nominal:
 - "7RxSwift18ReactiveCompatibleP"
 - !private "s8SequenceP"
 - !private "9HouseHold8StrategyC"
+- !private "9HouseHold12StrategyItemC"
 - !private "SS"
 - !private "s14StringProtocolP"
 - !private "s16TextOutputStreamP"

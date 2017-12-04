@@ -173,8 +173,8 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 #if __has_feature(modules)
 @import UIKit;
-@import ObjectiveC;
 @import CoreGraphics;
+@import ObjectiveC;
 @import Foundation;
 @import AVOSCloud;
 #endif
@@ -203,8 +203,15 @@ SWIFT_CLASS("_TtC9HouseHold11AppDelegate")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class NSBundle;
 @class NSCoder;
+
+SWIFT_CLASS("_TtC9HouseHold4BHud")
+@interface BHud : UIView
+- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class NSBundle;
 
 SWIFT_CLASS("_TtC9HouseHold18BaseViewController")
 @interface BaseViewController : UIViewController
@@ -230,9 +237,40 @@ SWIFT_CLASS("_TtC9HouseHold8ClipView")
 @end
 
 
+SWIFT_CLASS("_TtC9HouseHold24CreateStrategyFooterView")
+@interface CreateStrategyFooterView : UIView
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
+@end
+
+
 SWIFT_CLASS("_TtC9HouseHold24CreateStrategyHeaderView")
 @interface CreateStrategyHeaderView : UIView
 - (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class UITextField;
+@class UITextView;
+@class UIImageView;
+@class UITableView;
+
+SWIFT_CLASS("_TtC9HouseHold32CreateStrategyItemViewController")
+@interface CreateStrategyItemViewController : UITableViewController <UITextFieldDelegate, UITextViewDelegate>
+@property (nonatomic, weak) IBOutlet UITextField * _Null_unspecified titleTextField;
+@property (nonatomic, weak) IBOutlet UITextView * _Null_unspecified descTextView;
+@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified imgView;
+@property (nonatomic, weak) IBOutlet UITextField * _Null_unspecified tbidTextField;
+@property (nonatomic, weak) IBOutlet UITextField * _Null_unspecified priceTextField;
+- (void)viewDidLoad;
+- (void)didReceiveMemoryWarning;
+- (NSInteger)numberOfSectionsInTableView:(UITableView * _Nonnull)tableView SWIFT_WARN_UNUSED_RESULT;
+- (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
+- (BOOL)textFieldShouldReturn:(UITextField * _Nonnull)textField SWIFT_WARN_UNUSED_RESULT;
+- (BOOL)textViewShouldEndEditing:(UITextView * _Nonnull)textView SWIFT_WARN_UNUSED_RESULT;
+- (nonnull instancetype)initWithStyle:(UITableViewStyle)style OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
@@ -240,6 +278,7 @@ SWIFT_CLASS("_TtC9HouseHold24CreateStrategyHeaderView")
 SWIFT_CLASS("_TtC9HouseHold28CreateStrategyViewController")
 @interface CreateStrategyViewController : BaseViewController
 - (void)viewDidLoad;
+- (void)save;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
@@ -259,7 +298,6 @@ SWIFT_CLASS("_TtC9HouseHold10FolderCell")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class UITableView;
 
 SWIFT_CLASS("_TtC9HouseHold24FolderListViewController")
 @interface FolderListViewController : UIViewController <UITableViewDataSource, UITableViewDelegate>
@@ -280,7 +318,6 @@ SWIFT_CLASS("_TtC9HouseHold22HHTabBarViewController")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class UIImageView;
 @class UILabel;
 
 SWIFT_CLASS("_TtC9HouseHold16HomeStrategyCell")
@@ -358,6 +395,14 @@ SWIFT_CLASS("_TtC9HouseHold9InputView")
 @end
 
 
+/// 列表显示的一句话描述
+SWIFT_CLASS("_TtC9HouseHold13IntroduceView")
+@interface IntroduceView : UIView
+- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
 SWIFT_CLASS("_TtC9HouseHold16MyViewController")
 @interface MyViewController : BaseViewController
 - (void)viewDidLoad;
@@ -379,19 +424,9 @@ SWIFT_CLASS("_TtC9HouseHold17ScalableImageView")
 - (void)scrollViewDidZoom:(UIScrollView * _Nonnull)scrollView;
 @end
 
-@class AVFile;
-@class AVUser;
-@class Topic;
 
 SWIFT_CLASS("_TtC9HouseHold8Strategy")
 @interface Strategy : AVObject <AVSubclassing, NSCopying>
-@property (nonatomic, copy) NSString * _Nullable title;
-@property (nonatomic, copy) NSString * _Nullable subtitle;
-@property (nonatomic, copy) NSString * _Nullable desc;
-@property (nonatomic, strong) AVFile * _Nullable cover;
-@property (nonatomic) NSInteger likeCount;
-@property (nonatomic, strong) AVUser * _Nullable user;
-@property (nonatomic, strong) Topic * _Nullable topic;
 + (NSString * _Nonnull)parseClassName SWIFT_WARN_UNUSED_RESULT;
 - (id _Nonnull)copyWithZone:(struct _NSZone * _Nullable)zone SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)initWithClassName:(NSString * _Nonnull)newClassName OBJC_DESIGNATED_INITIALIZER;
@@ -399,6 +434,16 @@ SWIFT_CLASS("_TtC9HouseHold8Strategy")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
+
+SWIFT_CLASS("_TtC9HouseHold12StrategyItem")
+@interface StrategyItem : AVObject <AVSubclassing>
++ (NSString * _Nonnull)parseClassName SWIFT_WARN_UNUSED_RESULT;
+- (nonnull instancetype)initWithClassName:(NSString * _Nonnull)newClassName OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class AVFile;
 
 SWIFT_CLASS("_TtC9HouseHold5Topic")
 @interface Topic : AVObject <AVSubclassing>
@@ -410,6 +455,44 @@ SWIFT_CLASS("_TtC9HouseHold5Topic")
 - (nonnull instancetype)initWithClassName:(NSString * _Nonnull)newClassName OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC9HouseHold15TopicSelectCell")
+@interface TopicSelectCell : UITableViewCell
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified titleLabel;
+- (void)awakeFromNib;
+- (void)setSelected:(BOOL)selected animated:(BOOL)animated;
+- (nonnull instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString * _Nullable)reuseIdentifier OBJC_DESIGNATED_INITIALIZER SWIFT_AVAILABILITY(ios,introduced=3.0);
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC9HouseHold25TopicSelectViewController")
+@interface TopicSelectViewController : BaseViewController <UITableViewDataSource, UITableViewDelegate>
+- (void)viewDidLoad;
+- (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
+- (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+- (CGFloat)tableView:(UITableView * _Nonnull)tableView heightForHeaderInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
+- (UIView * _Nullable)tableView:(UITableView * _Nonnull)tableView viewForHeaderInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
+- (void)tableView:(UITableView * _Nonnull)tableView didSelectRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC9HouseHold20TopicSelectViewModel")
+@interface TopicSelectViewModel : BaseViewModel
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC9HouseHold9TopicView")
+@interface TopicView : UIView
+- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+- (void)touchesBegan:(NSSet<UITouch *> * _Nonnull)touches withEvent:(UIEvent * _Nullable)event;
+- (void)touchesEnded:(NSSet<UITouch *> * _Nonnull)touches withEvent:(UIEvent * _Nullable)event;
 @end
 
 

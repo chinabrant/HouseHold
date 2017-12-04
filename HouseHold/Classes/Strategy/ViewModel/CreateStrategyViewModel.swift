@@ -22,17 +22,24 @@ class CreateStrategyViewModel: BaseViewModel {
     
     func saveStrategy() -> Observable<(result: Bool, error: Error?)> {
         
-        Observable<(result: Bool, error: Error?)>.create { (<#AnyObserver<(result: Bool, error: Error?)>#>) -> Disposable in
-            <#code#>
+        return Observable<(result: Bool, error: Error?)>.create { (observer) -> Disposable in
+            self.strategy?.saveInBackground({ (isSuccess, error) in
+                if isSuccess {
+                    print("保存成功")
+                    observer.onNext((true, nil))
+                }
+                else {
+                    print("保存失败")
+                    observer.onNext((false, error))
+                }
+                
+                
+                observer.onCompleted()
+            })
+            
+            return Disposables.create()
         }
         
-        strategy?.saveInBackground({ (isSuccess, error) in
-            if isSuccess {
-                print("保存成功")
-            }
-            else {
-                print("保存失败")
-            }
-        })
+        
     }
 }
