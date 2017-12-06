@@ -28,6 +28,8 @@ class CreateStrategyItemViewController: UITableViewController, UITextFieldDelega
         }
     }
     
+    var dismissBlock: ((_ isSuccess: Bool)->())?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         self.title = "创建攻略项"
@@ -62,12 +64,14 @@ class CreateStrategyItemViewController: UITableViewController, UITextFieldDelega
             
         }).disposed(by: self.disposeBag)
         
+        // 描述
         self.descTextView.rx.text.asObservable().subscribe(onNext: { (string) in
             
             self.viewModel.strategyItem?.desc = string
             
         }).disposed(by: self.disposeBag)
         
+        // 价格
         self.priceTextField.rx.text.asObservable().subscribe(onNext: { (string) in
             
             if let str = string {
@@ -89,7 +93,7 @@ class CreateStrategyItemViewController: UITableViewController, UITextFieldDelega
                 }
                 
                 self.imgView.image = img
-                print("图片选择成功")
+//                print("图片选择成功")
                 
                 let file = AVFile.init(data: UIImagePNGRepresentation(image)!)
                 self.viewModel.strategyItem?.img = file
@@ -103,17 +107,26 @@ class CreateStrategyItemViewController: UITableViewController, UITextFieldDelega
     }
     
     @objc func save() {
+        
+        // 保存
         BHud.show(in: self.view)
         self.viewModel.saveStrategyItem().subscribe(onNext: { (isSuccess, error) in
             
             BHud.hideHud(for: self.view)
             if isSuccess {
                 print("保存成功了")
+                if let block = self.dismissBlock {
+                    block(true);
+                }
+                
+                BHud.showAutoHideMessage(message: "保存成功", in: self.view, dismissBlock: {
+                    
+                    self.navigationController?.popViewController(animated: true)
+                })
             }
             else {
                 print("保存失败了")
             }
-            
             
         }).disposed(by: self.disposeBag)
     }

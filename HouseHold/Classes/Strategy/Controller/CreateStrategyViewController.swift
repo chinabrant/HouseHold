@@ -25,7 +25,7 @@ class CreateStrategyViewController: BaseViewController {
         
         self.setupNavigationItems()
         
-        self.tableView.tableFooterView = self.footerView
+//        self.tableView.tableFooterView = self.footerView
     }
     
     func setupNavigationItems() {
@@ -47,6 +47,20 @@ class CreateStrategyViewController: BaseViewController {
             BHud.hideHud(for: self.view)
             
             }).disposed(by: self.disposeBag)
+    }
+    
+    func queryItems() {
+        
+        self.viewModel.queryItems().subscribe(onNext: { (array) in
+            
+            
+            
+        }, onError: { (error) in
+            
+            
+            
+            }).disposed(by: self.disposeBag)
+        
     }
     
     func bindActions() {
@@ -135,7 +149,12 @@ class CreateStrategyViewController: BaseViewController {
         // 点击了添加攻略项
         self.footerView.addButton.rx.controlEvent(UIControlEvents.touchUpInside).subscribe(onNext: { () in
         
-            let itemVc = UIStoryboard(name: "Strategy", bundle: nil).instantiateViewController(withIdentifier: "CreateStrategyItemViewController")
+            let itemVc = UIStoryboard(name: "Strategy", bundle: nil).instantiateViewController(withIdentifier: "CreateStrategyItemViewController") as! CreateStrategyItemViewController
+            itemVc.strategy = self.viewModel.strategy
+            itemVc.dismissBlock = { (isSuccess) in
+                
+            }
+            
             self.navigationController?.pushViewController(itemVc, animated: true)
             
         }).disposed(by: self.disposeBag)

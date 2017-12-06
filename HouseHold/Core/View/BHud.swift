@@ -10,6 +10,8 @@ import UIKit
 
 class BHud: UIView {
     
+    private var dismissBlock: (()->())?
+    
     class func hideHud(for view: UIView) {
         view.subviews.forEach { (view) in
             if view is BHud {
@@ -21,6 +23,24 @@ class BHud: UIView {
     class func show(in view: UIView) {
         let hud = BHud(frame: view.bounds)
         view.addSubview(hud)
+    }
+    
+    
+    
+    class func showAutoHideMessage(message: String, in view: UIView, dismissBlock:(()->())?) {
+        let hud = BHud(frame: view.bounds)
+        hud.dismissBlock = dismissBlock
+        view.addSubview(hud)
+        hud.hide(afterDelay: 2)
+    }
+    
+    func hide(afterDelay: UInt32) {
+        DispatchQueue.global().async {
+            sleep(afterDelay)
+            DispatchQueue.main.async {
+                self.removeFromSuperview()
+            }
+        }
     }
     
     override init(frame: CGRect) {

@@ -19,6 +19,7 @@ class CreateStrategyViewModel: BaseViewModel {
 
     var type: StrategyModifyType = .create  // 默认是创建新的攻略
     var strategy: Strategy? = Strategy()
+    var items: [StrategyItem]?
     
     func saveStrategy() -> Observable<(result: Bool, error: Error?)> {
         
@@ -34,6 +35,27 @@ class CreateStrategyViewModel: BaseViewModel {
                 }
                 
                 
+                observer.onCompleted()
+            })
+            
+            return Disposables.create()
+        }
+        
+        
+    }
+    
+    func queryItems() -> Observable<[StrategyItem]?> {
+        
+        return Observable<[StrategyItem]?>.create { (observer) -> Disposable in
+            
+            let query = StrategyItem.query()
+            query.whereKey("strategy", equalTo: self.strategy)
+            query.findObjectsInBackground({ (array, error) in
+                if let arr = array {
+                    self.items = arr as! [StrategyItem]
+                }
+                
+                observer.onNext(self.items)
                 observer.onCompleted()
             })
             
