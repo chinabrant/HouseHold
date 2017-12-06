@@ -78,6 +78,13 @@ class HomeViewController: BaseViewController, UITableViewDataSource, UITableView
     func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
         return UIView()
     }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let vc = StrategyDetailViewController()
+        vc.hidesBottomBarWhenPushed = true
+        vc.viewModel.topicModel = self.viewModel.strategyList[indexPath.section];
+        self.navigationController?.pushViewController(vc, animated: true)
+    }
 
     private lazy var tableView: UITableView = {
         let table = UITableView()

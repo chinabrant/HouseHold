@@ -57,6 +57,10 @@
 		944C5F381FCD4530007C9E2C /* CreateStrategyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944C5F371FCD4530007C9E2C /* CreateStrategyViewModel.swift */; };
 		944C5F3B1FCD4DD5007C9E2C /* InputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944C5F3A1FCD4DD5007C9E2C /* InputView.swift */; };
 		945C94561FD7C03700AFC44C /* StrategyItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 945C94551FD7C03700AFC44C /* StrategyItemCell.swift */; };
+		94FDEB5E1FD7F287005600CA /* StrategyDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94FDEB5D1FD7F287005600CA /* StrategyDetailViewController.swift */; };
+		94FDEB611FD7F2A6005600CA /* StrategyDetailBottomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94FDEB5F1FD7F2A6005600CA /* StrategyDetailBottomView.swift */; };
+		94FDEB621FD7F2A6005600CA /* StrategyHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94FDEB601FD7F2A6005600CA /* StrategyHeaderView.swift */; };
+		94FDEB641FD7F2B3005600CA /* StrategyDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94FDEB631FD7F2B3005600CA /* StrategyDetailViewModel.swift */; };
 		CDBB98FAE61B743D1AD12785 /* Pods_HouseHold.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A96D11C2D0C18A40183F5675 /* Pods_HouseHold.framework */; };
 /* End PBXBuildFile section */
 
@@ -117,6 +121,10 @@
 		944C5F371FCD4530007C9E2C /* CreateStrategyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateStrategyViewModel.swift; sourceTree = "<group>"; };
 		944C5F3A1FCD4DD5007C9E2C /* InputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputView.swift; sourceTree = "<group>"; };
 		945C94551FD7C03700AFC44C /* StrategyItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrategyItemCell.swift; sourceTree = "<group>"; };
+		94FDEB5D1FD7F287005600CA /* StrategyDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StrategyDetailViewController.swift; sourceTree = "<group>"; };
+		94FDEB5F1FD7F2A6005600CA /* StrategyDetailBottomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StrategyDetailBottomView.swift; sourceTree = "<group>"; };
+		94FDEB601FD7F2A6005600CA /* StrategyHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StrategyHeaderView.swift; sourceTree = "<group>"; };
+		94FDEB631FD7F2B3005600CA /* StrategyDetailViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StrategyDetailViewModel.swift; sourceTree = "<group>"; };
 		A96D11C2D0C18A40183F5675 /* Pods_HouseHold.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HouseHold.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9CAEF116284A113599D6EC2 /* Pods-HouseHold.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HouseHold.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HouseHold/Pods-HouseHold.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -346,6 +354,7 @@
 		615C7C0D1F9A4ED100B3D7FA /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				94FDEB5D1FD7F287005600CA /* StrategyDetailViewController.swift */,
 				61CDF37B1FD1928B003C62DF /* Strategy.storyboard */,
 				617A91791FB0AD560065FF3A /* CreateStrategyViewController.swift */,
 				61CDF37D1FD2AAB4003C62DF /* CreateStrategyItemViewController.swift */,
@@ -369,6 +378,8 @@
 		615C7C0F1F9A4ED100B3D7FA /* View */ = {
 			isa = PBXGroup;
 			children = (
+				94FDEB5F1FD7F2A6005600CA /* StrategyDetailBottomView.swift */,
+				94FDEB601FD7F2A6005600CA /* StrategyHeaderView.swift */,
 				617A917B1FB0AD9E0065FF3A /* CreateStrategyHeaderView.swift */,
 				61CDF3751FCDA8F9003C62DF /* TopicView.swift */,
 				944B5C1E1FCEB64400EFF8BB /* IntroduceView.swift */,
@@ -471,6 +482,7 @@
 		944C5F331FCD44F6007C9E2C /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				94FDEB631FD7F2B3005600CA /* StrategyDetailViewModel.swift */,
 				944C5F371FCD4530007C9E2C /* CreateStrategyViewModel.swift */,
 				613AE5621FD2FE3A006A6A0B /* CreateStrategyItemViewModel.swift */,
 			);
@@ -647,7 +659,9 @@
 				618F874A1F9E280900201826 /* HomeStrategyCell.swift in Sources */,
 				944B5C011FCE42A600EFF8BB /* Topic.swift in Sources */,
 				944B5C1F1FCEB64400EFF8BB /* IntroduceView.swift in Sources */,
+				94FDEB641FD7F2B3005600CA /* StrategyDetailViewModel.swift in Sources */,
 				61CDF3781FD18859003C62DF /* BHud.swift in Sources */,
+				94FDEB621FD7F2A6005600CA /* StrategyHeaderView.swift in Sources */,
 				61CDF3701FB49458003C62DF /* UIView+Position.swift in Sources */,
 				618094D91F9F7D0F0031A006 /* HomeViewModel.swift in Sources */,
 				61CDF3681FB4939B003C62DF /* FolderModel.swift in Sources */,
@@ -662,6 +676,7 @@
 				618094E51FA2163F0031A006 /* UIImage+HH.swift in Sources */,
 				61CDF36E1FB4939B003C62DF /* UIImage+Clip.swift in Sources */,
 				945C94561FD7C03700AFC44C /* StrategyItemCell.swift in Sources */,
+				94FDEB611FD7F2A6005600CA /* StrategyDetailBottomView.swift in Sources */,
 				61CDF36C1FB4939B003C62DF /* ImagePicker.swift in Sources */,
 				61CDF37E1FD2AAB4003C62DF /* CreateStrategyItemViewController.swift in Sources */,
 				618094E31F9F86040031A006 /* StrategyModel.m in Sources */,
@@ -670,6 +685,7 @@
 				61CDF36B1FB4939B003C62DF /* ImageListViewController.swift in Sources */,
 				944B5C041FCE42C500EFF8BB /* TopicSelectCell.swift in Sources */,
 				944C5F3B1FCD4DD5007C9E2C /* InputView.swift in Sources */,
+				94FDEB5E1FD7F287005600CA /* StrategyDetailViewController.swift in Sources */,
 				615C7C171F9A4F8100B3D7FA /* MyViewController.swift in Sources */,
 				617A917E1FB0B0AD0065FF3A /* UIScreen+House.swift in Sources */,
 				617A917A1FB0AD560065FF3A /* CreateStrategyViewController.swift in Sources */,

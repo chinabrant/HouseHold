@@ -16,6 +16,8 @@ class CreateStrategyHeaderView: UIView {
     
     let disposeBag: DisposeBag = DisposeBag()
     
+    
+    
     var strategy: Strategy? {
         didSet {
             

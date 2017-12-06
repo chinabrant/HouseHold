@@ -12,6 +12,12 @@ import AVOSCloud
 
 class HomeStrategyCell: UITableViewCell {
     
+    static var StrategyCoverRate: CGFloat {
+        get {
+            return 3.0 / 1.6
+        }
+    }
+    
     @IBOutlet weak var avatarImageView: UIImageView!
     @IBOutlet weak var nickLabel: UILabel!
     @IBOutlet weak var signLabel: UILabel!

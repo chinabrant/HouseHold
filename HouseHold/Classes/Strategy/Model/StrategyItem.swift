@@ -70,6 +70,8 @@ class StrategyItem: AVObject, AVSubclassing {
         }
     }
     
+    var cellHeight: CGFloat = 0
+    
     static func parseClassName() -> String {
         return "StrategyItem"
     }
