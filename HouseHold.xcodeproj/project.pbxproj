@@ -56,6 +56,9 @@
 		944B5C1F1FCEB64400EFF8BB /* IntroduceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944B5C1E1FCEB64400EFF8BB /* IntroduceView.swift */; };
 		944C5F381FCD4530007C9E2C /* CreateStrategyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944C5F371FCD4530007C9E2C /* CreateStrategyViewModel.swift */; };
 		944C5F3B1FCD4DD5007C9E2C /* InputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944C5F3A1FCD4DD5007C9E2C /* InputView.swift */; };
+		9457CBB71FD8CFE100B3B67D /* MyStrategyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9457CBB61FD8CFE100B3B67D /* MyStrategyViewController.swift */; };
+		9457CBB91FD8CFF200B3B67D /* MyStrategyListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9457CBB81FD8CFF200B3B67D /* MyStrategyListCell.swift */; };
+		9457CBBB1FD8D00900B3B67D /* MyStrategyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9457CBBA1FD8D00900B3B67D /* MyStrategyViewModel.swift */; };
 		945C94561FD7C03700AFC44C /* StrategyItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 945C94551FD7C03700AFC44C /* StrategyItemCell.swift */; };
 		94FDEB5E1FD7F287005600CA /* StrategyDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94FDEB5D1FD7F287005600CA /* StrategyDetailViewController.swift */; };
 		94FDEB611FD7F2A6005600CA /* StrategyDetailBottomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94FDEB5F1FD7F2A6005600CA /* StrategyDetailBottomView.swift */; };
@@ -120,6 +123,9 @@
 		944B5C1E1FCEB64400EFF8BB /* IntroduceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroduceView.swift; sourceTree = "<group>"; };
 		944C5F371FCD4530007C9E2C /* CreateStrategyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateStrategyViewModel.swift; sourceTree = "<group>"; };
 		944C5F3A1FCD4DD5007C9E2C /* InputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputView.swift; sourceTree = "<group>"; };
+		9457CBB61FD8CFE100B3B67D /* MyStrategyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyStrategyViewController.swift; sourceTree = "<group>"; };
+		9457CBB81FD8CFF200B3B67D /* MyStrategyListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyStrategyListCell.swift; sourceTree = "<group>"; };
+		9457CBBA1FD8D00900B3B67D /* MyStrategyViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyStrategyViewModel.swift; sourceTree = "<group>"; };
 		945C94551FD7C03700AFC44C /* StrategyItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrategyItemCell.swift; sourceTree = "<group>"; };
 		94FDEB5D1FD7F287005600CA /* StrategyDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StrategyDetailViewController.swift; sourceTree = "<group>"; };
 		94FDEB5F1FD7F2A6005600CA /* StrategyDetailBottomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StrategyDetailBottomView.swift; sourceTree = "<group>"; };
@@ -314,6 +320,7 @@
 		615C7C081F9A4ED100B3D7FA /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				9457CBB61FD8CFE100B3B67D /* MyStrategyViewController.swift */,
 				615C7C161F9A4F8100B3D7FA /* MyViewController.swift */,
 			);
 			path = Controller;
@@ -329,6 +336,7 @@
 		615C7C0A1F9A4ED100B3D7FA /* View */ = {
 			isa = PBXGroup;
 			children = (
+				9457CBB81FD8CFF200B3B67D /* MyStrategyListCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -336,6 +344,7 @@
 		615C7C0B1F9A4ED100B3D7FA /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				9457CBBA1FD8D00900B3B67D /* MyStrategyViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -677,9 +686,11 @@
 				61CDF36E1FB4939B003C62DF /* UIImage+Clip.swift in Sources */,
 				945C94561FD7C03700AFC44C /* StrategyItemCell.swift in Sources */,
 				94FDEB611FD7F2A6005600CA /* StrategyDetailBottomView.swift in Sources */,
+				9457CBB71FD8CFE100B3B67D /* MyStrategyViewController.swift in Sources */,
 				61CDF36C1FB4939B003C62DF /* ImagePicker.swift in Sources */,
 				61CDF37E1FD2AAB4003C62DF /* CreateStrategyItemViewController.swift in Sources */,
 				618094E31F9F86040031A006 /* StrategyModel.m in Sources */,
+				9457CBBB1FD8D00900B3B67D /* MyStrategyViewModel.swift in Sources */,
 				944B5BFD1FCE402B00EFF8BB /* TopicSelectViewController.swift in Sources */,
 				617A917C1FB0AD9E0065FF3A /* CreateStrategyHeaderView.swift in Sources */,
 				61CDF36B1FB4939B003C62DF /* ImageListViewController.swift in Sources */,
@@ -693,6 +704,7 @@
 				61CDF36D1FB4939B003C62DF /* ScalableImageView.swift in Sources */,
 				61CDF3661FB4939B003C62DF /* FolderListViewController.swift in Sources */,
 				613AE5631FD2FE3A006A6A0B /* CreateStrategyItemViewModel.swift in Sources */,
+				9457CBB91FD8CFF200B3B67D /* MyStrategyListCell.swift in Sources */,
 				944C5F381FCD4530007C9E2C /* CreateStrategyViewModel.swift in Sources */,
 				944B5BFF1FCE425800EFF8BB /* TopicSelectViewModel.swift in Sources */,
 				615C7C191F9A4FB600B3D7FA /* HHTabBarViewController.swift in Sources */,

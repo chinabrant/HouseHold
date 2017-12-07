@@ -46,9 +46,8 @@ class StrategyItemCell: UITableViewCell {
     var topicItemModel: StrategyItem? {
         didSet {
             self.titleLabel.text = topicItemModel?.title
-            //            self.descLabel.text = topicItemModel?.desc
-//            self.descLabel.attributedText = topicItemModel?.attributedDesc()
-//            self.priceLabel.text = "￥\(topicItemModel?.price ?? "0")"
+            self.descLabel.attributedText = topicItemModel?.attributedDesc()
+            self.priceLabel.text = "￥\(topicItemModel?.price ?? 0)"
             
             if let urlStr = topicItemModel?.img?.url {
                 self.coverImageView.kf.setImage(with: URL(string: urlStr))

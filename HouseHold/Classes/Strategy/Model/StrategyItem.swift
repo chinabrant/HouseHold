@@ -59,7 +59,14 @@ class StrategyItem: AVObject, AVSubclassing {
         }
     }
     
-    var price: Double? = 0.0
+    var price: Double? {
+        set {
+            setObject(newValue, forKey: "price")
+        }
+        get {
+            return self.object(forKey: "price") as? Double
+        }
+    }
     
     var img: AVFile? {
         set {
@@ -74,5 +81,32 @@ class StrategyItem: AVObject, AVSubclassing {
     
     static func parseClassName() -> String {
         return "StrategyItem"
+    }
+    
+    func attributedDesc() -> NSAttributedString? {
+        guard let desc = self.desc else {
+            return nil
+        }
+        
+        let attri = NSMutableAttributedString(string: desc)
+        
+        let style = NSMutableParagraphStyle()
+        style.lineSpacing = 8
+        attri.addAttribute(NSAttributedStringKey.paragraphStyle, value: style, range: NSMakeRange(0, attri.length))
+        attri.addAttribute(NSAttributedStringKey.font, value: UIFont.systemFont(ofSize: 15), range: NSMakeRange(0, attri.length))
+        
+        return attri
+    }
+    
+    func copy(with zone: NSZone? = nil) -> Any {
+        let item = StrategyItem(objectId: self.objectId!)
+//        item.img = self.img
+//        item.title = self.title
+//        item.desc = self.desc
+//        item.tbid = self.tbid
+//        item.price = self.price
+//        item.topic = self.topic
+        
+        return item
     }
 }

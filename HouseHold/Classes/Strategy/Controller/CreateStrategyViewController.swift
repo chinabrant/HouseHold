@@ -10,7 +10,7 @@ import UIKit
 import SnapKit
 import AVOSCloud
 
-class CreateStrategyViewController: BaseViewController {
+class CreateStrategyViewController: BaseViewController, UITableViewDataSource, UITableViewDelegate {
     
     
 
@@ -53,7 +53,7 @@ class CreateStrategyViewController: BaseViewController {
         
         self.viewModel.queryItems().subscribe(onNext: { (array) in
             
-            
+            self.tableView.reloadData()
             
         }, onError: { (error) in
             
@@ -152,7 +152,7 @@ class CreateStrategyViewController: BaseViewController {
             let itemVc = UIStoryboard(name: "Strategy", bundle: nil).instantiateViewController(withIdentifier: "CreateStrategyItemViewController") as! CreateStrategyItemViewController
             itemVc.strategy = self.viewModel.strategy
             itemVc.dismissBlock = { (isSuccess) in
-                
+                self.queryItems()
             }
             
             self.navigationController?.pushViewController(itemVc, animated: true)
@@ -167,6 +167,60 @@ class CreateStrategyViewController: BaseViewController {
         
         self.tableView.tableHeaderView = self.headerView
     }
+    
+    
+    // MARK: UITableViewDataSource
+    
+    public func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        
+        
+        return self.viewModel.items!.count
+    }
+    
+    public func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        
+        let cell = tableView.dequeueReusableCell(withIdentifier: StrategyItemCell.identifier()) as! StrategyItemCell
+        
+        let item = self.viewModel.items![indexPath.row]
+        cell.topicItemModel = item
+        
+        // 点击查看详情
+        cell.goodsDetailButton.rx.controlEvent(UIControlEvents.touchUpInside).subscribe(onNext: { [weak self] () in
+            
+            guard let tbid = item.tbid else {
+                return
+            }
+            
+            // 打开商品详情
+            //            let vc = RGoodsDetailViewController()
+            //            vc.viewModel.tbid = tbid
+            //            vc.viewModel.topicItem = item
+            //            self?.navigationController?.pushViewController(vc, animated: true)
+            
+        }).addDisposableTo(cell.disposeBag!)
+        
+        return cell
+    }
+    
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        
+        let model = self.viewModel.items![indexPath.row]
+        
+        if model.cellHeight <= 0 {
+            // 计算cell的高度并缓存起来
+            let cell = tableView.dequeueReusableCell(withIdentifier: StrategyItemCell.identifier()) as! StrategyItemCell
+            cell.topicItemModel = model
+            model.cellHeight = cell.contentView.systemLayoutSizeFitting(UILayoutFittingCompressedSize).height + 0.5
+        }
+        
+        return model.cellHeight
+        
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        tableView.deselectRow(at: indexPath, animated: true)
+    }
+    
 
     // MARK: - lazy load
     private lazy var headerView: CreateStrategyHeaderView = {
@@ -177,12 +231,19 @@ class CreateStrategyViewController: BaseViewController {
     
     private lazy var tableView: UITableView = {
         let table = UITableView()
+        
+        StrategyItemCell.registerForTableView(table: table)
+        
+        table.separatorStyle = UITableViewCellSeparatorStyle.none
+        table.dataSource = self
+        table.delegate = self
+        
         table.tableFooterView = UIView()
         table.backgroundColor = UIColor.backgroundColor
         return table
     }()
     
-    private lazy var viewModel: CreateStrategyViewModel = {
+    lazy var viewModel: CreateStrategyViewModel = {
         let vm = CreateStrategyViewModel()
         return vm
     }()

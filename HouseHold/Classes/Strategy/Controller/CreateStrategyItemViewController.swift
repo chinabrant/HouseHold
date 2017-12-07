@@ -96,6 +96,12 @@ class CreateStrategyItemViewController: UITableViewController, UITextFieldDelega
 //                print("图片选择成功")
                 
                 let file = AVFile.init(data: UIImagePNGRepresentation(image)!)
+                
+                if let meta = file.metaData {
+                    meta.setObject(image.size.width, forKey: "width" as NSString)
+                    meta.setObject(image.size.height, forKey: "height" as NSString)
+                }
+                
                 self.viewModel.strategyItem?.img = file
 //                self.imgView.strategy = self.viewModel.strategy
                 
